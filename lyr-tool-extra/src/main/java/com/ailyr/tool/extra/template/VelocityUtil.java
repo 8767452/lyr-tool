@@ -1,4 +1,4 @@
-package org.lyr.tool.extra.template;
+package com.ailyr.tool.extra.template;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -13,13 +13,14 @@ import org.apache.velocity.Template;
 import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.Velocity;
 import org.apache.velocity.app.VelocityEngine;
-import org.lyr.tool.core.exceptions.NotInitedException;
-import org.lyr.tool.core.exceptions.UtilException;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IORuntimeException;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.util.RandomUtil;
-import org.lyr.tool.core.util.StrUtil;
+
+import com.ailyr.tool.core.exceptions.NotInitedException;
+import com.ailyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.util.RandomUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * Velocity模板引擎工具类<br>

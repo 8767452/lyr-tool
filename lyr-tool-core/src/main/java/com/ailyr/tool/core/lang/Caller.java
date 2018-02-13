@@ -1,6 +1,6 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
-import org.lyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.exceptions.UtilException;
 
 /**
  * 调用者。可以通过此类的方法获取调用者、多级调用者以及判断是否被调用

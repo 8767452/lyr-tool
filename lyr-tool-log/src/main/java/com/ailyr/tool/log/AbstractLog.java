@@ -1,9 +1,9 @@
-package org.lyr.tool.log;
+package com.ailyr.tool.log;
 
 import java.io.Serializable;
 
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.log.level.Level;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.log.level.Level;
 
 /**
  * 抽象日志类<br>

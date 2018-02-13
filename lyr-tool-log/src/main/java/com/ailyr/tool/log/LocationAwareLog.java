@@ -1,6 +1,6 @@
-package org.lyr.tool.log;
+package com.ailyr.tool.log;
 
-import org.lyr.tool.log.level.Level;
+import com.ailyr.tool.log.level.Level;
 
 /**
  * 位置感知日志接口，此接口用于通过传入当前全类名的方式来感知日志打印的行号<br>

@@ -1,4 +1,4 @@
-package org.lyr.tool.bloomfilter.filter;
+package com.ailyr.tool.bloomfilter.filter;
 
 public class HfIpFilter extends AbstractFilter {
 

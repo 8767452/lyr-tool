@@ -1,4 +1,4 @@
-package org.lyr.tool.core.convert;
+package com.ailyr.tool.core.convert;
 
 import java.lang.reflect.Type;
 import java.math.BigDecimal;
@@ -8,12 +8,12 @@ import java.util.Collection;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-import org.lyr.tool.core.convert.impl.CollectionConverter;
-import org.lyr.tool.core.convert.impl.GenericEnumConverter;
-import org.lyr.tool.core.lang.Assert;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.HexUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.convert.impl.CollectionConverter;
+import com.ailyr.tool.core.convert.impl.GenericEnumConverter;
+import com.ailyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.HexUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 类型转换器

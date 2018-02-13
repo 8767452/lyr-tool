@@ -1,4 +1,4 @@
-package org.lyr.tool.core.date;
+package com.ailyr.tool.core.date;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -8,11 +8,11 @@ import java.util.GregorianCalendar;
 import java.util.LinkedHashSet;
 import java.util.List;
 
-import org.lyr.tool.core.date.format.DateParser;
-import org.lyr.tool.core.date.format.DatePrinter;
-import org.lyr.tool.core.date.format.FastDateFormat;
-import org.lyr.tool.core.lang.Validator;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.date.format.DateParser;
+import com.ailyr.tool.core.date.format.DatePrinter;
+import com.ailyr.tool.core.date.format.FastDateFormat;
+import com.ailyr.tool.core.lang.Validator;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 时间工具类

@@ -1,12 +1,13 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.lang.Console;
-import org.lyr.tool.core.lang.Dict;
-import org.lyr.tool.core.util.StrUtil;
+
+import com.ailyr.tool.core.lang.Console;
+import com.ailyr.tool.core.lang.Dict;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 字符串工具类单元测试

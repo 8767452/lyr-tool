@@ -1,4 +1,4 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

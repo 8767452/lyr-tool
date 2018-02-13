@@ -1,4 +1,4 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 /**
  * 编辑器接口，常用于对于集合中的元素做统一编辑<br>

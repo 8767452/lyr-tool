@@ -1,9 +1,9 @@
-package org.lyr.tool.core.getter;
+package com.ailyr.tool.core.getter;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-import org.lyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.convert.Convert;
 
 /**
  * 基本类型的getter接口抽象实现，所有类型的值获取都是通过将String转换而来<br>

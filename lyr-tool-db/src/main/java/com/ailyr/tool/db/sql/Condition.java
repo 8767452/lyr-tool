@@ -1,13 +1,13 @@
-package org.lyr.tool.db.sql;
+package com.ailyr.tool.db.sql;
 
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
-import org.lyr.tool.core.text.StrSpliter;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.db.DbUtil;
+import com.ailyr.tool.core.text.StrSpliter;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.db.DbUtil;
 
 /**
  * 条件对象<br>

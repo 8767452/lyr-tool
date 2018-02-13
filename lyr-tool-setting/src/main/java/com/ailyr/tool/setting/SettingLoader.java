@@ -1,4 +1,4 @@
-package org.lyr.tool.setting;
+package com.ailyr.tool.setting;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -8,16 +8,16 @@ import java.nio.charset.Charset;
 import java.util.HashSet;
 import java.util.Map.Entry;
 
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IORuntimeException;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.io.resource.UrlResource;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.ReUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.log.Log;
-import org.lyr.tool.log.LogFactory;
-import org.lyr.tool.setting.dialect.BasicSetting;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.io.resource.UrlResource;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.ReUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.log.Log;
+import com.ailyr.tool.log.LogFactory;
+import com.ailyr.tool.setting.dialect.BasicSetting;
 
 import java.util.Set;
 

@@ -1,4 +1,4 @@
-package org.lyr.tool.extra.mail;
+package com.ailyr.tool.extra.mail;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
@@ -9,7 +9,7 @@ import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeUtility;
 
-import org.lyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.ArrayUtil;
 
 /**
  * 邮件内部工具类

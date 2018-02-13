@@ -1,11 +1,12 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.util.Set;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.util.RandomUtil;
+
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.util.RandomUtil;
 
 public class RandomUtilTest {
 	@Test

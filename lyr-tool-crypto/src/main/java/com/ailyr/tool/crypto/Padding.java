@@ -1,4 +1,4 @@
-package org.lyr.tool.crypto;
+package com.ailyr.tool.crypto;
 
 /**
  * 补码方式

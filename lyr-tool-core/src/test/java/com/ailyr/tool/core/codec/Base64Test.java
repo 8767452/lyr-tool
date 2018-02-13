@@ -1,9 +1,10 @@
-package org.lyr.tool.core.codec;
+package com.ailyr.tool.core.codec;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.codec.Base64;
-import org.lyr.tool.core.util.StrUtil;
+
+import com.ailyr.tool.core.codec.Base64;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * Base64单元测试

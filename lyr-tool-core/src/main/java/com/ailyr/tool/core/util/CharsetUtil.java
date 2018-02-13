@@ -1,11 +1,11 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.io.File;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.charset.UnsupportedCharsetException;
 
-import org.lyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.FileUtil;
 
 /**
  * 字符集工具类

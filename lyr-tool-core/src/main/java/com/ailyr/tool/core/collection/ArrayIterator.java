@@ -1,4 +1,4 @@
-package org.lyr.tool.core.collection;
+package com.ailyr.tool.core.collection;
 
 import java.lang.reflect.Array;
 import java.util.Iterator;

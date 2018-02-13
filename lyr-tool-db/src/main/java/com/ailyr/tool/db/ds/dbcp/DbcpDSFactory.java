@@ -1,4 +1,4 @@
-package org.lyr.tool.db.ds.dbcp;
+package com.ailyr.tool.db.ds.dbcp;
 
 import java.util.Collection;
 import java.util.Map;
@@ -7,13 +7,14 @@ import java.util.concurrent.ConcurrentHashMap;
 import javax.sql.DataSource;
 
 import org.apache.commons.dbcp2.BasicDataSource;
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.db.DbRuntimeException;
-import org.lyr.tool.db.DbUtil;
-import org.lyr.tool.db.ds.DSFactory;
-import org.lyr.tool.setting.Setting;
+
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.db.DbRuntimeException;
+import com.ailyr.tool.db.DbUtil;
+import com.ailyr.tool.db.ds.DSFactory;
+import com.ailyr.tool.setting.Setting;
 
 /**
  * DBCP2数据源工厂类

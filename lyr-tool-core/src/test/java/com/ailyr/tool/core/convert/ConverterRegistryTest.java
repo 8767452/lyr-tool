@@ -1,9 +1,10 @@
-package org.lyr.tool.core.convert;
+package com.ailyr.tool.core.convert;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.convert.Converter;
-import org.lyr.tool.core.convert.ConverterRegistry;
+
+import com.ailyr.tool.core.convert.Converter;
+import com.ailyr.tool.core.convert.ConverterRegistry;
 
 /**
  * ConverterRegistry 单元测试

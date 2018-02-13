@@ -1,9 +1,10 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.core.lang.Console;
-import org.lyr.tool.core.util.RuntimeUtil;
+
+import com.ailyr.tool.core.lang.Console;
+import com.ailyr.tool.core.util.RuntimeUtil;
 
 /**
  * 命令行单元测试

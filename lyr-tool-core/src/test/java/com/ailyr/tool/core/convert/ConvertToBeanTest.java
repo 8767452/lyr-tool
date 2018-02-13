@@ -1,12 +1,13 @@
-package org.lyr.tool.core.convert;
+package com.ailyr.tool.core.convert;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.bean.BeanUtilTest.SubPerson;
-import org.lyr.tool.core.convert.Convert;
+
+import com.ailyr.tool.core.bean.BeanUtilTest.SubPerson;
+import com.ailyr.tool.core.convert.Convert;
 
 /**
  * 类型转换工具单元测试<br>

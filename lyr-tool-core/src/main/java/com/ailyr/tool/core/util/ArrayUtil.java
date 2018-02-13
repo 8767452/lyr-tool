@@ -1,4 +1,4 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.lang.reflect.Array;
 import java.nio.ByteBuffer;
@@ -8,11 +8,11 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.Map;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.collection.IterUtil;
-import org.lyr.tool.core.exceptions.UtilException;
-import org.lyr.tool.core.lang.Editor;
-import org.lyr.tool.core.lang.Filter;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.collection.IterUtil;
+import com.ailyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.lang.Editor;
+import com.ailyr.tool.core.lang.Filter;
 
 /**
  * 数组工具类

@@ -1,4 +1,4 @@
-package org.lyr.tool.script;
+package com.ailyr.tool.script;
 
 import java.io.Reader;
 
@@ -12,7 +12,7 @@ import javax.script.ScriptEngineFactory;
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 全功能引擎类，支持Compilable和Invocable

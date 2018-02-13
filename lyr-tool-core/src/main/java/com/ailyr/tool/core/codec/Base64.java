@@ -1,4 +1,4 @@
-package org.lyr.tool.core.codec;
+package com.ailyr.tool.core.codec;
 
 import java.nio.charset.Charset;
 

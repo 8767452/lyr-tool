@@ -1,12 +1,13 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.util.List;
 import java.util.Map;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.collection.CollUtil;
-import org.lyr.tool.core.util.EnumUtil;
+
+import com.ailyr.tool.core.collection.CollUtil;
+import com.ailyr.tool.core.util.EnumUtil;
 
 /**
  * EnumUtil单元测试

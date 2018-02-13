@@ -1,4 +1,4 @@
-package org.lyr.tool.json;
+package com.ailyr.tool.json;
 
 import java.io.BufferedReader;
 import java.io.IOException;

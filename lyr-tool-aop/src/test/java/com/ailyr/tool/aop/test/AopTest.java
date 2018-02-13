@@ -1,9 +1,10 @@
-package org.lyr.tool.aop.test;
+package com.ailyr.tool.aop.test;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.aop.ProxyUtil;
-import org.lyr.tool.aop.aspects.TimeIntervalAspect;
+
+import com.ailyr.tool.aop.ProxyUtil;
+import com.ailyr.tool.aop.aspects.TimeIntervalAspect;
 
 /**
  * AOP模块单元测试

@@ -1,4 +1,4 @@
-package org.lyr.tool.db.test;
+package com.ailyr.tool.db.test;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -9,16 +9,17 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.core.collection.CollUtil;
-import org.lyr.tool.core.lang.Console;
-import org.lyr.tool.db.ActiveEntity;
-import org.lyr.tool.db.Entity;
-import org.lyr.tool.db.SqlRunner;
-import org.lyr.tool.db.handler.ActiveEntityHandler;
-import org.lyr.tool.db.handler.EntityListHandler;
-import org.lyr.tool.db.sql.Condition;
-import org.lyr.tool.db.sql.Condition.LikeType;
-import org.lyr.tool.db.test.pojo.User;
+
+import com.ailyr.tool.core.collection.CollUtil;
+import com.ailyr.tool.core.lang.Console;
+import com.ailyr.tool.db.ActiveEntity;
+import com.ailyr.tool.db.Entity;
+import com.ailyr.tool.db.SqlRunner;
+import com.ailyr.tool.db.handler.ActiveEntityHandler;
+import com.ailyr.tool.db.handler.EntityListHandler;
+import com.ailyr.tool.db.sql.Condition;
+import com.ailyr.tool.db.sql.Condition.LikeType;
+import com.ailyr.tool.db.test.pojo.User;
 
 /**
  * 增删改查测试

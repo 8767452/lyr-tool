@@ -1,8 +1,9 @@
-package org.lyr.tool.core.io;
+package com.ailyr.tool.core.io;
 
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.core.io.file.FileCopier;
+
+import com.ailyr.tool.core.io.file.FileCopier;
 
 /**
  * 文件拷贝单元测试

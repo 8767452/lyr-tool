@@ -1,13 +1,13 @@
-package org.lyr.tool.system;
+package com.ailyr.tool.system;
 
 import java.io.PrintWriter;
 import java.lang.management.ManagementFactory;
 import java.util.Properties;
 
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.lang.Console;
-import org.lyr.tool.core.lang.Singleton;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.lang.Console;
+import com.ailyr.tool.core.lang.Singleton;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * Java的System类封装工具类。<br>

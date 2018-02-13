@@ -1,7 +1,7 @@
-package org.lyr.tool.setting.profile;
+package com.ailyr.tool.setting.profile;
 
-import org.lyr.tool.core.lang.Singleton;
-import org.lyr.tool.setting.Setting;
+import com.ailyr.tool.core.lang.Singleton;
+import com.ailyr.tool.setting.Setting;
 
 /**
  * 全局的Profile配置中心

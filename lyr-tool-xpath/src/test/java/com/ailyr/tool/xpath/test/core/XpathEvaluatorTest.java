@@ -1,13 +1,14 @@
-package org.lyr.tool.xpath.test.core;
+package com.ailyr.tool.xpath.test.core;
 
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.lyr.tool.xpath.core.XpathEvaluator;
-import org.lyr.tool.xpath.model.Node;
 import org.powermock.modules.junit4.PowerMockRunner;
+
+import com.ailyr.tool.xpath.core.XpathEvaluator;
+import com.ailyr.tool.xpath.model.Node;
 
 import java.util.List;
 

@@ -1,8 +1,9 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.core.lang.Console;
+
+import com.ailyr.tool.core.lang.Console;
 
 /**
  * 控制台单元测试

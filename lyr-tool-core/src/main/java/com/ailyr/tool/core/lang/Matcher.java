@@ -1,4 +1,4 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 /**
  * 匹配接口

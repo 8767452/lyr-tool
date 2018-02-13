@@ -1,4 +1,4 @@
-package org.lyr.tool.core.io;
+package com.ailyr.tool.core.io;
 
 /**
  * 行处理器

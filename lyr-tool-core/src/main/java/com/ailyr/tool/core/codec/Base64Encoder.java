@@ -1,9 +1,9 @@
-package org.lyr.tool.core.codec;
+package com.ailyr.tool.core.codec;
 
 import java.nio.charset.Charset;
 
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * Base64编码

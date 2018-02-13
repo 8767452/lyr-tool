@@ -1,11 +1,11 @@
-package org.lyr.tool.core.io.file;
+package com.ailyr.tool.core.io.file;
 
 import java.io.File;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.util.CharsetUtil;
 
 /**
  * 文件包装器，扩展文件对象

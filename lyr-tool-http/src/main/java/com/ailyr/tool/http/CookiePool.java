@@ -1,5 +1,5 @@
 
-package org.lyr.tool.http;
+package com.ailyr.tool.http;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

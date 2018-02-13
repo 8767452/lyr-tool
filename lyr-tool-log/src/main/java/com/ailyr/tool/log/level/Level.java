@@ -1,4 +1,4 @@
-package org.lyr.tool.log.level;
+package com.ailyr.tool.log.level;
 
 /**
  * 日志等级

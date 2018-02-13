@@ -1,6 +1,6 @@
-package org.lyr.tool.cron.demo;
+package com.ailyr.tool.cron.demo;
 
-import org.lyr.tool.core.lang.Console;
+import com.ailyr.tool.core.lang.Console;
 
 public class TestJob{
 	public void doTest() {

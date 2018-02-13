@@ -1,10 +1,10 @@
-package org.lyr.tool.db.handler;
+package com.ailyr.tool.db.handler;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.LinkedHashSet;
 
-import org.lyr.tool.db.Entity;
+import com.ailyr.tool.db.Entity;
 
 /**
  * 结果集处理类 ，处理出的结果为Entity列表，结果不能重复（按照Entity对象去重）

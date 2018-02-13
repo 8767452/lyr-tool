@@ -1,9 +1,10 @@
-package org.lyr.tool.db.test;
+package com.ailyr.tool.db.test;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.db.Entity;
-import org.lyr.tool.db.test.pojo.User;
+
+import com.ailyr.tool.db.Entity;
+import com.ailyr.tool.db.test.pojo.User;
 
 /**
  * Entity测试

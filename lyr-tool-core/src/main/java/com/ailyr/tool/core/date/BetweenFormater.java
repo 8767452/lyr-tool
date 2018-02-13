@@ -1,4 +1,4 @@
-package org.lyr.tool.core.date;
+package com.ailyr.tool.core.date;
 
 /**
  * 时长格式化器

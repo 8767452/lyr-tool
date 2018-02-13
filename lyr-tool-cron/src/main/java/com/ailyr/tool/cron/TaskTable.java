@@ -1,4 +1,4 @@
-package org.lyr.tool.cron;
+package com.ailyr.tool.cron;
 
 import java.util.ArrayList;
 import java.util.TimeZone;
@@ -6,8 +6,8 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-import org.lyr.tool.cron.pattern.CronPattern;
-import org.lyr.tool.cron.task.Task;
+import com.ailyr.tool.cron.pattern.CronPattern;
+import com.ailyr.tool.cron.task.Task;
 
 /**
  * 定时任务表<br>

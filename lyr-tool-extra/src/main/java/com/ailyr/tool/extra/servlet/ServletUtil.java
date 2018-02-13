@@ -1,4 +1,4 @@
-package org.lyr.tool.extra.servlet;
+package com.ailyr.tool.extra.servlet;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -18,18 +18,18 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.lyr.tool.core.bean.BeanUtil;
-import org.lyr.tool.core.bean.copier.CopyOptions;
-import org.lyr.tool.core.bean.copier.ValueProvider;
-import org.lyr.tool.core.exceptions.UtilException;
-import org.lyr.tool.core.io.IORuntimeException;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.ReflectUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.extra.servlet.multipart.MultipartFormData;
-import org.lyr.tool.extra.servlet.multipart.UploadSetting;
+import com.ailyr.tool.core.bean.BeanUtil;
+import com.ailyr.tool.core.bean.copier.CopyOptions;
+import com.ailyr.tool.core.bean.copier.ValueProvider;
+import com.ailyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.ReflectUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.extra.servlet.multipart.MultipartFormData;
+import com.ailyr.tool.extra.servlet.multipart.UploadSetting;
 
 /**
  * Servlet相关工具类封装

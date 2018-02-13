@@ -1,4 +1,4 @@
-package org.lyr.tool.crypto.symmetric;
+package com.ailyr.tool.crypto.symmetric;
 
 import java.io.InputStream;
 import java.nio.charset.Charset;
@@ -10,15 +10,15 @@ import javax.crypto.Cipher;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.PBEParameterSpec;
 
-import org.lyr.tool.core.codec.Base64;
-import org.lyr.tool.core.io.IORuntimeException;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.HexUtil;
-import org.lyr.tool.core.util.RandomUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.crypto.CryptoException;
-import org.lyr.tool.crypto.SecureUtil;
+import com.ailyr.tool.core.codec.Base64;
+import com.ailyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.HexUtil;
+import com.ailyr.tool.core.util.RandomUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.crypto.CryptoException;
+import com.ailyr.tool.crypto.SecureUtil;
 
 /**
  * 对称加密算法<br>

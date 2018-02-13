@@ -1,4 +1,4 @@
-package org.lyr.tool.log.level;
+package com.ailyr.tool.log.level;
 
 /**
  * INFO级别日志接口

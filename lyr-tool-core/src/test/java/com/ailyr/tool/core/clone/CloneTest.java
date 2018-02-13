@@ -1,10 +1,11 @@
-package org.lyr.tool.core.clone;
+package com.ailyr.tool.core.clone;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.clone.CloneRuntimeException;
-import org.lyr.tool.core.clone.CloneSupport;
-import org.lyr.tool.core.clone.Cloneable;
+
+import com.ailyr.tool.core.clone.CloneRuntimeException;
+import com.ailyr.tool.core.clone.CloneSupport;
+import com.ailyr.tool.core.clone.Cloneable;
 
 /**
  * 克隆单元测试

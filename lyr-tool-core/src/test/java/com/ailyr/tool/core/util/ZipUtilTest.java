@@ -1,11 +1,12 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.io.File;
 
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.core.lang.Console;
-import org.lyr.tool.core.util.ZipUtil;
+
+import com.ailyr.tool.core.lang.Console;
+import com.ailyr.tool.core.util.ZipUtil;
 
 /**
  * {@link ZipUtil}单元测试

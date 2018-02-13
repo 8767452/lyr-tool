@@ -1,8 +1,9 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.text.TextSimilarity;
+
+import com.ailyr.tool.core.text.TextSimilarity;
 
 /**
  * 文本相似度计算工具类单元测试

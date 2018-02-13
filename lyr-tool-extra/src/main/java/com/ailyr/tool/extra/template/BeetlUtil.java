@@ -1,4 +1,4 @@
-package org.lyr.tool.extra.template;
+package com.ailyr.tool.extra.template;
 
 import java.io.IOException;
 import java.io.Writer;
@@ -15,9 +15,10 @@ import org.beetl.core.resource.FileResourceLoader;
 import org.beetl.core.resource.Matcher;
 import org.beetl.core.resource.StringTemplateResourceLoader;
 import org.beetl.core.resource.WebAppResourceLoader;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IORuntimeException;
-import org.lyr.tool.core.util.CharsetUtil;
+
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.util.CharsetUtil;
 
 /**
  * Beetl模板引擎工具类<br>

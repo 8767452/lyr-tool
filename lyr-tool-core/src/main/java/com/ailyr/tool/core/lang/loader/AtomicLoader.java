@@ -1,4 +1,4 @@
-package org.lyr.tool.core.lang.loader;
+package com.ailyr.tool.core.lang.loader;
 
 import java.util.concurrent.atomic.AtomicReference;
 

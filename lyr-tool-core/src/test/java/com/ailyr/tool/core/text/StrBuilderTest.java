@@ -1,12 +1,13 @@
-package org.lyr.tool.core.text;
+package com.ailyr.tool.core.text;
 
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.core.date.DateUtil;
-import org.lyr.tool.core.date.TimeInterval;
-import org.lyr.tool.core.lang.Console;
-import org.lyr.tool.core.text.StrBuilder;
+
+import com.ailyr.tool.core.date.DateUtil;
+import com.ailyr.tool.core.date.TimeInterval;
+import com.ailyr.tool.core.lang.Console;
+import com.ailyr.tool.core.text.StrBuilder;
 
 /**
  * StrBuilder单元测试

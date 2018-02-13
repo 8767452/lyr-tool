@@ -1,11 +1,11 @@
-package org.lyr.tool.log.dialect.console;
+package com.ailyr.tool.log.dialect.console;
 
-import org.lyr.tool.core.date.DateUtil;
-import org.lyr.tool.core.lang.Console;
-import org.lyr.tool.core.lang.Dict;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.log.AbstractLog;
-import org.lyr.tool.log.level.Level;
+import com.ailyr.tool.core.date.DateUtil;
+import com.ailyr.tool.core.lang.Console;
+import com.ailyr.tool.core.lang.Dict;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.log.AbstractLog;
+import com.ailyr.tool.log.level.Level;
 
 /**
  * 利用System.out.println()打印日志

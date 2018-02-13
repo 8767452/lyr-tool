@@ -1,4 +1,4 @@
-package org.lyr.tool.core.thread;
+package com.ailyr.tool.core.thread;
 
 import java.lang.Thread.UncaughtExceptionHandler;
 import java.util.concurrent.Callable;

@@ -1,4 +1,4 @@
-package org.lyr.tool.extra.qrcode;
+package com.ailyr.tool.extra.qrcode;
 
 import java.awt.Image;
 import java.awt.image.BufferedImage;
@@ -7,9 +7,8 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.HashMap;
 
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.ImageUtil;
-
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.ImageUtil;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.Binarizer;
 import com.google.zxing.BinaryBitmap;

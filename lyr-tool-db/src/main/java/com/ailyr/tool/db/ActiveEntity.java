@@ -1,4 +1,4 @@
-package org.lyr.tool.db;
+package com.ailyr.tool.db;
 
 import java.sql.SQLException;
 import java.util.List;

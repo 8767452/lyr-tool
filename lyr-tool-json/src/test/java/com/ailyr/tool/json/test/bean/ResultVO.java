@@ -1,9 +1,9 @@
-package org.lyr.tool.json.test.bean;
+package com.ailyr.tool.json.test.bean;
 
 import java.io.Serializable;
 
-import org.lyr.tool.core.lang.Console;
-import org.lyr.tool.json.JSONUtil;
+import com.ailyr.tool.core.lang.Console;
+import com.ailyr.tool.json.JSONUtil;
 
 public class ResultVO implements Serializable {
 	private static final long serialVersionUID = 2161496499087970946L;

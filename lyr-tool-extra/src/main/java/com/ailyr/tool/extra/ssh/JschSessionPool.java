@@ -1,4 +1,4 @@
-package org.lyr.tool.extra.ssh;
+package com.ailyr.tool.extra.ssh;
 
 import java.util.Collection;
 import java.util.Map;

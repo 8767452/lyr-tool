@@ -1,4 +1,4 @@
-package org.lyr.tool.core.date;
+package com.ailyr.tool.core.date;
 
 import java.sql.Timestamp;
 import java.util.concurrent.Executors;

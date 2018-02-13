@@ -1,8 +1,9 @@
-package org.lyr.tool.core.codec;
+package com.ailyr.tool.core.codec;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.codec.BCD;
+
+import com.ailyr.tool.core.codec.BCD;
 
 public class BCDTest {
 	

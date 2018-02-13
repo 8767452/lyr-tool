@@ -1,4 +1,4 @@
-package org.lyr.tool.core.collection;
+package com.ailyr.tool.core.collection;
 
 import java.util.Enumeration;
 import java.util.Iterator;

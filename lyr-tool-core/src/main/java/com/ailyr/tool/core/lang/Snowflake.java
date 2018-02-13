@@ -1,6 +1,6 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
-import org.lyr.tool.core.date.SystemClock;
+import com.ailyr.tool.core.date.SystemClock;
 
 /**
  * Twitter的Snowflake 算法<br>

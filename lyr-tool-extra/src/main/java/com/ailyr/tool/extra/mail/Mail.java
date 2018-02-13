@@ -1,4 +1,4 @@
-package org.lyr.tool.extra.mail;
+package com.ailyr.tool.extra.mail;
 
 import java.io.File;
 import java.nio.charset.Charset;
@@ -16,8 +16,8 @@ import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
 
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 邮件发送客户端

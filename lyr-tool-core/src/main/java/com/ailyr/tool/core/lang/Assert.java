@@ -1,11 +1,11 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import java.util.Collection;
 import java.util.Map;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 断言<br>

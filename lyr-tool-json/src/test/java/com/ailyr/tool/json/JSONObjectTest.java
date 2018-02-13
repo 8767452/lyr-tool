@@ -1,4 +1,4 @@
-package org.lyr.tool.json;
+package com.ailyr.tool.json;
 
 import java.math.BigDecimal;
 import java.util.Date;
@@ -6,14 +6,15 @@ import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.collection.CollUtil;
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.json.JSONNull;
-import org.lyr.tool.json.JSONObject;
-import org.lyr.tool.json.JSONUtil;
-import org.lyr.tool.json.test.bean.Seq;
-import org.lyr.tool.json.test.bean.UserA;
-import org.lyr.tool.json.test.bean.UserB;
+
+import com.ailyr.tool.core.collection.CollUtil;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.json.JSONNull;
+import com.ailyr.tool.json.JSONObject;
+import com.ailyr.tool.json.JSONUtil;
+import com.ailyr.tool.json.test.bean.Seq;
+import com.ailyr.tool.json.test.bean.UserA;
+import com.ailyr.tool.json.test.bean.UserB;
 
 /**
  * JSONObject单元测试

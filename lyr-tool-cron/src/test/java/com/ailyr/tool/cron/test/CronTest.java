@@ -1,9 +1,10 @@
-package org.lyr.tool.cron.test;
+package com.ailyr.tool.cron.test;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.date.DateUtil;
-import org.lyr.tool.cron.pattern.CronPattern;
+
+import com.ailyr.tool.core.date.DateUtil;
+import com.ailyr.tool.cron.pattern.CronPattern;
 
 /**
  * 定时任务单元测试类

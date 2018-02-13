@@ -1,10 +1,11 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import java.util.HashSet;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.lang.Snowflake;
+
+import com.ailyr.tool.core.lang.Snowflake;
 
 /**
  * Snowflake单元测试

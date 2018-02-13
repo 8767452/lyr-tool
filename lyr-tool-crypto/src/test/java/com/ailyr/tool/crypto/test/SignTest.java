@@ -1,11 +1,12 @@
-package org.lyr.tool.crypto.test;
+package com.ailyr.tool.crypto.test;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.crypto.SecureUtil;
-import org.lyr.tool.crypto.asymmetric.Sign;
-import org.lyr.tool.crypto.asymmetric.SignAlgorithm;
+
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.crypto.SecureUtil;
+import com.ailyr.tool.crypto.asymmetric.Sign;
+import com.ailyr.tool.crypto.asymmetric.SignAlgorithm;
 
 /**
  * 签名单元测试

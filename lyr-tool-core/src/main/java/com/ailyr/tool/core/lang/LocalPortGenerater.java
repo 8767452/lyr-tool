@@ -1,8 +1,8 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-import org.lyr.tool.core.util.NetUtil;
+import com.ailyr.tool.core.util.NetUtil;
 
 /**
  * 本地端口生成器<br>

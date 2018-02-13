@@ -1,4 +1,4 @@
-package org.lyr.tool.core.codec;
+package com.ailyr.tool.core.codec;
 
 /**
  * BCD码（Binary-Coded Decimal‎）亦称二进码十进数或二-十进制代码<br>

@@ -1,4 +1,4 @@
-package org.lyr.tool.core.io.file;
+package com.ailyr.tool.core.io.file;
 
 /**
  * 换行符枚举<br>

@@ -1,4 +1,4 @@
-package org.lyr.tool.core.io.resource;
+package com.ailyr.tool.core.io.resource;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,10 +8,10 @@ import java.nio.charset.Charset;
 import java.util.Enumeration;
 import java.util.List;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IORuntimeException;
-import org.lyr.tool.core.util.ClassLoaderUtil;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.util.ClassLoaderUtil;
 
 /**
  * ClassPath资源工具类

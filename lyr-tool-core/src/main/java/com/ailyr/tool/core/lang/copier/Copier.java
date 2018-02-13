@@ -1,4 +1,4 @@
-package org.lyr.tool.core.lang.copier;
+package com.ailyr.tool.core.lang.copier;
 
 /**
  * 拷贝接口

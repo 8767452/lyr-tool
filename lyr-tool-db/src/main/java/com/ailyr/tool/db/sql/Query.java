@@ -1,11 +1,11 @@
-package org.lyr.tool.db.sql;
+package com.ailyr.tool.db.sql;
 
 import java.util.Collection;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.db.DbRuntimeException;
-import org.lyr.tool.db.Page;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.db.DbRuntimeException;
+import com.ailyr.tool.db.Page;
 
 /**
  * 查询对象，用于传递查询所需的字段值<br>

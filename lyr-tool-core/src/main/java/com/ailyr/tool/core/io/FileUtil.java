@@ -1,4 +1,4 @@
-package org.lyr.tool.core.io;
+package com.ailyr.tool.core.io;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -35,21 +35,21 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 import java.util.regex.Pattern;
 
-import org.lyr.tool.core.collection.CollUtil;
-import org.lyr.tool.core.io.file.FileCopier;
-import org.lyr.tool.core.io.file.FileReader;
-import org.lyr.tool.core.io.file.FileWriter;
-import org.lyr.tool.core.io.file.LineSeparator;
-import org.lyr.tool.core.io.file.FileReader.ReaderHandler;
-import org.lyr.tool.core.io.resource.ResourceUtil;
-import org.lyr.tool.core.lang.Assert;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.CharUtil;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.ClassUtil;
-import org.lyr.tool.core.util.ReUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.core.util.URLUtil;
+import com.ailyr.tool.core.collection.CollUtil;
+import com.ailyr.tool.core.io.file.FileCopier;
+import com.ailyr.tool.core.io.file.FileReader;
+import com.ailyr.tool.core.io.file.FileWriter;
+import com.ailyr.tool.core.io.file.LineSeparator;
+import com.ailyr.tool.core.io.file.FileReader.ReaderHandler;
+import com.ailyr.tool.core.io.resource.ResourceUtil;
+import com.ailyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.CharUtil;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.ClassUtil;
+import com.ailyr.tool.core.util.ReUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.URLUtil;
 
 /**
  * 文件工具类

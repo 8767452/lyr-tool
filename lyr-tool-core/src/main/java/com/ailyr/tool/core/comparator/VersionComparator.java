@@ -1,11 +1,11 @@
-package org.lyr.tool.core.comparator;
+package com.ailyr.tool.core.comparator;
 
 import java.io.Serializable;
 import java.util.Comparator;
 import java.util.List;
 
-import org.lyr.tool.core.util.CharUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.CharUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 版本比较器<br>

@@ -1,6 +1,6 @@
-package org.lyr.tool.core.bean;
+package com.ailyr.tool.core.bean;
 
-import org.lyr.tool.core.lang.SimpleCache;
+import com.ailyr.tool.core.lang.SimpleCache;
 
 /**
  * Bean属性缓存<br>

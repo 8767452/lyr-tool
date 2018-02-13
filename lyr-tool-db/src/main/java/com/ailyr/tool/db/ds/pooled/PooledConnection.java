@@ -1,10 +1,10 @@
-package org.lyr.tool.db.ds.pooled;
+package com.ailyr.tool.db.ds.pooled;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-import org.lyr.tool.db.DbUtil;
+import com.ailyr.tool.db.DbUtil;
 
 /**
  * 池化

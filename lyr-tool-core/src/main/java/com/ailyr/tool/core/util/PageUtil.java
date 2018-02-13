@@ -1,4 +1,4 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 /**
  * 分页工具类

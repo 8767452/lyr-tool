@@ -1,4 +1,4 @@
-package org.lyr.tool.core.comparator;
+package com.ailyr.tool.core.comparator;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -7,7 +7,7 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 
-import org.lyr.tool.core.lang.Chain;
+import com.ailyr.tool.core.lang.Chain;
 
 /**
  * 比较器链。此链包装了多个比较器，最终比较结果按照比较器顺序综合多个比较器结果。<br>

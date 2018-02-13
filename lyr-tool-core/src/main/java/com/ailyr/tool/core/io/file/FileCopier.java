@@ -1,4 +1,4 @@
-package org.lyr.tool.core.io.file;
+package com.ailyr.tool.core.io.file;
 
 import java.io.File;
 import java.io.IOException;
@@ -7,11 +7,11 @@ import java.nio.file.Files;
 import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
 
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IORuntimeException;
-import org.lyr.tool.core.lang.Assert;
-import org.lyr.tool.core.lang.copier.SrcToDestCopier;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.lang.copier.SrcToDestCopier;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 文件拷贝器<br>

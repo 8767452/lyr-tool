@@ -1,6 +1,6 @@
-package org.lyr.tool.system;
+package com.ailyr.tool.system;
 
-import org.lyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.FileUtil;
 
 /**
  * 运行时信息，包括内存总大小、已用大小、可用大小等

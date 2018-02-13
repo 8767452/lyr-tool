@@ -1,12 +1,13 @@
-package org.lyr.tool.crypto.test;
+package com.ailyr.tool.crypto.test;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.crypto.SecureUtil;
-import org.lyr.tool.crypto.digest.HMac;
-import org.lyr.tool.crypto.digest.HmacAlgorithm;
+
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.crypto.SecureUtil;
+import com.ailyr.tool.crypto.digest.HMac;
+import com.ailyr.tool.crypto.digest.HmacAlgorithm;
 
 /**
  * Hmac单元测试

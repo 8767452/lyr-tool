@@ -1,14 +1,14 @@
-package org.lyr.tool.core.bean.copier.provider;
+package com.ailyr.tool.core.bean.copier.provider;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Type;
 import java.util.Map;
 
-import org.lyr.tool.core.bean.BeanUtil;
-import org.lyr.tool.core.bean.BeanDesc.PropDesc;
-import org.lyr.tool.core.bean.copier.ValueProvider;
-import org.lyr.tool.core.exceptions.UtilException;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.bean.BeanUtil;
+import com.ailyr.tool.core.bean.BeanDesc.PropDesc;
+import com.ailyr.tool.core.bean.copier.ValueProvider;
+import com.ailyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * Bean的值提供者

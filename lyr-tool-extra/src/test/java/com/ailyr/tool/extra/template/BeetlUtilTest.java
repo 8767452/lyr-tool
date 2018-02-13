@@ -1,4 +1,4 @@
-package org.lyr.tool.extra.template;
+package com.ailyr.tool.extra.template;
 
 import java.io.IOException;
 
@@ -8,8 +8,9 @@ import org.beetl.core.Template;
 import org.beetl.core.resource.StringTemplateResourceLoader;
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.lang.Dict;
-import org.lyr.tool.extra.template.BeetlUtil;
+
+import com.ailyr.tool.core.lang.Dict;
+import com.ailyr.tool.extra.template.BeetlUtil;
 
 /**
  * BeetlUtil单元测试

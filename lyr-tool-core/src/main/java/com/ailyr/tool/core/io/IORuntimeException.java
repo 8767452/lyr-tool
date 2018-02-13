@@ -1,7 +1,7 @@
-package org.lyr.tool.core.io;
+package com.ailyr.tool.core.io;
 
-import org.lyr.tool.core.exceptions.ExceptionUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.exceptions.ExceptionUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * IO运行时异常，常用于对IOException的包装

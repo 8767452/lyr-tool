@@ -1,4 +1,4 @@
-package org.lyr.tool.core.io;
+package com.ailyr.tool.core.io;
 
 /**
  * 代码移植自<a href="https://github.com/biezhi/blade">blade</a><br>

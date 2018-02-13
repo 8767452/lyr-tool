@@ -1,4 +1,4 @@
-package org.lyr.tool.db.meta;
+package com.ailyr.tool.db.meta;
 
 import java.util.HashMap;
 import java.util.LinkedHashSet;

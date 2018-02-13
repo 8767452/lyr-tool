@@ -1,4 +1,4 @@
-package org.lyr.tool.http;
+package com.ailyr.tool.http;
 
 import java.io.File;
 import java.io.IOException;
@@ -20,19 +20,19 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.regex.Pattern;
 
-import org.lyr.tool.core.collection.CollUtil;
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.io.FastByteArrayOutputStream;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.io.StreamProgress;
-import org.lyr.tool.core.map.MapUtil;
-import org.lyr.tool.core.text.StrBuilder;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.ReUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.collection.CollUtil;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.io.FastByteArrayOutputStream;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.io.StreamProgress;
+import com.ailyr.tool.core.map.MapUtil;
+import com.ailyr.tool.core.text.StrBuilder;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.ReUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * Http请求工具类

@@ -1,11 +1,12 @@
-package org.lyr.tool.core.convert;
+package com.ailyr.tool.core.convert;
 
 import java.util.concurrent.TimeUnit;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.util.CharsetUtil;
+
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.util.CharsetUtil;
 
 /**
  * 其它转换

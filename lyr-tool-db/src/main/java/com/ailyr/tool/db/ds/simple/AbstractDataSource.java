@@ -1,4 +1,4 @@
-package org.lyr.tool.db.ds.simple;
+package com.ailyr.tool.db.ds.simple;
 
 import java.io.Closeable;
 import java.io.PrintWriter;

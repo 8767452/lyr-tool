@@ -1,4 +1,4 @@
-package org.lyr.tool.db.meta;
+package com.ailyr.tool.db.meta;
 
 /**
  * 元信息中表的类型

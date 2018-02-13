@@ -1,4 +1,4 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.io.IOException;
 import java.lang.annotation.Annotation;
@@ -16,15 +16,15 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Set;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.convert.BasicType;
-import org.lyr.tool.core.exceptions.UtilException;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IORuntimeException;
-import org.lyr.tool.core.io.resource.ResourceUtil;
-import org.lyr.tool.core.lang.ClassScaner;
-import org.lyr.tool.core.lang.Filter;
-import org.lyr.tool.core.lang.Singleton;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.convert.BasicType;
+import com.ailyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.io.resource.ResourceUtil;
+import com.ailyr.tool.core.lang.ClassScaner;
+import com.ailyr.tool.core.lang.Filter;
+import com.ailyr.tool.core.lang.Singleton;
 
 /**
  * 类工具类 <br>

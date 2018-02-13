@@ -1,21 +1,21 @@
-package org.lyr.tool.core.bean.copier;
+package com.ailyr.tool.core.bean.copier;
 
 import java.lang.reflect.Method;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Map;
 
-import org.lyr.tool.core.bean.BeanUtil;
-import org.lyr.tool.core.bean.BeanDesc.PropDesc;
-import org.lyr.tool.core.bean.copier.provider.BeanValueProvider;
-import org.lyr.tool.core.bean.copier.provider.MapValueProvider;
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.exceptions.UtilException;
-import org.lyr.tool.core.lang.copier.Copier;
-import org.lyr.tool.core.map.MapUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.core.util.TypeUtil;
+import com.ailyr.tool.core.bean.BeanUtil;
+import com.ailyr.tool.core.bean.BeanDesc.PropDesc;
+import com.ailyr.tool.core.bean.copier.provider.BeanValueProvider;
+import com.ailyr.tool.core.bean.copier.provider.MapValueProvider;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.lang.copier.Copier;
+import com.ailyr.tool.core.map.MapUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.TypeUtil;
 
 /**
  * Bean拷贝

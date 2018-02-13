@@ -1,11 +1,11 @@
 
-package org.lyr.tool.cron;
+package com.ailyr.tool.cron;
 
-import org.lyr.tool.core.exceptions.UtilException;
-import org.lyr.tool.core.io.resource.NoResourceException;
-import org.lyr.tool.cron.task.Task;
-import org.lyr.tool.setting.Setting;
-import org.lyr.tool.setting.SettingRuntimeException;
+import com.ailyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.io.resource.NoResourceException;
+import com.ailyr.tool.cron.task.Task;
+import com.ailyr.tool.setting.Setting;
+import com.ailyr.tool.setting.SettingRuntimeException;
 
 /**
  * 定时任务工具类<br>

@@ -1,7 +1,7 @@
-package org.lyr.tool.extra.ssh;
+package com.ailyr.tool.extra.ssh;
 
-import org.lyr.tool.core.exceptions.ExceptionUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.exceptions.ExceptionUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * Jsch异常

@@ -1,4 +1,4 @@
-package org.lyr.tool.core.io.watch.watchers;
+package com.ailyr.tool.core.io.watch.watchers;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -6,10 +6,10 @@ import java.nio.file.WatchEvent;
 import java.nio.file.WatchService;
 import java.util.Set;
 
-import org.lyr.tool.core.collection.ConcurrentHashSet;
-import org.lyr.tool.core.io.watch.Watcher;
-import org.lyr.tool.core.lang.Assert;
-import org.lyr.tool.core.thread.ThreadUtil;
+import com.ailyr.tool.core.collection.ConcurrentHashSet;
+import com.ailyr.tool.core.io.watch.Watcher;
+import com.ailyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.thread.ThreadUtil;
 
 /**
  * 延迟观察者<br>

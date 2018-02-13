@@ -1,4 +1,4 @@
-package org.lyr.tool.core.comparator;
+package com.ailyr.tool.core.comparator;
 
 import java.io.Serializable;
 import java.util.Comparator;

@@ -1,4 +1,4 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.awt.Image;
 import java.awt.Toolkit;
@@ -10,7 +10,7 @@ import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import java.io.IOException;
 
-import org.lyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.exceptions.UtilException;
 
 /**
  * 系统剪贴板工具类

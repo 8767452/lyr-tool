@@ -1,4 +1,4 @@
-package org.lyr.tool.core.collection;
+package com.ailyr.tool.core.collection;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,7 +7,8 @@ import java.util.Set;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.map.MapProxy;
+
+import com.ailyr.tool.core.map.MapProxy;
 
 public class MapProxyTest {
 	

@@ -1,13 +1,14 @@
-package org.lyr.tool.core.io;
+package com.ailyr.tool.core.io;
 
 import java.io.File;
 
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.core.io.FileTypeUtil;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.lang.Console;
+
+import com.ailyr.tool.core.io.FileTypeUtil;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.lang.Console;
 
 /**
  * 文件类型判断单元测试

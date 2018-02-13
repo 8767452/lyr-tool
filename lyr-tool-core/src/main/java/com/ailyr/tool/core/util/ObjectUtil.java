@@ -1,4 +1,4 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.io.ByteArrayInputStream;
 import java.io.ObjectInputStream;
@@ -10,10 +10,10 @@ import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.Map;
 
-import org.lyr.tool.core.bean.BeanUtil;
-import org.lyr.tool.core.exceptions.UtilException;
-import org.lyr.tool.core.io.FastByteArrayOutputStream;
-import org.lyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.bean.BeanUtil;
+import com.ailyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.io.FastByteArrayOutputStream;
+import com.ailyr.tool.core.io.IoUtil;
 
 /**
  * 一些通用的函数

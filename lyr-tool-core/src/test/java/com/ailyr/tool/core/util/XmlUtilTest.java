@@ -1,12 +1,13 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import javax.xml.xpath.XPathConstants;
 
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.core.util.XmlUtil;
 import org.w3c.dom.Document;
+
+import com.ailyr.tool.core.util.XmlUtil;
 
 /**
  * {@link XmlUtil} 工具类

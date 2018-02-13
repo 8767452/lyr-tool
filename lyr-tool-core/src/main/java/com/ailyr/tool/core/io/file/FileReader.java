@@ -1,4 +1,4 @@
-package org.lyr.tool.core.io.file;
+package com.ailyr.tool.core.io.file;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
@@ -11,12 +11,12 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IORuntimeException;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.io.LineHandler;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.io.LineHandler;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 文件读取器

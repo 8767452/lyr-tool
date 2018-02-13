@@ -1,8 +1,8 @@
-package org.lyr.tool.core.text;
+package com.ailyr.tool.core.text;
 
-import org.lyr.tool.core.util.CharUtil;
-import org.lyr.tool.core.util.HexUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.CharUtil;
+import com.ailyr.tool.core.util.HexUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 提供Unicode字符串和普通字符串之间的转换

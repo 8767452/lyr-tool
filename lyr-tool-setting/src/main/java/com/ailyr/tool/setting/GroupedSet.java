@@ -1,4 +1,4 @@
-package org.lyr.tool.setting;
+package com.ailyr.tool.setting;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -13,12 +13,12 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.core.util.URLUtil;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.URLUtil;
 
 /**
  * 分组化的Set集合类<br>

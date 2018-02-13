@@ -1,8 +1,8 @@
-package org.lyr.tool.json;
+package com.ailyr.tool.json;
 
 import java.io.Writer;
 
-import org.lyr.tool.core.bean.BeanResolver;
+import com.ailyr.tool.core.bean.BeanResolver;
 
 /**
  * JSON接口

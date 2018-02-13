@@ -1,11 +1,11 @@
-package org.lyr.tool.db.ds.pooled;
+package com.ailyr.tool.db.ds.pooled;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.db.DbRuntimeException;
-import org.lyr.tool.db.DbUtil;
-import org.lyr.tool.db.ds.DSFactory;
-import org.lyr.tool.setting.Setting;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.db.DbRuntimeException;
+import com.ailyr.tool.db.DbUtil;
+import com.ailyr.tool.db.ds.DSFactory;
+import com.ailyr.tool.setting.Setting;
 
 /**
  * 数据库配置文件类，此类对应一个数据库配置文件

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.lyr.tool.poi.test;
+package com.ailyr.tool.poi.test;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -11,12 +11,13 @@ import java.util.Map;
 
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.core.collection.CollUtil;
-import org.lyr.tool.core.date.DateUtil;
-import org.lyr.tool.core.map.MapUtil;
-import org.lyr.tool.core.util.ObjectUtil;
-import org.lyr.tool.poi.excel.ExcelUtil;
-import org.lyr.tool.poi.excel.ExcelWriter;
+
+import com.ailyr.tool.core.collection.CollUtil;
+import com.ailyr.tool.core.date.DateUtil;
+import com.ailyr.tool.core.map.MapUtil;
+import com.ailyr.tool.core.util.ObjectUtil;
+import com.ailyr.tool.poi.excel.ExcelUtil;
+import com.ailyr.tool.poi.excel.ExcelWriter;
 
 /**
  * 写出Excel单元测试

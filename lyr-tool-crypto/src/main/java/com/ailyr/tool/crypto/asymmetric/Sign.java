@@ -1,4 +1,4 @@
-package org.lyr.tool.crypto.asymmetric;
+package com.ailyr.tool.crypto.asymmetric;
 
 import java.security.NoSuchAlgorithmException;
 import java.security.PrivateKey;
@@ -8,9 +8,9 @@ import java.security.cert.Certificate;
 import java.security.cert.X509Certificate;
 import java.util.Set;
 
-import org.lyr.tool.core.codec.Base64;
-import org.lyr.tool.core.collection.CollUtil;
-import org.lyr.tool.crypto.CryptoException;
+import com.ailyr.tool.core.codec.Base64;
+import com.ailyr.tool.core.collection.CollUtil;
+import com.ailyr.tool.crypto.CryptoException;
 
 /**
  * 签名包装，{@link Signature} 包装类

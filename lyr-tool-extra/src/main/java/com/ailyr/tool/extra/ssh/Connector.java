@@ -1,4 +1,4 @@
-package org.lyr.tool.extra.ssh;
+package com.ailyr.tool.extra.ssh;
 
 /**
  * 连接者对象，提供一些连接的基本信息

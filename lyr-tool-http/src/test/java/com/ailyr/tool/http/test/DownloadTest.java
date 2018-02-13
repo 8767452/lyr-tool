@@ -1,11 +1,12 @@
-package org.lyr.tool.http.test;
+package com.ailyr.tool.http.test;
 
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.StreamProgress;
-import org.lyr.tool.core.lang.Console;
-import org.lyr.tool.http.HttpUtil;
+
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.StreamProgress;
+import com.ailyr.tool.core.lang.Console;
+import com.ailyr.tool.http.HttpUtil;
 
 /**
  * 下载单元测试

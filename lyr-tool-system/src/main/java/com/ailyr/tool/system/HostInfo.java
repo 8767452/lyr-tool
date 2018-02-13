@@ -1,4 +1,4 @@
-package org.lyr.tool.system;
+package com.ailyr.tool.system;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

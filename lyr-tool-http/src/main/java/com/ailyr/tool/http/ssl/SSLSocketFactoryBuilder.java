@@ -1,4 +1,4 @@
-package org.lyr.tool.http.ssl;
+package com.ailyr.tool.http.ssl;
 
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
@@ -9,8 +9,8 @@ import javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLSocketFactory;
 import javax.net.ssl.TrustManager;
 
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * SSLSocketFactory构建器

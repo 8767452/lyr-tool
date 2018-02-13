@@ -1,11 +1,12 @@
-package org.lyr.tool.crypto.test;
+package com.ailyr.tool.crypto.test;
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.crypto.digest.DigestAlgorithm;
-import org.lyr.tool.crypto.digest.DigestUtil;
-import org.lyr.tool.crypto.digest.Digester;
+
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.crypto.digest.DigestAlgorithm;
+import com.ailyr.tool.crypto.digest.DigestUtil;
+import com.ailyr.tool.crypto.digest.Digester;
 
 /**
  * 摘要算法单元测试

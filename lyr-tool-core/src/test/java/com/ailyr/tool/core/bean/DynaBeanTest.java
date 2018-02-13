@@ -1,8 +1,9 @@
-package org.lyr.tool.core.bean;
+package com.ailyr.tool.core.bean;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.bean.DynaBean;
+
+import com.ailyr.tool.core.bean.DynaBean;
 
 /**
  * {@link DynaBean}单元测试

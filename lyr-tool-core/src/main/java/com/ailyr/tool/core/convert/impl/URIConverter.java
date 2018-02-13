@@ -1,10 +1,10 @@
-package org.lyr.tool.core.convert.impl;
+package com.ailyr.tool.core.convert.impl;
 
 import java.io.File;
 import java.net.URI;
 import java.net.URL;
 
-import org.lyr.tool.core.convert.AbstractConverter;
+import com.ailyr.tool.core.convert.AbstractConverter;
 
 /**
  * 字符串转换器

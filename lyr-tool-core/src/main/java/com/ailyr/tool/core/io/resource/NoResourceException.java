@@ -1,8 +1,8 @@
-package org.lyr.tool.core.io.resource;
+package com.ailyr.tool.core.io.resource;
 
-import org.lyr.tool.core.exceptions.ExceptionUtil;
-import org.lyr.tool.core.io.IORuntimeException;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.exceptions.ExceptionUtil;
+import com.ailyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 资源文件或资源不存在异常

@@ -1,4 +1,4 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;
@@ -15,10 +15,10 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 import java.util.zip.ZipOutputStream;
 
-import org.lyr.tool.core.exceptions.UtilException;
-import org.lyr.tool.core.io.FastByteArrayOutputStream;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.io.FastByteArrayOutputStream;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IoUtil;
 
 /**
  * 压缩工具类

@@ -1,6 +1,6 @@
-package org.lyr.tool.cron;
+package com.ailyr.tool.cron;
 
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 定时任务异常

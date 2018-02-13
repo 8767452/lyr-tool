@@ -1,4 +1,4 @@
-package org.lyr.tool.core.io;
+package com.ailyr.tool.core.io;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -29,12 +29,12 @@ import java.nio.channels.WritableByteChannel;
 import java.nio.charset.Charset;
 import java.util.Collection;
 
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.exceptions.UtilException;
-import org.lyr.tool.core.lang.Assert;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.HexUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.HexUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * IO工具类<br>

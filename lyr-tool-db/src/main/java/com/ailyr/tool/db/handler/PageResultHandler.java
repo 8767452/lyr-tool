@@ -1,10 +1,10 @@
-package org.lyr.tool.db.handler;
+package com.ailyr.tool.db.handler;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import org.lyr.tool.db.Entity;
-import org.lyr.tool.db.PageResult;
+import com.ailyr.tool.db.Entity;
+import com.ailyr.tool.db.PageResult;
 
 /**
  * 分页结果集处理类 ，处理出的结果为PageResult

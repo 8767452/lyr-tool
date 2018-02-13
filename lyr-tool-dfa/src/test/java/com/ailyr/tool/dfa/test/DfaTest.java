@@ -1,11 +1,12 @@
-package org.lyr.tool.dfa.test;
+package com.ailyr.tool.dfa.test;
 
 import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.dfa.WordTree;
+
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.dfa.WordTree;
 
 /**
  * DFA单元测试

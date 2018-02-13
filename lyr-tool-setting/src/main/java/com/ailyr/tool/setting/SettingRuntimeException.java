@@ -1,6 +1,6 @@
-package org.lyr.tool.setting;
+package com.ailyr.tool.setting;
 
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 设置异常

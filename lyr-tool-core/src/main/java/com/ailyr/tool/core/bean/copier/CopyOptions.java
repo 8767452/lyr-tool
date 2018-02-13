@@ -1,4 +1,4 @@
-package org.lyr.tool.core.bean.copier;
+package com.ailyr.tool.core.bean.copier;
 
 import java.util.Map;
 

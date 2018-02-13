@@ -1,4 +1,4 @@
-package org.lyr.tool.xpath.model;
+package com.ailyr.tool.xpath.model;
 /*
    Copyright 2014 Wang Haomiao<et.tw@163.com>
 
@@ -17,7 +17,8 @@ package org.lyr.tool.xpath.model;
 
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import org.lyr.tool.xpath.exception.XpathSyntaxErrorException;
+
+import com.ailyr.tool.xpath.exception.XpathSyntaxErrorException;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package org.lyr.tool.core.map;
+package com.ailyr.tool.core.map;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

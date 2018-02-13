@@ -1,11 +1,11 @@
-package org.lyr.tool.extra.mail;
+package com.ailyr.tool.extra.mail;
 
 import java.io.File;
 import java.util.Collection;
 import java.util.List;
 
-import org.lyr.tool.core.collection.CollUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.collection.CollUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 邮件工具类，基于javax.mail封装

@@ -1,4 +1,4 @@
-package org.lyr.tool.core.io.resource;
+package com.ailyr.tool.core.io.resource;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStream;
 import java.net.URL;
 import java.nio.charset.Charset;
 
-import org.lyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.io.IORuntimeException;
 
 /**
  * 资源接口定义<br>

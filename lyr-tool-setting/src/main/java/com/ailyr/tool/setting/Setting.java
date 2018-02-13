@@ -1,10 +1,10 @@
-package org.lyr.tool.setting;
+package com.ailyr.tool.setting;
 
 import java.io.File;
 import java.net.URL;
 import java.nio.charset.Charset;
 
-import org.lyr.tool.setting.dialect.BasicSetting;
+import com.ailyr.tool.setting.dialect.BasicSetting;
 
 /**
  * 设置工具类。 用于支持设置（配置）文件<br>

@@ -1,4 +1,4 @@
-package org.lyr.tool.db;
+package com.ailyr.tool.db;
 
 import java.sql.SQLException;
 import java.util.Arrays;
@@ -6,11 +6,11 @@ import java.util.List;
 
 import javax.sql.DataSource;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.db.ds.DSFactory;
-import org.lyr.tool.db.handler.EntityHandler;
-import org.lyr.tool.db.handler.EntityListHandler;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.db.ds.DSFactory;
+import com.ailyr.tool.db.handler.EntityHandler;
+import com.ailyr.tool.db.handler.EntityListHandler;
 
 /**
  * 数据访问层模板<br>

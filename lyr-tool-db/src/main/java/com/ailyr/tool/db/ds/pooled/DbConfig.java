@@ -1,7 +1,7 @@
-package org.lyr.tool.db.ds.pooled;
+package com.ailyr.tool.db.ds.pooled;
 
-import org.lyr.tool.db.DbRuntimeException;
-import org.lyr.tool.db.DbUtil;
+import com.ailyr.tool.db.DbRuntimeException;
+import com.ailyr.tool.db.DbUtil;
 
 /**
  * 数据库配置

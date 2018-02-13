@@ -1,4 +1,4 @@
-package org.lyr.tool.http.test;
+package com.ailyr.tool.http.test;
 
 import java.io.File;
 import java.util.HashMap;
@@ -7,15 +7,16 @@ import java.util.Map;
 
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.core.date.DateUtil;
-import org.lyr.tool.core.date.TimeInterval;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.lang.Console;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.http.HttpRequest;
-import org.lyr.tool.http.HttpResponse;
-import org.lyr.tool.http.HttpUtil;
-import org.lyr.tool.http.ssl.SSLSocketFactoryBuilder;
+
+import com.ailyr.tool.core.date.DateUtil;
+import com.ailyr.tool.core.date.TimeInterval;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.lang.Console;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.http.HttpRequest;
+import com.ailyr.tool.http.HttpResponse;
+import com.ailyr.tool.http.HttpUtil;
+import com.ailyr.tool.http.ssl.SSLSocketFactoryBuilder;
 
 /**
  * {@link HttpRequest}单元测试

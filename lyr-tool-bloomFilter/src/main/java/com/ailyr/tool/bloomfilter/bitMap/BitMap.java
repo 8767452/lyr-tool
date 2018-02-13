@@ -1,4 +1,4 @@
-package org.lyr.tool.bloomfilter.bitMap;
+package com.ailyr.tool.bloomfilter.bitMap;
 
 public interface BitMap {
 

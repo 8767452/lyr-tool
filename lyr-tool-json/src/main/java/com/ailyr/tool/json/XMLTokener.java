@@ -1,4 +1,4 @@
-package org.lyr.tool.json;
+package com.ailyr.tool.json;
 
 /**
  * XML分析器，继承自JSONTokener，提供XML的语法分析

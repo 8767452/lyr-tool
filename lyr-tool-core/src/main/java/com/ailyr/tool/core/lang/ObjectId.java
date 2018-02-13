@@ -1,4 +1,4 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import java.lang.management.ManagementFactory;
 import java.net.NetworkInterface;
@@ -6,10 +6,10 @@ import java.nio.ByteBuffer;
 import java.util.Enumeration;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import org.lyr.tool.core.date.DateUtil;
-import org.lyr.tool.core.util.ClassLoaderUtil;
-import org.lyr.tool.core.util.RandomUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.date.DateUtil;
+import com.ailyr.tool.core.util.ClassLoaderUtil;
+import com.ailyr.tool.core.util.RandomUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * MongoDB ID生成策略实现<br>

@@ -1,12 +1,12 @@
-package org.lyr.tool.captcha;
+package com.ailyr.tool.captcha;
 
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 
-import org.lyr.tool.core.util.ImageUtil;
-import org.lyr.tool.core.util.RandomUtil;
+import com.ailyr.tool.core.util.ImageUtil;
+import com.ailyr.tool.core.util.RandomUtil;
 
 /**
  * 扭曲干扰验证码

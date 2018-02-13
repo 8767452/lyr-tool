@@ -1,10 +1,10 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import org.lyr.tool.core.util.ClassUtil;
-import org.lyr.tool.core.util.ReflectUtil;
+import com.ailyr.tool.core.util.ClassUtil;
+import com.ailyr.tool.core.util.ReflectUtil;
 
 /**
  * 单例类<br>

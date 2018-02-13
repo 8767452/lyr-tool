@@ -1,12 +1,12 @@
-package org.lyr.tool.core.io.resource;
+package com.ailyr.tool.core.io.resource;
 
 import java.net.URL;
 
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.lang.Assert;
-import org.lyr.tool.core.util.ClassUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.core.util.URLUtil;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.util.ClassUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.URLUtil;
 
 /**
  * ClassPath单一资源访问类<br>

@@ -1,4 +1,4 @@
-package org.lyr.tool.core.date;
+package com.ailyr.tool.core.date;
 
 /**
  * 日期时间单位，每个单位都是以毫秒为基数

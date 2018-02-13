@@ -1,4 +1,4 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -9,10 +9,10 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 
-import org.lyr.tool.core.bean.BeanUtil;
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.getter.BasicTypeGetter;
+import com.ailyr.tool.core.bean.BeanUtil;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.getter.BasicTypeGetter;
 
 /**
  * 字典对象，扩充了HashMap中的方法

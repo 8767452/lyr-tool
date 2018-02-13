@@ -1,18 +1,18 @@
-package org.lyr.tool.log;
+package com.ailyr.tool.log;
 
 import java.net.URL;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import org.lyr.tool.core.io.resource.ResourceUtil;
-import org.lyr.tool.core.lang.Caller;
-import org.lyr.tool.log.dialect.commons.ApacheCommonsLogFactory;
-import org.lyr.tool.log.dialect.console.ConsoleLogFactory;
-import org.lyr.tool.log.dialect.jdk.JdkLogFactory;
-import org.lyr.tool.log.dialect.log4j.Log4jLogFactory;
-import org.lyr.tool.log.dialect.log4j2.Log4j2LogFactory;
-import org.lyr.tool.log.dialect.slf4j.Slf4jLogFactory;
-import org.lyr.tool.log.dialect.tinylog.TinyLogFactory;
+import com.ailyr.tool.core.io.resource.ResourceUtil;
+import com.ailyr.tool.core.lang.Caller;
+import com.ailyr.tool.log.dialect.commons.ApacheCommonsLogFactory;
+import com.ailyr.tool.log.dialect.console.ConsoleLogFactory;
+import com.ailyr.tool.log.dialect.jdk.JdkLogFactory;
+import com.ailyr.tool.log.dialect.log4j.Log4jLogFactory;
+import com.ailyr.tool.log.dialect.log4j2.Log4j2LogFactory;
+import com.ailyr.tool.log.dialect.slf4j.Slf4jLogFactory;
+import com.ailyr.tool.log.dialect.tinylog.TinyLogFactory;
 
 /**
  * 日志工厂类

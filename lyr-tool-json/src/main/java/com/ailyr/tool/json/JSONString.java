@@ -1,4 +1,4 @@
-package org.lyr.tool.json;
+package com.ailyr.tool.json;
 
 /**
  * <code>JSONString</code>接口定义了一个<code>toJSONString()</code><br>

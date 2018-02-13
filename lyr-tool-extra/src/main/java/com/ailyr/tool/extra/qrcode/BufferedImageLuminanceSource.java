@@ -1,4 +1,4 @@
-package org.lyr.tool.extra.qrcode;
+package com.ailyr.tool.extra.qrcode;
 
 import com.google.zxing.LuminanceSource;
 

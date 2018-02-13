@@ -1,8 +1,9 @@
-package org.lyr.tool.core.text;
+package com.ailyr.tool.core.text;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.text.UnicodeUtil;
+
+import com.ailyr.tool.core.text.UnicodeUtil;
 
 /**
  * UnicodeUtil 单元测试

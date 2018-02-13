@@ -1,4 +1,4 @@
-package org.lyr.tool.crypto.digest;
+package com.ailyr.tool.crypto.digest;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,12 +6,12 @@ import java.io.InputStream;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.HexUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.crypto.CryptoException;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.HexUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.crypto.CryptoException;
 
 /**
  * 摘要算法<br>

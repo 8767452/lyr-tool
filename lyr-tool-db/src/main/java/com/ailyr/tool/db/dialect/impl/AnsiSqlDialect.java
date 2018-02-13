@@ -1,25 +1,25 @@
-package org.lyr.tool.db.dialect.impl;
+package com.ailyr.tool.db.dialect.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.lang.Assert;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.db.DbRuntimeException;
-import org.lyr.tool.db.DbUtil;
-import org.lyr.tool.db.Entity;
-import org.lyr.tool.db.Page;
-import org.lyr.tool.db.dialect.Dialect;
-import org.lyr.tool.db.dialect.DialectName;
-import org.lyr.tool.db.sql.Condition;
-import org.lyr.tool.db.sql.LogicalOperator;
-import org.lyr.tool.db.sql.Query;
-import org.lyr.tool.db.sql.SqlBuilder;
-import org.lyr.tool.db.sql.Wrapper;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.db.DbRuntimeException;
+import com.ailyr.tool.db.DbUtil;
+import com.ailyr.tool.db.Entity;
+import com.ailyr.tool.db.Page;
+import com.ailyr.tool.db.dialect.Dialect;
+import com.ailyr.tool.db.dialect.DialectName;
+import com.ailyr.tool.db.sql.Condition;
+import com.ailyr.tool.db.sql.LogicalOperator;
+import com.ailyr.tool.db.sql.Query;
+import com.ailyr.tool.db.sql.SqlBuilder;
+import com.ailyr.tool.db.sql.Wrapper;
 
 /**
  * ANSI SQL 方言

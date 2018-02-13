@@ -1,4 +1,4 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
@@ -10,9 +10,9 @@ import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.ThreadLocalRandom;
 
-import org.lyr.tool.core.exceptions.UtilException;
-import org.lyr.tool.core.lang.WeightRandom;
-import org.lyr.tool.core.lang.WeightRandom.WeightObj;
+import com.ailyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.lang.WeightRandom;
+import com.ailyr.tool.core.lang.WeightRandom.WeightObj;
 
 /**
  * 随机工具类

@@ -1,4 +1,4 @@
-package org.lyr.tool.json;
+package com.ailyr.tool.json;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,13 +6,14 @@ import java.util.Map;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.date.DateUtil;
-import org.lyr.tool.core.map.MapUtil;
-import org.lyr.tool.json.JSONObject;
-import org.lyr.tool.json.JSONUtil;
-import org.lyr.tool.json.test.bean.Price;
-import org.lyr.tool.json.test.bean.UserA;
+
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.date.DateUtil;
+import com.ailyr.tool.core.map.MapUtil;
+import com.ailyr.tool.json.JSONObject;
+import com.ailyr.tool.json.JSONUtil;
+import com.ailyr.tool.json.test.bean.Price;
+import com.ailyr.tool.json.test.bean.UserA;
 
 public class JSONUtilTest {
 

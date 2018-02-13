@@ -1,9 +1,9 @@
-package org.lyr.tool.cache.file;
+package com.ailyr.tool.cache.file;
 
 import java.io.File;
 
-import org.lyr.tool.cache.Cache;
-import org.lyr.tool.cache.impl.LFUCache;
+import com.ailyr.tool.cache.Cache;
+import com.ailyr.tool.cache.impl.LFUCache;
 
 /**
  *  使用LFU缓存文件，以解决频繁读取文件引起的性能问题

@@ -1,4 +1,4 @@
-package org.lyr.tool.crypto.asymmetric;
+package com.ailyr.tool.crypto.asymmetric;
 
 import java.security.Key;
 import java.security.KeyPair;
@@ -7,9 +7,9 @@ import java.security.PublicKey;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-import org.lyr.tool.core.codec.Base64;
-import org.lyr.tool.crypto.CryptoException;
-import org.lyr.tool.crypto.SecureUtil;
+import com.ailyr.tool.core.codec.Base64;
+import com.ailyr.tool.crypto.CryptoException;
+import com.ailyr.tool.crypto.SecureUtil;
 
 /**
  * 非对称基础，提供锁、私钥和公钥的持有

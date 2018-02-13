@@ -1,9 +1,10 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.date.DateTime;
-import org.lyr.tool.core.lang.Dict;
+
+import com.ailyr.tool.core.date.DateTime;
+import com.ailyr.tool.core.lang.Dict;
 
 public class DictTest {
 	@Test

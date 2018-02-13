@@ -1,12 +1,12 @@
-package org.lyr.tool.bloomfilter;
+package com.ailyr.tool.bloomfilter;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.BitSet;
 
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.util.HashUtil;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.util.HashUtil;
 
 /**
  * BloomFilter实现方式2，此方式使用BitSet存储。<br>

@@ -1,4 +1,4 @@
-package org.lyr.tool.core.collection;
+package com.ailyr.tool.core.collection;
 
 import java.util.Enumeration;
 import java.util.HashMap;
@@ -6,8 +6,8 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.ReflectUtil;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.ReflectUtil;
 
 /**
  * {@link Iterable} 和 {@link Iterator} 相关工具类

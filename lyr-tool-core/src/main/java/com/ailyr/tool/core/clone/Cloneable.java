@@ -1,4 +1,4 @@
-package org.lyr.tool.core.clone;
+package com.ailyr.tool.core.clone;
 
 /**
  * 克隆支持接口

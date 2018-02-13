@@ -1,11 +1,11 @@
-package org.lyr.tool.log.dialect.jdk;
+package com.ailyr.tool.log.dialect.jdk;
 
 import java.util.logging.Level;
 import java.util.logging.LogRecord;
 import java.util.logging.Logger;
 
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.log.AbstractLocationAwareLog;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.log.AbstractLocationAwareLog;
 
 /**
  * <a href="http://java.sun.com/javase/6/docs/technotes/guides/logging/index.html">java.util.logging</a> log.
@@ -121,17 +121,17 @@ public class JdkLog extends AbstractLocationAwareLog {
 	
 	// ------------------------------------------------------------------------- Log
 	@Override
-	public void log(org.lyr.tool.log.level.Level level, String format, Object... arguments) {
+	public void log(com.ailyr.tool.log.level.Level level, String format, Object... arguments) {
 		this.log(level, null, format, arguments);
 	}
 	
 	@Override
-	public void log(org.lyr.tool.log.level.Level level, Throwable t, String format, Object... arguments) {
+	public void log(com.ailyr.tool.log.level.Level level, Throwable t, String format, Object... arguments) {
 		this.log(FQCN_SELF, level, t, format, arguments);
 	}
 	
 	@Override
-	public void log(String fqcn, org.lyr.tool.log.level.Level level, Throwable t, String format, Object... arguments) {
+	public void log(String fqcn, com.ailyr.tool.log.level.Level level, Throwable t, String format, Object... arguments) {
 		Level jdkLevel;
 		switch (level) {
 			case TRACE:

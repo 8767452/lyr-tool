@@ -1,6 +1,6 @@
-package org.lyr.tool.db.ds;
+package com.ailyr.tool.db.ds;
 
-import org.lyr.tool.log.StaticLog;
+import com.ailyr.tool.log.StaticLog;
 
 /**
  * 全局的数据源工厂<br>

@@ -1,7 +1,8 @@
-package org.lyr.tool.log.test;
+package com.ailyr.tool.log.test;
 
 import org.junit.Test;
-import org.lyr.tool.log.StaticLog;
+
+import com.ailyr.tool.log.StaticLog;
 
 public class StaticLogTest {
 	@Test

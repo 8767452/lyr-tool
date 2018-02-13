@@ -1,4 +1,4 @@
-package org.lyr.tool.captcha;
+package com.ailyr.tool.captcha;
 
 /**
  * 图形验证码工具

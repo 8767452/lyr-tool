@@ -1,7 +1,7 @@
-package org.lyr.tool.log.dialect.tinylog;
+package com.ailyr.tool.log.dialect.tinylog;
 
-import org.lyr.tool.log.Log;
-import org.lyr.tool.log.LogFactory;
+import com.ailyr.tool.log.Log;
+import com.ailyr.tool.log.LogFactory;
 
 /**
  * <a href="http://www.tinylog.org/">TinyLog</a> log.<br>

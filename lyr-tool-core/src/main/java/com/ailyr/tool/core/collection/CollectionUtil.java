@@ -1,4 +1,4 @@
-package org.lyr.tool.core.collection;
+package com.ailyr.tool.core.collection;
 
 /**
  * 集合相关工具类，包括数组，是{@link CollUtil} 的别名工具类类

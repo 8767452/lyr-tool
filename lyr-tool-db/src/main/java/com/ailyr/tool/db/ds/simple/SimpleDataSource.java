@@ -1,16 +1,16 @@
-package org.lyr.tool.db.ds.simple;
+package com.ailyr.tool.db.ds.simple;
 
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.db.DbRuntimeException;
-import org.lyr.tool.db.DbUtil;
-import org.lyr.tool.db.ds.DSFactory;
-import org.lyr.tool.setting.Setting;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.db.DbRuntimeException;
+import com.ailyr.tool.db.DbUtil;
+import com.ailyr.tool.db.ds.DSFactory;
+import com.ailyr.tool.setting.Setting;
 
 /***
  * 简易数据源，没有使用连接池，仅供测试或打开关闭连接非常少的场合使用！

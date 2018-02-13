@@ -1,4 +1,4 @@
-package org.lyr.tool.core.text.csv;
+package com.ailyr.tool.core.text.csv;
 
 import java.io.BufferedWriter;
 import java.io.Closeable;
@@ -9,14 +9,14 @@ import java.io.Writer;
 import java.nio.charset.Charset;
 import java.util.Collection;
 
-import org.lyr.tool.core.collection.CollUtil;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IORuntimeException;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.CharUtil;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.ObjectUtil;
+import com.ailyr.tool.core.collection.CollUtil;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.CharUtil;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.ObjectUtil;
 
 /**
  * CSV数据写出器

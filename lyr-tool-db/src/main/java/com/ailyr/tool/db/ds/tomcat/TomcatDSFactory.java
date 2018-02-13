@@ -1,4 +1,4 @@
-package org.lyr.tool.db.ds.tomcat;
+package com.ailyr.tool.db.ds.tomcat;
 
 import java.util.Collection;
 import java.util.Map;
@@ -6,13 +6,14 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import org.apache.tomcat.jdbc.pool.DataSource;
 import org.apache.tomcat.jdbc.pool.PoolProperties;
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.db.DbRuntimeException;
-import org.lyr.tool.db.DbUtil;
-import org.lyr.tool.db.ds.DSFactory;
-import org.lyr.tool.db.ds.simple.SimpleDataSource;
-import org.lyr.tool.setting.Setting;
+
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.db.DbRuntimeException;
+import com.ailyr.tool.db.DbUtil;
+import com.ailyr.tool.db.ds.DSFactory;
+import com.ailyr.tool.db.ds.simple.SimpleDataSource;
+import com.ailyr.tool.setting.Setting;
 
 /**
  * Tomcat-Jdbc-Pool数据源工厂类

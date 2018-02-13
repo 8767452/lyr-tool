@@ -1,10 +1,10 @@
-package org.lyr.tool.core.map;
+package com.ailyr.tool.core.map;
 
 import java.util.Collection;
 import java.util.Map;
 import java.util.Set;
 
-import org.lyr.tool.core.getter.OptNullBasicTypeFromObjectGetter;
+import com.ailyr.tool.core.getter.OptNullBasicTypeFromObjectGetter;
 
 /**
  * Map代理，提供各种getXXX方法，并提供默认值支持

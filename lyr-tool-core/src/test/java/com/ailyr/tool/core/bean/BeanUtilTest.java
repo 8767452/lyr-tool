@@ -1,4 +1,4 @@
-package org.lyr.tool.core.bean;
+package com.ailyr.tool.core.bean;
 
 import java.lang.reflect.Type;
 import java.util.HashMap;
@@ -6,10 +6,11 @@ import java.util.Map;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.bean.BeanUtil;
-import org.lyr.tool.core.bean.copier.CopyOptions;
-import org.lyr.tool.core.bean.copier.ValueProvider;
-import org.lyr.tool.core.collection.CollectionUtil;
+
+import com.ailyr.tool.core.bean.BeanUtil;
+import com.ailyr.tool.core.bean.copier.CopyOptions;
+import com.ailyr.tool.core.bean.copier.ValueProvider;
+import com.ailyr.tool.core.collection.CollectionUtil;
 
 /**
  * Bean工具单元测试

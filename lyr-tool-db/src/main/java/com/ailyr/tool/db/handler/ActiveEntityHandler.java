@@ -1,10 +1,10 @@
-package org.lyr.tool.db.handler;
+package com.ailyr.tool.db.handler;
 
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 
-import org.lyr.tool.db.ActiveEntity;
+import com.ailyr.tool.db.ActiveEntity;
 
 /**
  * ActiveEntity对象处理器，只处理第一条数据

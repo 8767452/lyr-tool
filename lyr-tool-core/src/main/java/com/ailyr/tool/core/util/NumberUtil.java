@@ -1,4 +1,4 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -10,8 +10,8 @@ import java.util.HashSet;
 import java.util.Random;
 import java.util.Set;
 
-import org.lyr.tool.core.exceptions.UtilException;
-import org.lyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.lang.Assert;
 
 /**
  * 数字工具类<br>

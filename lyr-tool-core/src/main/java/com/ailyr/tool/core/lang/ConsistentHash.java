@@ -1,10 +1,10 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import java.util.Collection;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
-import org.lyr.tool.core.util.HashUtil;
+import com.ailyr.tool.core.util.HashUtil;
 
 /**
  * 一致性Hash算法

@@ -1,11 +1,11 @@
-package org.lyr.tool.core.text;
+package com.ailyr.tool.core.text;
 
 import java.io.Serializable;
 import java.util.Arrays;
 
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 可复用的字符串生成器，非线程安全

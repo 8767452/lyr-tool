@@ -1,10 +1,10 @@
-package org.lyr.tool.core.thread;
+package com.ailyr.tool.core.thread;
 
 import java.lang.Thread.UncaughtExceptionHandler;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 线程创建工厂类，此工厂可选配置：

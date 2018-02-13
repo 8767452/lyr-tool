@@ -1,4 +1,4 @@
-package org.lyr.tool.http;
+package com.ailyr.tool.http;
 
 /**
  * 返回状态码

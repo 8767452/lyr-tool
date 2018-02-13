@@ -1,11 +1,12 @@
-package org.lyr.tool.log.dialect.log4j2;
+package com.ailyr.tool.log.dialect.log4j2;
 
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.spi.AbstractLogger;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.log.AbstractLocationAwareLog;
+
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.log.AbstractLocationAwareLog;
 
 /**
  * <a href="http://logging.apache.org/log4j/2.x/index.html">Apache Log4J 2</a> log.<br>
@@ -130,17 +131,17 @@ public class Log4j2Log extends AbstractLocationAwareLog {
 	
 	// ------------------------------------------------------------------------- Log
 	@Override
-	public void log(org.lyr.tool.log.level.Level level, String format, Object... arguments) {
+	public void log(com.ailyr.tool.log.level.Level level, String format, Object... arguments) {
 		this.log(level, null, format, arguments);
 	}
 	
 	@Override
-	public void log(org.lyr.tool.log.level.Level level, Throwable t, String format, Object... arguments) {
+	public void log(com.ailyr.tool.log.level.Level level, Throwable t, String format, Object... arguments) {
 		this.log(FQCN, level, t, format, arguments);
 	}
 	
 	@Override
-	public void log(String fqcn, org.lyr.tool.log.level.Level level, Throwable t, String format, Object... arguments) {
+	public void log(String fqcn, com.ailyr.tool.log.level.Level level, Throwable t, String format, Object... arguments) {
 		Level log4j2Level;
 		switch (level) {
 			case TRACE:

@@ -1,4 +1,4 @@
-package org.lyr.tool.db;
+package com.ailyr.tool.db;
 
 import java.nio.charset.Charset;
 import java.sql.Blob;
@@ -11,12 +11,12 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.lang.Dict;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.ReflectUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.lang.Dict;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.ReflectUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 数据实体对象<br>

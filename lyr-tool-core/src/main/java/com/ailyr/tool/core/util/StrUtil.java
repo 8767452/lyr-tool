@@ -1,4 +1,4 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.io.StringReader;
 import java.io.StringWriter;
@@ -11,12 +11,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.lyr.tool.core.comparator.VersionComparator;
-import org.lyr.tool.core.lang.Matcher;
-import org.lyr.tool.core.text.StrBuilder;
-import org.lyr.tool.core.text.StrFormatter;
-import org.lyr.tool.core.text.StrSpliter;
-import org.lyr.tool.core.text.TextSimilarity;
+import com.ailyr.tool.core.comparator.VersionComparator;
+import com.ailyr.tool.core.lang.Matcher;
+import com.ailyr.tool.core.text.StrBuilder;
+import com.ailyr.tool.core.text.StrFormatter;
+import com.ailyr.tool.core.text.StrSpliter;
+import com.ailyr.tool.core.text.TextSimilarity;
 
 import java.util.Set;
 

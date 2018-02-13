@@ -1,11 +1,11 @@
-package org.lyr.tool.aop;
+package com.ailyr.tool.aop;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import org.lyr.tool.core.exceptions.UtilException;
-import org.lyr.tool.core.util.ReflectUtil;
+import com.ailyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.util.ReflectUtil;
 
 /**
  * 切面抽象

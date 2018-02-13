@@ -1,12 +1,13 @@
-package org.lyr.tool.core.collection;
+package com.ailyr.tool.core.collection;
 
 import java.util.ArrayList;
 import java.util.Map;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.collection.CollUtil;
-import org.lyr.tool.core.collection.IterUtil;
+
+import com.ailyr.tool.core.collection.CollUtil;
+import com.ailyr.tool.core.collection.IterUtil;
 
 /**
  * {@link IterUtil} 单元测试

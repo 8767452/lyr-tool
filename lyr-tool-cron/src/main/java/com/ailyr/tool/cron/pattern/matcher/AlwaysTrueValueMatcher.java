@@ -1,6 +1,6 @@
-package org.lyr.tool.cron.pattern.matcher;
+package com.ailyr.tool.cron.pattern.matcher;
 
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 值匹配，始终返回<code>true</code>

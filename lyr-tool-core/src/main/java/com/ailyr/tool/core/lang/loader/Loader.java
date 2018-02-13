@@ -1,4 +1,4 @@
-package org.lyr.tool.core.lang.loader;
+package com.ailyr.tool.core.lang.loader;
 
 /**
  * 对象加载抽象接口<br>

@@ -1,16 +1,16 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import java.net.MalformedURLException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.date.DateUtil;
-import org.lyr.tool.core.exceptions.ValidateException;
-import org.lyr.tool.core.util.NumberUtil;
-import org.lyr.tool.core.util.ObjectUtil;
-import org.lyr.tool.core.util.ReUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.date.DateUtil;
+import com.ailyr.tool.core.exceptions.ValidateException;
+import com.ailyr.tool.core.util.NumberUtil;
+import com.ailyr.tool.core.util.ObjectUtil;
+import com.ailyr.tool.core.util.ReUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 字段验证器
@@ -324,7 +324,7 @@ public final class Validator {
 	 * @since 3.3.0
 	 */
 	public static boolean isLetter(String value) {
-		return StrUtil.isAllCharMatch(value, new org.lyr.tool.core.lang.Matcher<Character>() {
+		return StrUtil.isAllCharMatch(value, new com.ailyr.tool.core.lang.Matcher<Character>() {
 			@Override
 			public boolean match(Character t) {
 				return Character.isLetter(t);
@@ -354,7 +354,7 @@ public final class Validator {
 	 * @since 3.3.0
 	 */
 	public static boolean isUpperCase(String value) {
-		return StrUtil.isAllCharMatch(value, new org.lyr.tool.core.lang.Matcher<Character>() {
+		return StrUtil.isAllCharMatch(value, new com.ailyr.tool.core.lang.Matcher<Character>() {
 			@Override
 			public boolean match(Character t) {
 				return Character.isUpperCase(t);
@@ -384,7 +384,7 @@ public final class Validator {
 	 * @since 3.3.0
 	 */
 	public static boolean isLowerCase(String value) {
-		return StrUtil.isAllCharMatch(value, new org.lyr.tool.core.lang.Matcher<Character>() {
+		return StrUtil.isAllCharMatch(value, new com.ailyr.tool.core.lang.Matcher<Character>() {
 			@Override
 			public boolean match(Character t) {
 				return Character.isLowerCase(t);

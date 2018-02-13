@@ -1,4 +1,4 @@
-package org.lyr.tool.db;
+package com.ailyr.tool.db;
 
 import java.io.Closeable;
 import java.sql.Connection;
@@ -7,13 +7,13 @@ import java.sql.Savepoint;
 
 import javax.sql.DataSource;
 
-import org.lyr.tool.core.lang.VoidFunc;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.db.dialect.DialectFactory;
-import org.lyr.tool.db.ds.DSFactory;
-import org.lyr.tool.db.sql.Wrapper;
-import org.lyr.tool.log.Log;
-import org.lyr.tool.log.LogFactory;
+import com.ailyr.tool.core.lang.VoidFunc;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.db.dialect.DialectFactory;
+import com.ailyr.tool.db.ds.DSFactory;
+import com.ailyr.tool.db.sql.Wrapper;
+import com.ailyr.tool.log.Log;
+import com.ailyr.tool.log.LogFactory;
 
 /**
  * 数据库SQL执行会话<br>

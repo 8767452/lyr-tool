@@ -1,4 +1,4 @@
-package org.lyr.tool.core.clone;
+package com.ailyr.tool.core.clone;
 
 /**
  * 克隆支持类，提供默认的克隆方法

@@ -1,9 +1,9 @@
-package org.lyr.tool.extra.ssh;
+package com.ailyr.tool.extra.ssh;
 
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.extra.ssh.JschUtil;
 
+import com.ailyr.tool.extra.ssh.JschUtil;
 import com.jcraft.jsch.Session;
 
 /**

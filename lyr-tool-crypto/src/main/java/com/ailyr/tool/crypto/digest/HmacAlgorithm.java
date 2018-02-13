@@ -1,4 +1,4 @@
-package org.lyr.tool.crypto.digest;
+package com.ailyr.tool.crypto.digest;
 
 /**
  * HMAC算法类型<br>

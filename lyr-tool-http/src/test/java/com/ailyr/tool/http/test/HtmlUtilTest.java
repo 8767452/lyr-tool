@@ -1,8 +1,9 @@
-package org.lyr.tool.http.test;
+package com.ailyr.tool.http.test;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.http.HtmlUtil;
+
+import com.ailyr.tool.http.HtmlUtil;
 
 /**
  * Html单元测试

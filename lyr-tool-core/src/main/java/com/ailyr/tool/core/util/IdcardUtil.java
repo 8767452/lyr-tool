@@ -1,13 +1,13 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.lyr.tool.core.date.DatePattern;
-import org.lyr.tool.core.date.DateTime;
-import org.lyr.tool.core.date.DateUtil;
-import org.lyr.tool.core.lang.Validator;
+import com.ailyr.tool.core.date.DatePattern;
+import com.ailyr.tool.core.date.DateTime;
+import com.ailyr.tool.core.date.DateUtil;
+import com.ailyr.tool.core.lang.Validator;
 
 /**
  * 身份证相关工具类<br>

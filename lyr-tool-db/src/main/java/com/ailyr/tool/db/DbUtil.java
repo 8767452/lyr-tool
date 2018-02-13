@@ -1,4 +1,4 @@
-package org.lyr.tool.db;
+package com.ailyr.tool.db;
 
 import java.io.Closeable;
 import java.io.InputStream;
@@ -27,24 +27,24 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
 
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.lang.Assert;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.db.dialect.Dialect;
-import org.lyr.tool.db.dialect.DialectFactory;
-import org.lyr.tool.db.ds.DSFactory;
-import org.lyr.tool.db.meta.Column;
-import org.lyr.tool.db.meta.Table;
-import org.lyr.tool.db.meta.TableType;
-import org.lyr.tool.db.sql.Condition;
-import org.lyr.tool.db.sql.SqlBuilder;
-import org.lyr.tool.db.sql.SqlFormatter;
-import org.lyr.tool.db.sql.Condition.LikeType;
-import org.lyr.tool.log.Log;
-import org.lyr.tool.log.LogFactory;
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.db.dialect.Dialect;
+import com.ailyr.tool.db.dialect.DialectFactory;
+import com.ailyr.tool.db.ds.DSFactory;
+import com.ailyr.tool.db.meta.Column;
+import com.ailyr.tool.db.meta.Table;
+import com.ailyr.tool.db.meta.TableType;
+import com.ailyr.tool.db.sql.Condition;
+import com.ailyr.tool.db.sql.SqlBuilder;
+import com.ailyr.tool.db.sql.SqlFormatter;
+import com.ailyr.tool.db.sql.Condition.LikeType;
+import com.ailyr.tool.log.Log;
+import com.ailyr.tool.log.LogFactory;
 
 /**
  * 数据库操作工具类

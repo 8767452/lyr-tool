@@ -1,13 +1,14 @@
-package org.lyr.tool.log.dialect.slf4j;
+package com.ailyr.tool.log.dialect.slf4j;
 
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.io.UnsupportedEncodingException;
 
-import org.lyr.tool.log.Log;
-import org.lyr.tool.log.LogFactory;
 import org.slf4j.LoggerFactory;
 import org.slf4j.helpers.NOPLoggerFactory;
+
+import com.ailyr.tool.log.Log;
+import com.ailyr.tool.log.LogFactory;
 
 /**
  * <a href="http://www.slf4j.org/">SLF4J</a> log.<br>

@@ -1,4 +1,4 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -8,11 +8,11 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.lang.Holder;
-import org.lyr.tool.core.lang.PatternPool;
-import org.lyr.tool.core.lang.Validator;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.lang.Holder;
+import com.ailyr.tool.core.lang.PatternPool;
+import com.ailyr.tool.core.lang.Validator;
 
 /**
  * 正则相关工具类<br>

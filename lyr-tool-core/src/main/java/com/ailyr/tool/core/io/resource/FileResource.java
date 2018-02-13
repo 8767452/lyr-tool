@@ -1,9 +1,9 @@
-package org.lyr.tool.core.io.resource;
+package com.ailyr.tool.core.io.resource;
 
 import java.io.File;
 
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.util.URLUtil;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.util.URLUtil;
 
 /**
  * 文件资源访问对象

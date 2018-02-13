@@ -1,6 +1,6 @@
-package org.lyr.tool.cron.demo;
+package com.ailyr.tool.cron.demo;
 
-import org.lyr.tool.cron.CronUtil;
+import com.ailyr.tool.cron.CronUtil;
 
 /**
  * 定时任务样例

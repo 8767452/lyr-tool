@@ -1,4 +1,4 @@
-package org.lyr.tool.core.convert;
+package com.ailyr.tool.core.convert;
 
 import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
@@ -20,33 +20,33 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.atomic.AtomicReference;
 
-import org.lyr.tool.core.bean.BeanUtil;
-import org.lyr.tool.core.convert.impl.ArrayConverter;
-import org.lyr.tool.core.convert.impl.AtomicBooleanConverter;
-import org.lyr.tool.core.convert.impl.AtomicReferenceConverter;
-import org.lyr.tool.core.convert.impl.BeanConverter;
-import org.lyr.tool.core.convert.impl.BooleanConverter;
-import org.lyr.tool.core.convert.impl.CalendarConverter;
-import org.lyr.tool.core.convert.impl.CharacterConverter;
-import org.lyr.tool.core.convert.impl.CharsetConverter;
-import org.lyr.tool.core.convert.impl.ClassConverter;
-import org.lyr.tool.core.convert.impl.CollectionConverter;
-import org.lyr.tool.core.convert.impl.CurrencyConverter;
-import org.lyr.tool.core.convert.impl.DateConverter;
-import org.lyr.tool.core.convert.impl.EnumConverter;
-import org.lyr.tool.core.convert.impl.MapConverter;
-import org.lyr.tool.core.convert.impl.NumberConverter;
-import org.lyr.tool.core.convert.impl.PathConverter;
-import org.lyr.tool.core.convert.impl.PrimitiveConverter;
-import org.lyr.tool.core.convert.impl.ReferenceConverter;
-import org.lyr.tool.core.convert.impl.StringConverter;
-import org.lyr.tool.core.convert.impl.TimeZoneConverter;
-import org.lyr.tool.core.convert.impl.URIConverter;
-import org.lyr.tool.core.convert.impl.URLConverter;
-import org.lyr.tool.core.date.DateTime;
-import org.lyr.tool.core.util.ObjectUtil;
-import org.lyr.tool.core.util.ReflectUtil;
-import org.lyr.tool.core.util.TypeUtil;
+import com.ailyr.tool.core.bean.BeanUtil;
+import com.ailyr.tool.core.convert.impl.ArrayConverter;
+import com.ailyr.tool.core.convert.impl.AtomicBooleanConverter;
+import com.ailyr.tool.core.convert.impl.AtomicReferenceConverter;
+import com.ailyr.tool.core.convert.impl.BeanConverter;
+import com.ailyr.tool.core.convert.impl.BooleanConverter;
+import com.ailyr.tool.core.convert.impl.CalendarConverter;
+import com.ailyr.tool.core.convert.impl.CharacterConverter;
+import com.ailyr.tool.core.convert.impl.CharsetConverter;
+import com.ailyr.tool.core.convert.impl.ClassConverter;
+import com.ailyr.tool.core.convert.impl.CollectionConverter;
+import com.ailyr.tool.core.convert.impl.CurrencyConverter;
+import com.ailyr.tool.core.convert.impl.DateConverter;
+import com.ailyr.tool.core.convert.impl.EnumConverter;
+import com.ailyr.tool.core.convert.impl.MapConverter;
+import com.ailyr.tool.core.convert.impl.NumberConverter;
+import com.ailyr.tool.core.convert.impl.PathConverter;
+import com.ailyr.tool.core.convert.impl.PrimitiveConverter;
+import com.ailyr.tool.core.convert.impl.ReferenceConverter;
+import com.ailyr.tool.core.convert.impl.StringConverter;
+import com.ailyr.tool.core.convert.impl.TimeZoneConverter;
+import com.ailyr.tool.core.convert.impl.URIConverter;
+import com.ailyr.tool.core.convert.impl.URLConverter;
+import com.ailyr.tool.core.date.DateTime;
+import com.ailyr.tool.core.util.ObjectUtil;
+import com.ailyr.tool.core.util.ReflectUtil;
+import com.ailyr.tool.core.util.TypeUtil;
 
 /**
  * 转换器登记中心

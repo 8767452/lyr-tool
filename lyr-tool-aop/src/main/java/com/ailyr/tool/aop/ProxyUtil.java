@@ -1,11 +1,11 @@
-package org.lyr.tool.aop;
+package com.ailyr.tool.aop;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
-import org.lyr.tool.core.util.ClassUtil;
-import org.lyr.tool.core.util.ReflectUtil;
+import com.ailyr.tool.core.util.ClassUtil;
+import com.ailyr.tool.core.util.ReflectUtil;
 
 /**
  * 代理工具类

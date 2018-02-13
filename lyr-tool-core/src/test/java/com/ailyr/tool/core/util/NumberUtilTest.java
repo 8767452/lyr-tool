@@ -1,10 +1,11 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.math.BigDecimal;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.util.NumberUtil;
+
+import com.ailyr.tool.core.util.NumberUtil;
 
 /**
  * {@link NumberUtil} 单元测试类

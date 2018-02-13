@@ -1,4 +1,4 @@
-package org.lyr.tool.json;
+package com.ailyr.tool.json;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,12 +7,13 @@ import java.util.Map;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.io.resource.ResourceUtil;
-import org.lyr.tool.json.JSONObject;
-import org.lyr.tool.json.JSONUtil;
-import org.lyr.tool.json.test.bean.ExamInfoDict;
-import org.lyr.tool.json.test.bean.PerfectEvaluationProductResVo;
-import org.lyr.tool.json.test.bean.UserInfoDict;
+
+import com.ailyr.tool.core.io.resource.ResourceUtil;
+import com.ailyr.tool.json.JSONObject;
+import com.ailyr.tool.json.JSONUtil;
+import com.ailyr.tool.json.test.bean.ExamInfoDict;
+import com.ailyr.tool.json.test.bean.PerfectEvaluationProductResVo;
+import com.ailyr.tool.json.test.bean.UserInfoDict;
 
 /**
  * JSON转换单元测试

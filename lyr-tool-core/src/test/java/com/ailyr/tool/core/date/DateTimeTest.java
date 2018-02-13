@@ -1,13 +1,14 @@
-package org.lyr.tool.core.date;
+package com.ailyr.tool.core.date;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.date.DateField;
-import org.lyr.tool.core.date.DatePattern;
-import org.lyr.tool.core.date.DateTime;
-import org.lyr.tool.core.date.DateUtil;
-import org.lyr.tool.core.date.Month;
-import org.lyr.tool.core.date.Season;
+
+import com.ailyr.tool.core.date.DateField;
+import com.ailyr.tool.core.date.DatePattern;
+import com.ailyr.tool.core.date.DateTime;
+import com.ailyr.tool.core.date.DateUtil;
+import com.ailyr.tool.core.date.Month;
+import com.ailyr.tool.core.date.Season;
 
 /**
  * DateTime单元测试

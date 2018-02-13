@@ -1,8 +1,9 @@
-package org.lyr.tool.json;
+package com.ailyr.tool.json;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.json.JSONStrFormater;
+
+import com.ailyr.tool.json.JSONStrFormater;
 
 /**
  * JSON字符串格式化单元测试

@@ -1,4 +1,4 @@
-package org.lyr.tool.core.bean;
+package com.ailyr.tool.core.bean;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,9 +7,10 @@ import java.util.Map;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.bean.BeanResolver;
-import org.lyr.tool.core.lang.test.bean.ExamInfoDict;
-import org.lyr.tool.core.lang.test.bean.UserInfoDict;
+
+import com.ailyr.tool.core.bean.BeanResolver;
+import com.ailyr.tool.core.lang.test.bean.ExamInfoDict;
+import com.ailyr.tool.core.lang.test.bean.UserInfoDict;
 
 /**
  * {@link BeanResolver} 单元测试

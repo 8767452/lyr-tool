@@ -1,4 +1,4 @@
-package org.lyr.tool.db.test;
+package com.ailyr.tool.db.test;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -7,16 +7,17 @@ import javax.sql.DataSource;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.collection.CollUtil;
-import org.lyr.tool.db.Entity;
-import org.lyr.tool.db.SqlRunner;
-import org.lyr.tool.db.ds.DSFactory;
-import org.lyr.tool.db.ds.c3p0.C3p0DSFactory;
-import org.lyr.tool.db.ds.dbcp.DbcpDSFactory;
-import org.lyr.tool.db.ds.druid.DruidDSFactory;
-import org.lyr.tool.db.ds.hikari.HikariDSFactory;
-import org.lyr.tool.db.ds.pooled.PooledDSFactory;
-import org.lyr.tool.db.ds.tomcat.TomcatDSFactory;
+
+import com.ailyr.tool.core.collection.CollUtil;
+import com.ailyr.tool.db.Entity;
+import com.ailyr.tool.db.SqlRunner;
+import com.ailyr.tool.db.ds.DSFactory;
+import com.ailyr.tool.db.ds.c3p0.C3p0DSFactory;
+import com.ailyr.tool.db.ds.dbcp.DbcpDSFactory;
+import com.ailyr.tool.db.ds.druid.DruidDSFactory;
+import com.ailyr.tool.db.ds.hikari.HikariDSFactory;
+import com.ailyr.tool.db.ds.pooled.PooledDSFactory;
+import com.ailyr.tool.db.ds.tomcat.TomcatDSFactory;
 
 /**
  * 数据源单元测试

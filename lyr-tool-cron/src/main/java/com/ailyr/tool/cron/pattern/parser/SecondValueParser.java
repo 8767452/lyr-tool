@@ -1,4 +1,4 @@
-package org.lyr.tool.cron.pattern.parser;
+package com.ailyr.tool.cron.pattern.parser;
 
 /**
  * 秒值处理

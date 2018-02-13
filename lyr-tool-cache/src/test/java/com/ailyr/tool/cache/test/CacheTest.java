@@ -1,12 +1,13 @@
-package org.lyr.tool.cache.test;
+package com.ailyr.tool.cache.test;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.cache.Cache;
-import org.lyr.tool.cache.CacheUtil;
-import org.lyr.tool.cache.impl.TimedCache;
-import org.lyr.tool.core.date.DateUnit;
-import org.lyr.tool.core.thread.ThreadUtil;
+
+import com.ailyr.tool.cache.Cache;
+import com.ailyr.tool.cache.CacheUtil;
+import com.ailyr.tool.cache.impl.TimedCache;
+import com.ailyr.tool.core.date.DateUnit;
+import com.ailyr.tool.core.thread.ThreadUtil;
 
 /**
  * 缓存测试用例

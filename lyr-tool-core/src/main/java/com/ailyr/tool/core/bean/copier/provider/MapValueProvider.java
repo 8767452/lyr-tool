@@ -1,10 +1,10 @@
-package org.lyr.tool.core.bean.copier.provider;
+package com.ailyr.tool.core.bean.copier.provider;
 
 import java.lang.reflect.Type;
 import java.util.Map;
 
-import org.lyr.tool.core.bean.copier.ValueProvider;
-import org.lyr.tool.core.map.CaseInsensitiveMap;
+import com.ailyr.tool.core.bean.copier.ValueProvider;
+import com.ailyr.tool.core.map.CaseInsensitiveMap;
 
 /**
  * Map值提供者

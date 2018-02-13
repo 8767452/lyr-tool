@@ -1,4 +1,4 @@
-package org.lyr.tool.bloomfilter.bitMap;
+package com.ailyr.tool.bloomfilter.bitMap;
 
 /**
  * 过滤器BitMap在64位机器上.这个类能发生更好的效果.一般机器不建议使用

@@ -1,4 +1,4 @@
-package org.lyr.tool.script;
+package com.ailyr.tool.script;
 
 import java.io.Reader;
 

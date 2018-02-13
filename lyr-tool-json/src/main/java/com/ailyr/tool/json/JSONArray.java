@@ -1,4 +1,4 @@
-package org.lyr.tool.json;
+package com.ailyr.tool.json;
 
 import java.io.IOException;
 import java.io.StringWriter;
@@ -9,9 +9,9 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
-import org.lyr.tool.core.bean.BeanResolver;
-import org.lyr.tool.core.collection.ArrayIterator;
-import org.lyr.tool.core.convert.impl.CollectionConverter;
+import com.ailyr.tool.core.bean.BeanResolver;
+import com.ailyr.tool.core.collection.ArrayIterator;
+import com.ailyr.tool.core.convert.impl.CollectionConverter;
 
 /**
  * JSON数组<br>

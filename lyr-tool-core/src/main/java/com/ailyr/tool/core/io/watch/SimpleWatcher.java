@@ -1,6 +1,6 @@
-package org.lyr.tool.core.io.watch;
+package com.ailyr.tool.core.io.watch;
 
-import org.lyr.tool.core.io.watch.watchers.IgnoreWatcher;
+import com.ailyr.tool.core.io.watch.watchers.IgnoreWatcher;
 
 /**
  * 空白WatchListener<br>

@@ -1,5 +1,5 @@
-package org.lyr.tool.xpath.model;
-import org.lyr.tool.xpath.util.ScopeEm;
+package com.ailyr.tool.xpath.model;
+import com.ailyr.tool.xpath.util.ScopeEm;
 
 /**
  * xpath语法链的一个基本节点

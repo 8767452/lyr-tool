@@ -1,8 +1,8 @@
-package org.lyr.tool.db;
+package com.ailyr.tool.db;
 
 import java.util.ArrayList;
 
-import org.lyr.tool.core.util.PageUtil;
+import com.ailyr.tool.core.util.PageUtil;
 
 /**
  * 分页数据结果集

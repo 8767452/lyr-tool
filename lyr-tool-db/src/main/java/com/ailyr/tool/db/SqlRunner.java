@@ -1,14 +1,14 @@
-package org.lyr.tool.db;
+package com.ailyr.tool.db;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 
 import javax.sql.DataSource;
 
-import org.lyr.tool.db.dialect.Dialect;
-import org.lyr.tool.db.dialect.DialectFactory;
-import org.lyr.tool.db.ds.DSFactory;
-import org.lyr.tool.db.sql.Wrapper;
+import com.ailyr.tool.db.dialect.Dialect;
+import com.ailyr.tool.db.dialect.DialectFactory;
+import com.ailyr.tool.db.ds.DSFactory;
+import com.ailyr.tool.db.sql.Wrapper;
 
 /**
  * SQL执行类<br>

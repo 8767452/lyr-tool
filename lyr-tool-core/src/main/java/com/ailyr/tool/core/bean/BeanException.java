@@ -1,7 +1,7 @@
-package org.lyr.tool.core.bean;
+package com.ailyr.tool.core.bean;
 
-import org.lyr.tool.core.exceptions.ExceptionUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.exceptions.ExceptionUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * Bean异常

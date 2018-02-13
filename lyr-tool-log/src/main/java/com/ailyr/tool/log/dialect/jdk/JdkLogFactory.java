@@ -1,13 +1,13 @@
-package org.lyr.tool.log.dialect.jdk;
+package com.ailyr.tool.log.dialect.jdk;
 
 import java.io.InputStream;
 import java.util.logging.LogManager;
 
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.io.resource.ResourceUtil;
-import org.lyr.tool.core.lang.Console;
-import org.lyr.tool.log.Log;
-import org.lyr.tool.log.LogFactory;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.io.resource.ResourceUtil;
+import com.ailyr.tool.core.lang.Console;
+import com.ailyr.tool.log.Log;
+import com.ailyr.tool.log.LogFactory;
 
 /**
  * JDK日志工厂类

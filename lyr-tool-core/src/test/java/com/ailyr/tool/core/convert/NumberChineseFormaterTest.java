@@ -1,9 +1,10 @@
-package org.lyr.tool.core.convert;
+package com.ailyr.tool.core.convert;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.convert.NumberChineseFormater;
+
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.convert.NumberChineseFormater;
 
 public class NumberChineseFormaterTest {
 	

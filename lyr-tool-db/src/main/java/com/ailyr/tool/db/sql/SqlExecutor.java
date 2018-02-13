@@ -1,4 +1,4 @@
-package org.lyr.tool.db.sql;
+package com.ailyr.tool.db.sql;
 
 import java.sql.CallableStatement;
 import java.sql.Connection;
@@ -7,8 +7,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import org.lyr.tool.db.DbUtil;
-import org.lyr.tool.db.handler.RsHandler;
+import com.ailyr.tool.db.DbUtil;
+import com.ailyr.tool.db.handler.RsHandler;
 
 /**
  * SQL执行器，全部为静态方法，执行查询或非查询的SQL语句<br>

@@ -1,6 +1,6 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
-import org.lyr.tool.core.text.ASCIIStrCache;
+import com.ailyr.tool.core.text.ASCIIStrCache;
 
 /**
  * 字符工具类<br>

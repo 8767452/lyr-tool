@@ -1,4 +1,4 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.beans.XMLDecoder;
 import java.beans.XMLEncoder;
@@ -24,15 +24,16 @@ import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
-import org.lyr.tool.core.exceptions.UtilException;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.lang.Assert;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
+
+import com.ailyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.lang.Assert;
 
 /**
  * XML工具类<br>

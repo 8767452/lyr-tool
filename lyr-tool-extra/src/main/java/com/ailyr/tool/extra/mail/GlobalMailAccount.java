@@ -1,6 +1,6 @@
-package org.lyr.tool.extra.mail;
+package com.ailyr.tool.extra.mail;
 
-import org.lyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.io.IORuntimeException;
 
 /**
  * 全局邮件帐户，依赖于邮件配置文件{@link MailAccount#MAIL_SETTING_PATH}或{@link MailAccount#MAIL_SETTING_PATH2}

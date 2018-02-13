@@ -1,22 +1,22 @@
-package org.lyr.tool.db;
+package com.ailyr.tool.db;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.Collection;
 import java.util.List;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.db.handler.BeanListHandler;
-import org.lyr.tool.db.handler.EntityHandler;
-import org.lyr.tool.db.handler.EntityListHandler;
-import org.lyr.tool.db.handler.NumberHandler;
-import org.lyr.tool.db.handler.RsHandler;
-import org.lyr.tool.db.handler.StringHandler;
-import org.lyr.tool.db.sql.Condition;
-import org.lyr.tool.db.sql.Query;
-import org.lyr.tool.db.sql.SqlExecutor;
-import org.lyr.tool.db.sql.Wrapper;
-import org.lyr.tool.db.sql.Condition.LikeType;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.db.handler.BeanListHandler;
+import com.ailyr.tool.db.handler.EntityHandler;
+import com.ailyr.tool.db.handler.EntityListHandler;
+import com.ailyr.tool.db.handler.NumberHandler;
+import com.ailyr.tool.db.handler.RsHandler;
+import com.ailyr.tool.db.handler.StringHandler;
+import com.ailyr.tool.db.sql.Condition;
+import com.ailyr.tool.db.sql.Query;
+import com.ailyr.tool.db.sql.SqlExecutor;
+import com.ailyr.tool.db.sql.Wrapper;
+import com.ailyr.tool.db.sql.Condition.LikeType;
 
 /**
  * 抽象SQL执行类<br>

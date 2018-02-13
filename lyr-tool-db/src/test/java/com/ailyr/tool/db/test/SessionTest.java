@@ -1,12 +1,13 @@
-package org.lyr.tool.db.test;
+package com.ailyr.tool.db.test;
 
 import java.sql.SQLException;
 
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.core.lang.VoidFunc;
-import org.lyr.tool.db.Entity;
-import org.lyr.tool.db.Session;
+
+import com.ailyr.tool.core.lang.VoidFunc;
+import com.ailyr.tool.db.Entity;
+import com.ailyr.tool.db.Session;
 
 /**
  * 事务性数据库操作单元测试

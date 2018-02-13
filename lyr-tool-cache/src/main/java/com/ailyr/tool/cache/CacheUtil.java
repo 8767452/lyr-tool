@@ -1,11 +1,11 @@
-package org.lyr.tool.cache;
+package com.ailyr.tool.cache;
 
-import org.lyr.tool.cache.impl.FIFOCache;
-import org.lyr.tool.cache.impl.LFUCache;
-import org.lyr.tool.cache.impl.LRUCache;
-import org.lyr.tool.cache.impl.NoCache;
-import org.lyr.tool.cache.impl.TimedCache;
-import org.lyr.tool.cache.impl.WeakCache;
+import com.ailyr.tool.cache.impl.FIFOCache;
+import com.ailyr.tool.cache.impl.LFUCache;
+import com.ailyr.tool.cache.impl.LRUCache;
+import com.ailyr.tool.cache.impl.NoCache;
+import com.ailyr.tool.cache.impl.TimedCache;
+import com.ailyr.tool.cache.impl.WeakCache;
 
 /**
  * 缓存工具类

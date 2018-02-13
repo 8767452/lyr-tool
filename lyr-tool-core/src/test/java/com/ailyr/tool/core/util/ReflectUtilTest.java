@@ -1,14 +1,15 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.lang.test.bean.ExamInfoDict;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.ReflectUtil;
-import org.lyr.tool.core.util.ClassUtilTest.TestSubClass;
+
+import com.ailyr.tool.core.lang.test.bean.ExamInfoDict;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.ReflectUtil;
+import com.ailyr.tool.core.util.ClassUtilTest.TestSubClass;
 
 /**
  * 反射工具类单元测试

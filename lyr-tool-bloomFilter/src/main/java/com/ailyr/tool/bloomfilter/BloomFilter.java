@@ -1,4 +1,4 @@
-package org.lyr.tool.bloomfilter;
+package com.ailyr.tool.bloomfilter;
 
 /**
  * Bloom filter 是由 Howard Bloom 在 1970 年提出的二进制向量数据结构，它具有很好的空间和时间效率，被用来检测一个元素是不是集合中的一个成员。<br>

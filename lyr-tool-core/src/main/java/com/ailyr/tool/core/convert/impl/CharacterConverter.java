@@ -1,7 +1,7 @@
-package org.lyr.tool.core.convert.impl;
+package com.ailyr.tool.core.convert.impl;
 
-import org.lyr.tool.core.convert.AbstractConverter;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.convert.AbstractConverter;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 字符转换器

@@ -1,4 +1,4 @@
-package org.lyr.tool.extra.template;
+package com.ailyr.tool.extra.template;
 
 import java.io.Writer;
 import java.util.Map;

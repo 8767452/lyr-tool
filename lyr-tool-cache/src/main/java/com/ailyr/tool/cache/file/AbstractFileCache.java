@@ -1,10 +1,10 @@
-package org.lyr.tool.cache.file;
+package com.ailyr.tool.cache.file;
 
 import java.io.File;
 
-import org.lyr.tool.cache.Cache;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.cache.Cache;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IORuntimeException;
 
 /**
  * 文件缓存，以解决频繁读取文件引起的性能问题

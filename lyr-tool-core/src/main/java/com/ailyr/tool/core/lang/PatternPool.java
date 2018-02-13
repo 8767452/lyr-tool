@@ -1,8 +1,8 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import java.util.regex.Pattern;
 
-import org.lyr.tool.core.util.ReUtil;
+import com.ailyr.tool.core.util.ReUtil;
 
 /**
  * 常用正则表达式集合

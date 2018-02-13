@@ -1,4 +1,4 @@
-package org.lyr.tool.http.ssl;
+package com.ailyr.tool.http.ssl;
 
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.SSLSession;

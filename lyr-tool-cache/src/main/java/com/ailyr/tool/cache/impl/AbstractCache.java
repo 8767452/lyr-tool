@@ -1,4 +1,4 @@
-package org.lyr.tool.cache.impl;
+package com.ailyr.tool.cache.impl;
 
 import java.util.Iterator;
 import java.util.Map;
@@ -6,8 +6,8 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock;
 
-import org.lyr.tool.cache.Cache;
-import org.lyr.tool.core.collection.CopiedIterator;
+import com.ailyr.tool.cache.Cache;
+import com.ailyr.tool.core.collection.CopiedIterator;
 
 /**
  * 超时和限制大小的缓存的默认实现<br>

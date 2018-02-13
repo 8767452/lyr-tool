@@ -1,4 +1,4 @@
-package org.lyr.tool.crypto;
+package com.ailyr.tool.crypto;
 
 /**
  * 模式

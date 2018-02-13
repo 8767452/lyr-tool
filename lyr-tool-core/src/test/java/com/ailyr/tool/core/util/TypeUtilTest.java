@@ -1,4 +1,4 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Type;
@@ -7,8 +7,9 @@ import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.util.ReflectUtil;
-import org.lyr.tool.core.util.TypeUtil;
+
+import com.ailyr.tool.core.util.ReflectUtil;
+import com.ailyr.tool.core.util.TypeUtil;
 
 public class TypeUtilTest {
 	

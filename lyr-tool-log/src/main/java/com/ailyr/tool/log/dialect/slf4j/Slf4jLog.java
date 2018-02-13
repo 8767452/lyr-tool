@@ -1,11 +1,12 @@
-package org.lyr.tool.log.dialect.slf4j;
+package com.ailyr.tool.log.dialect.slf4j;
 
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.log.AbstractLocationAwareLog;
-import org.lyr.tool.log.level.Level;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.spi.LocationAwareLogger;
+
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.log.AbstractLocationAwareLog;
+import com.ailyr.tool.log.level.Level;
 
 /**
  * <a href="http://www.slf4j.org/">SLF4J</a> log.<br>

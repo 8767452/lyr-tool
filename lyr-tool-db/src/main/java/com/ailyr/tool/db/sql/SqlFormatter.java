@@ -1,4 +1,4 @@
-package org.lyr.tool.db.sql;
+package com.ailyr.tool.db.sql;
 
 import java.util.HashSet;
 import java.util.LinkedList;

@@ -1,12 +1,13 @@
-package org.lyr.tool.core.io;
+package com.ailyr.tool.core.io;
 
 import java.io.IOException;
 import java.util.Properties;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.io.resource.ClassPathResource;
-import org.lyr.tool.core.util.StrUtil;
+
+import com.ailyr.tool.core.io.resource.ClassPathResource;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * ClassPath资源读取测试

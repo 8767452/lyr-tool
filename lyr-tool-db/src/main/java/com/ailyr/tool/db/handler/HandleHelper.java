@@ -1,4 +1,4 @@
-package org.lyr.tool.db.handler;
+package com.ailyr.tool.db.handler;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Type;
@@ -9,15 +9,15 @@ import java.sql.Types;
 import java.util.Collection;
 import java.util.Map;
 
-import org.lyr.tool.core.bean.BeanUtil;
-import org.lyr.tool.core.bean.BeanDesc.PropDesc;
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.lang.Assert;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.ReflectUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.core.util.TypeUtil;
-import org.lyr.tool.db.Entity;
+import com.ailyr.tool.core.bean.BeanUtil;
+import com.ailyr.tool.core.bean.BeanDesc.PropDesc;
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.ReflectUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.TypeUtil;
+import com.ailyr.tool.db.Entity;
 
 /**
  * 数据结果集处理辅助类

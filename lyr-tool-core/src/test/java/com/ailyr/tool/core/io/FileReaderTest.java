@@ -1,8 +1,9 @@
-package org.lyr.tool.core.io;
+package com.ailyr.tool.core.io;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.io.file.FileReader;
+
+import com.ailyr.tool.core.io.file.FileReader;
 
 /**
  * 文件读取测试

@@ -1,8 +1,9 @@
-package org.lyr.tool.core.codec;
+package com.ailyr.tool.core.codec;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.codec.Base32;
+
+import com.ailyr.tool.core.codec.Base32;
 
 public class Base32Test {
 	

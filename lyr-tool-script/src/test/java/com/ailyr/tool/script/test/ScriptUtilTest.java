@@ -1,11 +1,12 @@
-package org.lyr.tool.script.test;
+package com.ailyr.tool.script.test;
 
 import javax.script.CompiledScript;
 import javax.script.ScriptException;
 
 import org.junit.Test;
-import org.lyr.tool.script.ScriptRuntimeException;
-import org.lyr.tool.script.ScriptUtil;
+
+import com.ailyr.tool.script.ScriptRuntimeException;
+import com.ailyr.tool.script.ScriptUtil;
 
 /**
  * 脚本单元测试类

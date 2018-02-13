@@ -1,11 +1,12 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.util.ClassUtil;
+
+import com.ailyr.tool.core.util.ClassUtil;
 
 /**
  * {@link ClassUtil} 单元测试

@@ -1,4 +1,4 @@
-package org.lyr.tool.http;
+package com.ailyr.tool.http;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,20 +14,20 @@ import java.util.Map.Entry;
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.SSLSocketFactory;
 
-import org.lyr.tool.core.codec.Base64;
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.lang.Assert;
-import org.lyr.tool.core.map.MapUtil;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.ObjectUtil;
-import org.lyr.tool.core.util.RandomUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.http.ssl.SSLSocketFactoryBuilder;
-import org.lyr.tool.json.JSON;
-import org.lyr.tool.log.StaticLog;
+import com.ailyr.tool.core.codec.Base64;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.map.MapUtil;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.ObjectUtil;
+import com.ailyr.tool.core.util.RandomUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.http.ssl.SSLSocketFactoryBuilder;
+import com.ailyr.tool.json.JSON;
+import com.ailyr.tool.log.StaticLog;
 
 /**
  * http请求类<br>

@@ -1,7 +1,7 @@
-package org.lyr.tool.xpath.core;
+package com.ailyr.tool.xpath.core;
 import java.util.LinkedList;
 
-import org.lyr.tool.xpath.model.Node;
+import com.ailyr.tool.xpath.model.Node;
 
 /**
  * @author 汪浩淼 [ et.tw@163.com ]

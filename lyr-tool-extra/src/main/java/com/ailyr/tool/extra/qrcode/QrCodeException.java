@@ -1,7 +1,7 @@
-package org.lyr.tool.extra.qrcode;
+package com.ailyr.tool.extra.qrcode;
 
-import org.lyr.tool.core.exceptions.ExceptionUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.exceptions.ExceptionUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * Qrcode异常

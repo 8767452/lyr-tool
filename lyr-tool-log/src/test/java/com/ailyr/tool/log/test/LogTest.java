@@ -1,9 +1,10 @@
-package org.lyr.tool.log.test;
+package com.ailyr.tool.log.test;
 
 import org.junit.Test;
-import org.lyr.tool.log.Log;
-import org.lyr.tool.log.LogFactory;
-import org.lyr.tool.log.level.Level;
+
+import com.ailyr.tool.log.Log;
+import com.ailyr.tool.log.LogFactory;
+import com.ailyr.tool.log.level.Level;
 
 /**
  * 日志门面单元测试

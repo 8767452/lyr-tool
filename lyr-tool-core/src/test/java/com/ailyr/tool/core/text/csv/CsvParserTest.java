@@ -1,13 +1,14 @@
-package org.lyr.tool.core.text.csv;
+package com.ailyr.tool.core.text.csv;
 
 import java.io.StringReader;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.text.csv.CsvParser;
-import org.lyr.tool.core.text.csv.CsvRow;
-import org.lyr.tool.core.util.StrUtil;
+
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.text.csv.CsvParser;
+import com.ailyr.tool.core.text.csv.CsvRow;
+import com.ailyr.tool.core.util.StrUtil;
 
 public class CsvParserTest {
 	

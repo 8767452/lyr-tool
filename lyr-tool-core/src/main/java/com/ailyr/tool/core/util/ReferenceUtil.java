@@ -1,4 +1,4 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.lang.ref.PhantomReference;
 import java.lang.ref.Reference;

@@ -1,4 +1,4 @@
-package org.lyr.tool.crypto.symmetric;
+package com.ailyr.tool.crypto.symmetric;
 
 /**
  * 对称算法类型<br>

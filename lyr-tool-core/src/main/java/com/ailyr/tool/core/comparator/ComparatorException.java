@@ -1,7 +1,7 @@
-package org.lyr.tool.core.comparator;
+package com.ailyr.tool.core.comparator;
 
-import org.lyr.tool.core.exceptions.ExceptionUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.exceptions.ExceptionUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 比较异常

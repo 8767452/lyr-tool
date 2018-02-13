@@ -1,9 +1,10 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.exceptions.ValidateException;
-import org.lyr.tool.core.lang.Validator;
+
+import com.ailyr.tool.core.exceptions.ValidateException;
+import com.ailyr.tool.core.lang.Validator;
 
 /**
  * 验证器单元测试

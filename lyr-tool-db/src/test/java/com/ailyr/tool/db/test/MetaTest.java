@@ -1,4 +1,4 @@
-package org.lyr.tool.db.test;
+package com.ailyr.tool.db.test;
 
 import java.util.List;
 
@@ -6,10 +6,11 @@ import javax.sql.DataSource;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.db.DbUtil;
-import org.lyr.tool.db.ds.DSFactory;
-import org.lyr.tool.db.meta.Table;
+
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.db.DbUtil;
+import com.ailyr.tool.db.ds.DSFactory;
+import com.ailyr.tool.db.meta.Table;
 
 /**
  * 元数据信息单元测试

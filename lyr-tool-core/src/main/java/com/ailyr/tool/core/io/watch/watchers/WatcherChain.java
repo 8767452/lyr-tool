@@ -1,13 +1,13 @@
-package org.lyr.tool.core.io.watch.watchers;
+package com.ailyr.tool.core.io.watch.watchers;
 
 import java.nio.file.Path;
 import java.nio.file.WatchEvent;
 import java.util.Iterator;
 import java.util.List;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.io.watch.Watcher;
-import org.lyr.tool.core.lang.Chain;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.io.watch.Watcher;
+import com.ailyr.tool.core.lang.Chain;
 
 /**
  * 观察者链<br>

@@ -1,6 +1,6 @@
-package org.lyr.tool.bloomfilter.filter;
+package com.ailyr.tool.bloomfilter.filter;
 
-import org.lyr.tool.core.util.HashUtil;
+import com.ailyr.tool.core.util.HashUtil;
 
 /**
  * 默认Bloom过滤器，使用Java自带的Hash算法

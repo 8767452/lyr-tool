@@ -1,13 +1,14 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.util.Map;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.lang.Console;
-import org.lyr.tool.core.lang.Editor;
-import org.lyr.tool.core.lang.Filter;
-import org.lyr.tool.core.util.ArrayUtil;
+
+import com.ailyr.tool.core.lang.Console;
+import com.ailyr.tool.core.lang.Editor;
+import com.ailyr.tool.core.lang.Filter;
+import com.ailyr.tool.core.util.ArrayUtil;
 
 /**
  * {@link ArrayUtil} 数组工具单元测试

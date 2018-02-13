@@ -1,7 +1,7 @@
-package org.lyr.tool.core.date;
+package com.ailyr.tool.core.date;
 
-import org.lyr.tool.core.exceptions.ExceptionUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.exceptions.ExceptionUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 工具类异常

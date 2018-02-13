@@ -1,9 +1,9 @@
-package org.lyr.tool.core.convert.impl;
+package com.ailyr.tool.core.convert.impl;
 
 import java.nio.charset.Charset;
 
-import org.lyr.tool.core.convert.AbstractConverter;
-import org.lyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.convert.AbstractConverter;
+import com.ailyr.tool.core.util.CharsetUtil;
 
 /**
  * 编码对象转换器

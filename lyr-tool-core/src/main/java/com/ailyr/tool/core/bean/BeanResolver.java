@@ -1,8 +1,8 @@
-package org.lyr.tool.core.bean;
+package com.ailyr.tool.core.bean;
 
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.ClassUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.ClassUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * Bean对象解析器，用于获取多层嵌套Bean中的字段值或Bean对象<br>

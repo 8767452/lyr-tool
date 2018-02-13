@@ -1,7 +1,7 @@
-package org.lyr.tool.xpath.core;
-import org.lyr.tool.xpath.model.Node;
-import org.lyr.tool.xpath.model.Predicate;
-import org.lyr.tool.xpath.util.EmMap;
+package com.ailyr.tool.xpath.core;
+import com.ailyr.tool.xpath.model.Node;
+import com.ailyr.tool.xpath.model.Predicate;
+import com.ailyr.tool.xpath.util.EmMap;
 
 /**
  * 用于生成xpath语法树的有限状态机

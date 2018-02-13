@@ -1,4 +1,4 @@
-package org.lyr.tool.core.bean;
+package com.ailyr.tool.core.bean;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -7,13 +7,13 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.lyr.tool.core.lang.Assert;
-import org.lyr.tool.core.map.CaseInsensitiveMap;
-import org.lyr.tool.core.util.ClassUtil;
-import org.lyr.tool.core.util.ModifierUtil;
-import org.lyr.tool.core.util.ReflectUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.core.util.TypeUtil;
+import com.ailyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.map.CaseInsensitiveMap;
+import com.ailyr.tool.core.util.ClassUtil;
+import com.ailyr.tool.core.util.ModifierUtil;
+import com.ailyr.tool.core.util.ReflectUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.TypeUtil;
 
 /**
  * Bean信息描述做为BeanInfo替代方案，此对象持有JavaBean中的setters和getters等相关信息描述<br>

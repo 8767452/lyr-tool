@@ -1,6 +1,6 @@
-package org.lyr.tool.cron.listener;
+package com.ailyr.tool.cron.listener;
 
-import org.lyr.tool.cron.TaskExecutor;
+import com.ailyr.tool.cron.TaskExecutor;
 
 /**
  * 定时任务监听接口<br>

@@ -1,9 +1,10 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.HexUtil;
+
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.HexUtil;
 
 /**
  * HexUtil单元测试

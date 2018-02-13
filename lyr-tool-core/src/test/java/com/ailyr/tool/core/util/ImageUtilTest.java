@@ -1,4 +1,4 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.awt.Color;
 import java.awt.Rectangle;
@@ -9,8 +9,9 @@ import javax.imageio.ImageIO;
 
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.util.ImageUtil;
+
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.util.ImageUtil;
 
 public class ImageUtilTest {
 	

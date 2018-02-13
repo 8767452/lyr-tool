@@ -1,4 +1,4 @@
-package org.lyr.tool.crypto.asymmetric;
+package com.ailyr.tool.crypto.asymmetric;
 
 /**
  * 签名算法类型<br>

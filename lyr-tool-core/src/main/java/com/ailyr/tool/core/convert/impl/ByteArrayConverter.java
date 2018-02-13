@@ -1,8 +1,8 @@
-package org.lyr.tool.core.convert.impl;
+package com.ailyr.tool.core.convert.impl;
 
-import org.lyr.tool.core.convert.AbstractConverter;
-import org.lyr.tool.core.convert.ConverterRegistry;
-import org.lyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.convert.AbstractConverter;
+import com.ailyr.tool.core.convert.ConverterRegistry;
+import com.ailyr.tool.core.util.ArrayUtil;
 
 /**
  * byte 类型数组转换器

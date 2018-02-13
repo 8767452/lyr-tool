@@ -1,7 +1,7 @@
-package org.lyr.tool.log.dialect.console;
+package com.ailyr.tool.log.dialect.console;
 
-import org.lyr.tool.log.Log;
-import org.lyr.tool.log.LogFactory;
+import com.ailyr.tool.log.Log;
+import com.ailyr.tool.log.LogFactory;
 
 /**
  * 利用System.out.println()打印日志

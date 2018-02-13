@@ -1,9 +1,9 @@
-package org.lyr.tool.core.io.watch.watchers;
+package com.ailyr.tool.core.io.watch.watchers;
 
 import java.nio.file.Path;
 import java.nio.file.WatchEvent;
 
-import org.lyr.tool.core.io.watch.Watcher;
+import com.ailyr.tool.core.io.watch.Watcher;
 
 /**
  * 跳过所有事件处理Watcher<br>

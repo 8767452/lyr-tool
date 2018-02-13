@@ -1,13 +1,13 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import java.io.Serializable;
 import java.util.Random;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
-import org.lyr.tool.core.collection.CollUtil;
-import org.lyr.tool.core.map.MapUtil;
-import org.lyr.tool.core.util.RandomUtil;
+import com.ailyr.tool.core.collection.CollUtil;
+import com.ailyr.tool.core.map.MapUtil;
+import com.ailyr.tool.core.util.RandomUtil;
 
 /**
  * 权重随机算法实现<br>

@@ -1,10 +1,11 @@
-package org.lyr.tool.log.dialect.commons;
+package com.ailyr.tool.log.dialect.commons;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.log.AbstractLog;
-import org.lyr.tool.log.level.Level;
+
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.log.AbstractLog;
+import com.ailyr.tool.log.level.Level;
 
 /**
  * Apache Commons Logging

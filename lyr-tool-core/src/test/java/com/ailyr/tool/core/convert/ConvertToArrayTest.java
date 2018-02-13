@@ -1,4 +1,4 @@
-package org.lyr.tool.core.convert;
+package com.ailyr.tool.core.convert;
 
 import java.io.File;
 import java.net.URL;
@@ -6,11 +6,12 @@ import java.util.ArrayList;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.convert.ConverterRegistry;
-import org.lyr.tool.core.convert.impl.ArrayConverter;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.lang.Console;
+
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.convert.ConverterRegistry;
+import com.ailyr.tool.core.convert.impl.ArrayConverter;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.lang.Console;
 
 /**
  * 类型转换工具单元测试<br>

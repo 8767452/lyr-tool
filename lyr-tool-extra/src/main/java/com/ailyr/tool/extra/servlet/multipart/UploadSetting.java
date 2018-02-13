@@ -1,11 +1,11 @@
-package org.lyr.tool.extra.servlet.multipart;
+package com.ailyr.tool.extra.servlet.multipart;
 
 import java.net.URL;
 
-import org.lyr.tool.core.util.URLUtil;
-import org.lyr.tool.log.Log;
-import org.lyr.tool.log.StaticLog;
-import org.lyr.tool.setting.Setting;
+import com.ailyr.tool.core.util.URLUtil;
+import com.ailyr.tool.log.Log;
+import com.ailyr.tool.log.StaticLog;
+import com.ailyr.tool.setting.Setting;
 
 /**
  * 上传文件设定文件

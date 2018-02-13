@@ -1,14 +1,15 @@
-package org.lyr.tool.core.text.csv;
+package com.ailyr.tool.core.text.csv;
 
 import java.util.List;
 
 import org.junit.Test;
-import org.lyr.tool.core.io.resource.ResourceUtil;
-import org.lyr.tool.core.lang.Console;
-import org.lyr.tool.core.text.csv.CsvData;
-import org.lyr.tool.core.text.csv.CsvReader;
-import org.lyr.tool.core.text.csv.CsvRow;
-import org.lyr.tool.core.util.CharsetUtil;
+
+import com.ailyr.tool.core.io.resource.ResourceUtil;
+import com.ailyr.tool.core.lang.Console;
+import com.ailyr.tool.core.text.csv.CsvData;
+import com.ailyr.tool.core.text.csv.CsvReader;
+import com.ailyr.tool.core.text.csv.CsvRow;
+import com.ailyr.tool.core.util.CharsetUtil;
 
 public class CsvReaderTest {
 	@Test

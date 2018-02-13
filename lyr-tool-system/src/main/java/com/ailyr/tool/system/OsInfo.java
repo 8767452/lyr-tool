@@ -1,4 +1,4 @@
-package org.lyr.tool.system;
+package com.ailyr.tool.system;
 
 /**
  * 代表当前OS的信息。

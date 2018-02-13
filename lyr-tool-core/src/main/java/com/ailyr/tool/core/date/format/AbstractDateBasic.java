@@ -1,4 +1,4 @@
-package org.lyr.tool.core.date.format;
+package com.ailyr.tool.core.date.format;
 
 import java.io.Serializable;
 import java.util.Locale;

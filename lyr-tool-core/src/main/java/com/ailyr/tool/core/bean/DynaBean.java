@@ -1,13 +1,13 @@
-package org.lyr.tool.core.bean;
+package com.ailyr.tool.core.bean;
 
 import java.io.Serializable;
 import java.lang.reflect.Method;
 import java.util.Map;
 
-import org.lyr.tool.core.clone.CloneSupport;
-import org.lyr.tool.core.lang.Assert;
-import org.lyr.tool.core.util.ClassUtil;
-import org.lyr.tool.core.util.ReflectUtil;
+import com.ailyr.tool.core.clone.CloneSupport;
+import com.ailyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.util.ClassUtil;
+import com.ailyr.tool.core.util.ReflectUtil;
 
 /**
  * 动态Bean，通过反射对Bean的相关方法做操作<br>

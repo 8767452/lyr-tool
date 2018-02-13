@@ -1,4 +1,4 @@
-package org.lyr.tool.extra.ssh;
+package com.ailyr.tool.extra.ssh;
 
 import java.io.Closeable;
 import java.io.IOException;
@@ -6,10 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
 
-import org.lyr.tool.core.collection.CollUtil;
-import org.lyr.tool.core.lang.Filter;
-import org.lyr.tool.core.util.StrUtil;
-
+import com.ailyr.tool.core.collection.CollUtil;
+import com.ailyr.tool.core.lang.Filter;
+import com.ailyr.tool.core.util.StrUtil;
 import com.jcraft.jsch.ChannelSftp;
 import com.jcraft.jsch.ChannelSftp.LsEntry;
 import com.jcraft.jsch.ChannelSftp.LsEntrySelector;

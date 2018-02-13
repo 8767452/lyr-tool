@@ -1,4 +1,4 @@
-package org.lyr.tool.core.bean;
+package com.ailyr.tool.core.bean;
 
 import java.beans.IntrospectionException;
 import java.beans.Introspector;
@@ -13,17 +13,17 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.lyr.tool.core.bean.BeanDesc.PropDesc;
-import org.lyr.tool.core.bean.copier.BeanCopier;
-import org.lyr.tool.core.bean.copier.CopyOptions;
-import org.lyr.tool.core.bean.copier.ValueProvider;
-import org.lyr.tool.core.lang.Editor;
-import org.lyr.tool.core.map.CaseInsensitiveMap;
-import org.lyr.tool.core.map.MapUtil;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.ClassUtil;
-import org.lyr.tool.core.util.ReflectUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.bean.BeanDesc.PropDesc;
+import com.ailyr.tool.core.bean.copier.BeanCopier;
+import com.ailyr.tool.core.bean.copier.CopyOptions;
+import com.ailyr.tool.core.bean.copier.ValueProvider;
+import com.ailyr.tool.core.lang.Editor;
+import com.ailyr.tool.core.map.CaseInsensitiveMap;
+import com.ailyr.tool.core.map.MapUtil;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.ClassUtil;
+import com.ailyr.tool.core.util.ReflectUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * Bean工具类

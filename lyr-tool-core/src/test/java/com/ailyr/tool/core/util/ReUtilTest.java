@@ -1,13 +1,14 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.util.ReUtil;
-import org.lyr.tool.core.util.StrUtil;
+
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.util.ReUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 public class ReUtilTest {
 	final String content = "ZZZaaabbbccc中文1234";

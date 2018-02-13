@@ -1,11 +1,11 @@
-package org.lyr.tool.log;
+package com.ailyr.tool.log;
 
-import org.lyr.tool.log.dialect.commons.ApacheCommonsLogFactory;
-import org.lyr.tool.log.dialect.console.ConsoleLogFactory;
-import org.lyr.tool.log.dialect.jdk.JdkLogFactory;
-import org.lyr.tool.log.dialect.log4j.Log4jLogFactory;
-import org.lyr.tool.log.dialect.log4j2.Log4j2LogFactory;
-import org.lyr.tool.log.dialect.slf4j.Slf4jLogFactory;
+import com.ailyr.tool.log.dialect.commons.ApacheCommonsLogFactory;
+import com.ailyr.tool.log.dialect.console.ConsoleLogFactory;
+import com.ailyr.tool.log.dialect.jdk.JdkLogFactory;
+import com.ailyr.tool.log.dialect.log4j.Log4jLogFactory;
+import com.ailyr.tool.log.dialect.log4j2.Log4j2LogFactory;
+import com.ailyr.tool.log.dialect.slf4j.Slf4jLogFactory;
 
 /**
  * 全局日志工厂类<br>

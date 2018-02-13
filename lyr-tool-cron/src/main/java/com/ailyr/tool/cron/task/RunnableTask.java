@@ -1,4 +1,4 @@
-package org.lyr.tool.cron.task;
+package com.ailyr.tool.cron.task;
 
 /**
  * {@link Runnable} 的 {@link Task}包装

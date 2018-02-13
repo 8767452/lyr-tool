@@ -1,10 +1,10 @@
-package org.lyr.tool.cache.impl;
+package com.ailyr.tool.cache.impl;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 /**
- *  {@link org.lyr.tool.cache.impl.AbstractCache} 的值迭代器.
+ *  {@link com.ailyr.tool.cache.impl.AbstractCache} 的值迭代器.
  * @author looly
  *
  * @param <V> 迭代对象类型

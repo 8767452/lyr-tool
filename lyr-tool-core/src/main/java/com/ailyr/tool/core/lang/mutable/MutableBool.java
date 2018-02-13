@@ -1,4 +1,4 @@
-package org.lyr.tool.core.lang.mutable;
+package com.ailyr.tool.core.lang.mutable;
 
 /**
  * 可变 <code>boolean</code> 类型

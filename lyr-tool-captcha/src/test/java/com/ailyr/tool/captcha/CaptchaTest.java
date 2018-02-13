@@ -1,11 +1,12 @@
-package org.lyr.tool.captcha;
+package com.ailyr.tool.captcha;
 
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.captcha.CaptchaUtil;
-import org.lyr.tool.captcha.CircleCaptcha;
-import org.lyr.tool.captcha.LineCaptcha;
-import org.lyr.tool.captcha.ShearCaptcha;
+
+import com.ailyr.tool.captcha.CaptchaUtil;
+import com.ailyr.tool.captcha.CircleCaptcha;
+import com.ailyr.tool.captcha.LineCaptcha;
+import com.ailyr.tool.captcha.ShearCaptcha;
 
 /**
  * 直线干扰验证码单元测试

@@ -1,10 +1,11 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import java.util.HashSet;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.lang.ObjectId;
+
+import com.ailyr.tool.core.lang.ObjectId;
 
 /**
  * ObjectId单元测试

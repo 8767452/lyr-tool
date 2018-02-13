@@ -1,12 +1,12 @@
-package org.lyr.tool.db.dialect;
+package com.ailyr.tool.db.dialect;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-import org.lyr.tool.db.Entity;
-import org.lyr.tool.db.sql.Query;
-import org.lyr.tool.db.sql.Wrapper;
+import com.ailyr.tool.db.Entity;
+import com.ailyr.tool.db.sql.Query;
+import com.ailyr.tool.db.sql.Wrapper;
 
 /**
  * SQL方言，不同的数据库由于在某些SQL上有所区别，故为每种数据库配置不同的方言。<br>

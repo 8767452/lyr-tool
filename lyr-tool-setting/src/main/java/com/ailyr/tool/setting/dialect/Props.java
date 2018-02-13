@@ -1,4 +1,4 @@
-package org.lyr.tool.setting.dialect;
+package com.ailyr.tool.setting.dialect;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -14,26 +14,26 @@ import java.nio.file.Paths;
 import java.nio.file.WatchEvent;
 import java.util.Properties;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.getter.BasicTypeGetter;
-import org.lyr.tool.core.getter.OptBasicTypeGetter;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IORuntimeException;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.io.resource.ClassPathResource;
-import org.lyr.tool.core.io.resource.FileResource;
-import org.lyr.tool.core.io.resource.Resource;
-import org.lyr.tool.core.io.resource.ResourceUtil;
-import org.lyr.tool.core.io.resource.UrlResource;
-import org.lyr.tool.core.io.watch.SimpleWatcher;
-import org.lyr.tool.core.io.watch.WatchMonitor;
-import org.lyr.tool.core.lang.Assert;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.log.Log;
-import org.lyr.tool.log.LogFactory;
-import org.lyr.tool.setting.SettingRuntimeException;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.getter.BasicTypeGetter;
+import com.ailyr.tool.core.getter.OptBasicTypeGetter;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.io.resource.ClassPathResource;
+import com.ailyr.tool.core.io.resource.FileResource;
+import com.ailyr.tool.core.io.resource.Resource;
+import com.ailyr.tool.core.io.resource.ResourceUtil;
+import com.ailyr.tool.core.io.resource.UrlResource;
+import com.ailyr.tool.core.io.watch.SimpleWatcher;
+import com.ailyr.tool.core.io.watch.WatchMonitor;
+import com.ailyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.log.Log;
+import com.ailyr.tool.log.LogFactory;
+import com.ailyr.tool.setting.SettingRuntimeException;
 
 /**
  * Properties文件读取封装类

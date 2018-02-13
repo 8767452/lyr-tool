@@ -1,4 +1,4 @@
-package org.lyr.tool.log;
+package com.ailyr.tool.log;
 
 /**
  * 抽象定位感知日志实现<br>

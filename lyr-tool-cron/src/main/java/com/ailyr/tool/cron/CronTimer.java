@@ -1,9 +1,9 @@
-package org.lyr.tool.cron;
+package com.ailyr.tool.cron;
 
-import org.lyr.tool.core.date.DateUnit;
-import org.lyr.tool.core.thread.ThreadUtil;
-import org.lyr.tool.log.Log;
-import org.lyr.tool.log.LogFactory;
+import com.ailyr.tool.core.date.DateUnit;
+import com.ailyr.tool.core.thread.ThreadUtil;
+import com.ailyr.tool.log.Log;
+import com.ailyr.tool.log.LogFactory;
 
 /**
  * 定时任务计时器<br>

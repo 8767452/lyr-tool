@@ -1,12 +1,13 @@
-package org.lyr.tool.setting.test;
+package com.ailyr.tool.setting.test;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.log.LogFactory;
-import org.lyr.tool.log.dialect.console.ConsoleLogFactory;
-import org.lyr.tool.setting.Setting;
+
+import com.ailyr.tool.log.LogFactory;
+import com.ailyr.tool.log.dialect.console.ConsoleLogFactory;
+import com.ailyr.tool.setting.Setting;
 
 /**
  * Setting单元测试

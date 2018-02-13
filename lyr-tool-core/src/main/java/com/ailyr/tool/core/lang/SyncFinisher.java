@@ -1,10 +1,10 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.concurrent.CountDownLatch;
 
-import org.lyr.tool.core.exceptions.NotInitedException;
+import com.ailyr.tool.core.exceptions.NotInitedException;
 
 /**
  * 线程同步结束器<br>

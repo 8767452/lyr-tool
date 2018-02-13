@@ -1,11 +1,12 @@
-package org.lyr.tool.core.exceptions;
+package com.ailyr.tool.core.exceptions;
 
 import java.io.IOException;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.exceptions.ExceptionUtil;
-import org.lyr.tool.core.io.IORuntimeException;
+
+import com.ailyr.tool.core.exceptions.ExceptionUtil;
+import com.ailyr.tool.core.io.IORuntimeException;
 
 /**
  * 异常工具单元测试

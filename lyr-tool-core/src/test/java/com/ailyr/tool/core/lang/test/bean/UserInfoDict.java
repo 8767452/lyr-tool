@@ -1,4 +1,4 @@
-package org.lyr.tool.core.lang.test.bean;
+package com.ailyr.tool.core.lang.test.bean;
 
 import java.io.Serializable;
 import java.util.List;

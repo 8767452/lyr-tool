@@ -1,11 +1,12 @@
-package org.lyr.tool.log.dialect.tinylog;
+package com.ailyr.tool.log.dialect.tinylog;
 
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.log.AbstractLog;
 import org.pmw.tinylog.Level;
 import org.pmw.tinylog.LogEntryForwarder;
 import org.pmw.tinylog.Logger;
+
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.log.AbstractLog;
 
 /**
  * <a href="http://www.tinylog.org/">tinylog</a> log.<br>
@@ -46,12 +47,12 @@ public class TinyLog extends AbstractLog {
 
 	@Override
 	public void trace(String format, Object... arguments) {
-		log(org.lyr.tool.log.level.Level.TRACE, format, arguments);
+		log(com.ailyr.tool.log.level.Level.TRACE, format, arguments);
 	}
 
 	@Override
 	public void trace(Throwable t, String format, Object... arguments) {
-		log(org.lyr.tool.log.level.Level.TRACE, t, format, arguments);
+		log(com.ailyr.tool.log.level.Level.TRACE, t, format, arguments);
 	}
 
 	// ------------------------------------------------------------------------- Debug
@@ -62,12 +63,12 @@ public class TinyLog extends AbstractLog {
 
 	@Override
 	public void debug(String format, Object... arguments) {
-		log(org.lyr.tool.log.level.Level.DEBUG, format, arguments);
+		log(com.ailyr.tool.log.level.Level.DEBUG, format, arguments);
 	}
 
 	@Override
 	public void debug(Throwable t, String format, Object... arguments) {
-		log(org.lyr.tool.log.level.Level.DEBUG, t, format, arguments);
+		log(com.ailyr.tool.log.level.Level.DEBUG, t, format, arguments);
 	}
 
 	// ------------------------------------------------------------------------- Info
@@ -78,12 +79,12 @@ public class TinyLog extends AbstractLog {
 
 	@Override
 	public void info(String format, Object... arguments) {
-		log(org.lyr.tool.log.level.Level.INFO, format, arguments);
+		log(com.ailyr.tool.log.level.Level.INFO, format, arguments);
 	}
 
 	@Override
 	public void info(Throwable t, String format, Object... arguments) {
-		log(org.lyr.tool.log.level.Level.INFO, t, format, arguments);
+		log(com.ailyr.tool.log.level.Level.INFO, t, format, arguments);
 	}
 
 	// ------------------------------------------------------------------------- Warn
@@ -94,12 +95,12 @@ public class TinyLog extends AbstractLog {
 
 	@Override
 	public void warn(String format, Object... arguments) {
-		log(org.lyr.tool.log.level.Level.WARN, format, arguments);
+		log(com.ailyr.tool.log.level.Level.WARN, format, arguments);
 	}
 
 	@Override
 	public void warn(Throwable t, String format, Object... arguments) {
-		log(org.lyr.tool.log.level.Level.WARN, t, format, arguments);
+		log(com.ailyr.tool.log.level.Level.WARN, t, format, arguments);
 	}
 
 	// ------------------------------------------------------------------------- Error
@@ -110,22 +111,22 @@ public class TinyLog extends AbstractLog {
 
 	@Override
 	public void error(String format, Object... arguments) {
-		log(org.lyr.tool.log.level.Level.ERROR, format, arguments);
+		log(com.ailyr.tool.log.level.Level.ERROR, format, arguments);
 	}
 
 	@Override
 	public void error(Throwable t, String format, Object... arguments) {
-		log(org.lyr.tool.log.level.Level.ERROR, t, format, arguments);
+		log(com.ailyr.tool.log.level.Level.ERROR, t, format, arguments);
 	}
 
 	// ------------------------------------------------------------------------- Log
 	@Override
-	public void log(org.lyr.tool.log.level.Level level, String format, Object... arguments) {
+	public void log(com.ailyr.tool.log.level.Level level, String format, Object... arguments) {
 		LogEntryForwarder.forward(DEPTH, toTinyLevel(level), getLastArgumentIfThrowable(level, arguments), format, arguments);
 	}
 
 	@Override
-	public void log(org.lyr.tool.log.level.Level level, Throwable t, String format, Object... arguments) {
+	public void log(com.ailyr.tool.log.level.Level level, Throwable t, String format, Object... arguments) {
 		LogEntryForwarder.forward(DEPTH, toTinyLevel(level), t, format, arguments);
 	}
 
@@ -136,7 +137,7 @@ public class TinyLog extends AbstractLog {
 	 * @return Tinylog的Level
 	 * @since 4.0.3
 	 */
-	private Level toTinyLevel(org.lyr.tool.log.level.Level level) {
+	private Level toTinyLevel(com.ailyr.tool.log.level.Level level) {
 		Level tinyLevel;
 		switch (level) {
 		case TRACE:

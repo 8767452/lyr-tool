@@ -1,4 +1,4 @@
-package org.lyr.tool.extra.servlet.multipart;
+package com.ailyr.tool.extra.servlet.multipart;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -10,11 +10,11 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.log.Log;
-import org.lyr.tool.log.LogFactory;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.log.Log;
+import com.ailyr.tool.log.LogFactory;
 
 /**
  * 上传的文件对象

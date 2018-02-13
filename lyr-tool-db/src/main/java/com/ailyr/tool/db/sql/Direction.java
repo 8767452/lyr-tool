@@ -1,6 +1,6 @@
-package org.lyr.tool.db.sql;
+package com.ailyr.tool.db.sql;
 
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 排序方式（升序或者降序）

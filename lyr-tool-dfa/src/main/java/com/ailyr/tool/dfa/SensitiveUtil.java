@@ -1,12 +1,12 @@
-package org.lyr.tool.dfa;
+package com.ailyr.tool.dfa;
 
 import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.Callable;
 
-import org.lyr.tool.core.thread.ThreadUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.json.JSONUtil;
+import com.ailyr.tool.core.thread.ThreadUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.json.JSONUtil;
 
 /**
  * 敏感词工具类

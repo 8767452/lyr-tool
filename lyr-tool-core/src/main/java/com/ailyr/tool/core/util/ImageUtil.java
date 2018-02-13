@@ -1,4 +1,4 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.awt.AlphaComposite;
 import java.awt.Color;
@@ -33,11 +33,11 @@ import javax.imageio.ImageReader;
 import javax.imageio.stream.ImageInputStream;
 import javax.imageio.stream.ImageOutputStream;
 
-import org.lyr.tool.core.codec.Base64;
-import org.lyr.tool.core.exceptions.UtilException;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IORuntimeException;
-import org.lyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.codec.Base64;
+import com.ailyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.io.IoUtil;
 
 /**
  * 图片处理工具类：<br>

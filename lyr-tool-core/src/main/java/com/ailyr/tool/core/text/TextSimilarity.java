@@ -1,7 +1,7 @@
-package org.lyr.tool.core.text;
+package com.ailyr.tool.core.text;
 
-import org.lyr.tool.core.util.NumberUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.NumberUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 文本相似度计算<br>

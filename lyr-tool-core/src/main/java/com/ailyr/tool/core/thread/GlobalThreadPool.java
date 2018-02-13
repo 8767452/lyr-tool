@@ -1,4 +1,4 @@
-package org.lyr.tool.core.thread;
+package com.ailyr.tool.core.thread;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
@@ -7,7 +7,7 @@ import java.util.concurrent.SynchronousQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-import org.lyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.exceptions.UtilException;
 
 /**
  * 全局公共线程池

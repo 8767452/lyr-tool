@@ -1,6 +1,6 @@
-package org.lyr.tool.core.convert.impl;
+package com.ailyr.tool.core.convert.impl;
 
-import org.lyr.tool.core.convert.AbstractConverter;
+import com.ailyr.tool.core.convert.AbstractConverter;
 
 /**
  * 无泛型检查的枚举转换器

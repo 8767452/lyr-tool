@@ -1,14 +1,15 @@
-package org.lyr.tool.log.test;
+package com.ailyr.tool.log.test;
 
 import org.junit.Test;
-import org.lyr.tool.log.Log;
-import org.lyr.tool.log.LogFactory;
-import org.lyr.tool.log.dialect.commons.ApacheCommonsLogFactory;
-import org.lyr.tool.log.dialect.console.ConsoleLogFactory;
-import org.lyr.tool.log.dialect.jdk.JdkLogFactory;
-import org.lyr.tool.log.dialect.log4j.Log4jLogFactory;
-import org.lyr.tool.log.dialect.log4j2.Log4j2LogFactory;
-import org.lyr.tool.log.dialect.tinylog.TinyLogFactory;
+
+import com.ailyr.tool.log.Log;
+import com.ailyr.tool.log.LogFactory;
+import com.ailyr.tool.log.dialect.commons.ApacheCommonsLogFactory;
+import com.ailyr.tool.log.dialect.console.ConsoleLogFactory;
+import com.ailyr.tool.log.dialect.jdk.JdkLogFactory;
+import com.ailyr.tool.log.dialect.log4j.Log4jLogFactory;
+import com.ailyr.tool.log.dialect.log4j2.Log4j2LogFactory;
+import com.ailyr.tool.log.dialect.tinylog.TinyLogFactory;
 
 /**
  * 日志门面单元测试

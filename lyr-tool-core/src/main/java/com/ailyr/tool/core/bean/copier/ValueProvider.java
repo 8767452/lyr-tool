@@ -1,8 +1,8 @@
-package org.lyr.tool.core.bean.copier;
+package com.ailyr.tool.core.bean.copier;
 
 import java.lang.reflect.Type;
 
-import org.lyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.convert.Convert;
 
 /**
  * 值提供者，用于提供Bean注入时参数对应值得抽象接口<br>

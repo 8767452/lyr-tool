@@ -1,4 +1,4 @@
-package org.lyr.tool.http.ssl;
+package com.ailyr.tool.http.ssl;
 
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;

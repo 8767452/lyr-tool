@@ -1,19 +1,19 @@
-package org.lyr.tool.db.dialect;
+package com.ailyr.tool.db.dialect;
 
 import java.sql.Connection;
 
 import javax.sql.DataSource;
 
-import org.lyr.tool.core.util.ClassLoaderUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.db.DbUtil;
-import org.lyr.tool.db.dialect.impl.AnsiSqlDialect;
-import org.lyr.tool.db.dialect.impl.H2Dialect;
-import org.lyr.tool.db.dialect.impl.MysqlDialect;
-import org.lyr.tool.db.dialect.impl.OracleDialect;
-import org.lyr.tool.db.dialect.impl.PostgresqlDialect;
-import org.lyr.tool.db.dialect.impl.SqlServer2012Dialect;
-import org.lyr.tool.db.dialect.impl.Sqlite3Dialect;
+import com.ailyr.tool.core.util.ClassLoaderUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.db.DbUtil;
+import com.ailyr.tool.db.dialect.impl.AnsiSqlDialect;
+import com.ailyr.tool.db.dialect.impl.H2Dialect;
+import com.ailyr.tool.db.dialect.impl.MysqlDialect;
+import com.ailyr.tool.db.dialect.impl.OracleDialect;
+import com.ailyr.tool.db.dialect.impl.PostgresqlDialect;
+import com.ailyr.tool.db.dialect.impl.SqlServer2012Dialect;
+import com.ailyr.tool.db.dialect.impl.Sqlite3Dialect;
 
 /**
  * 方言工厂类

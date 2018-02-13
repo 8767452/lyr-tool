@@ -1,4 +1,4 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -8,10 +8,10 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import org.lyr.tool.core.exceptions.UtilException;
-import org.lyr.tool.core.lang.Assert;
-import org.lyr.tool.core.lang.Filter;
-import org.lyr.tool.core.lang.SimpleCache;
+import com.ailyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.lang.Filter;
+import com.ailyr.tool.core.lang.SimpleCache;
 
 /**
  * 反射工具类

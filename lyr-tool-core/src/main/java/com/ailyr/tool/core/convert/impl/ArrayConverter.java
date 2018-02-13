@@ -1,15 +1,15 @@
-package org.lyr.tool.core.convert.impl;
+package com.ailyr.tool.core.convert.impl;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import org.lyr.tool.core.convert.AbstractConverter;
-import org.lyr.tool.core.convert.ConverterRegistry;
-import org.lyr.tool.core.lang.Assert;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.convert.AbstractConverter;
+import com.ailyr.tool.core.convert.ConverterRegistry;
+import com.ailyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 数组转换器，包括原始类型数组

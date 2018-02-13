@@ -1,9 +1,9 @@
-package org.lyr.tool.core.io;
+package com.ailyr.tool.core.io;
 
 import java.nio.ByteBuffer;
 import java.nio.charset.Charset;
 
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * {@link ByteBuffer} 工具类<br>

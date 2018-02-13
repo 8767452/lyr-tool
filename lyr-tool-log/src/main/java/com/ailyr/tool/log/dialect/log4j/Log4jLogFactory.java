@@ -1,7 +1,7 @@
-package org.lyr.tool.log.dialect.log4j;
+package com.ailyr.tool.log.dialect.log4j;
 
-import org.lyr.tool.log.Log;
-import org.lyr.tool.log.LogFactory;
+import com.ailyr.tool.log.Log;
+import com.ailyr.tool.log.LogFactory;
 
 /**
  * <a href="http://logging.apache.org/log4j/1.2/index.html">Apache Log4J</a> log.<br>

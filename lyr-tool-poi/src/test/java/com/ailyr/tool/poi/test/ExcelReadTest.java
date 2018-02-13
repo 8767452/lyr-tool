@@ -1,14 +1,15 @@
-package org.lyr.tool.poi.test;
+package com.ailyr.tool.poi.test;
 
 import java.util.List;
 import java.util.Map;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.io.resource.ResourceUtil;
-import org.lyr.tool.core.map.MapUtil;
-import org.lyr.tool.poi.excel.ExcelReader;
-import org.lyr.tool.poi.excel.ExcelUtil;
+
+import com.ailyr.tool.core.io.resource.ResourceUtil;
+import com.ailyr.tool.core.map.MapUtil;
+import com.ailyr.tool.poi.excel.ExcelReader;
+import com.ailyr.tool.poi.excel.ExcelUtil;
 
 /**
  * Excel读取单元测试

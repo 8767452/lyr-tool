@@ -1,13 +1,14 @@
-package org.lyr.tool.extra.mail;
+package com.ailyr.tool.extra.mail;
 
 import java.util.Properties;
 
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.extra.mail.MailAccount;
-import org.lyr.tool.extra.mail.MailUtil;
+
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.extra.mail.MailAccount;
+import com.ailyr.tool.extra.mail.MailUtil;
 
 /**
  * 邮件发送测试

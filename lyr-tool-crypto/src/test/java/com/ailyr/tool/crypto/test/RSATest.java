@@ -1,15 +1,16 @@
-package org.lyr.tool.crypto.test;
+package com.ailyr.tool.crypto.test;
 
 import java.security.KeyPair;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.HexUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.crypto.SecureUtil;
-import org.lyr.tool.crypto.asymmetric.KeyType;
-import org.lyr.tool.crypto.asymmetric.RSA;
+
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.HexUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.crypto.SecureUtil;
+import com.ailyr.tool.crypto.asymmetric.KeyType;
+import com.ailyr.tool.crypto.asymmetric.RSA;
 
 /**
  * RSA算法单元测试

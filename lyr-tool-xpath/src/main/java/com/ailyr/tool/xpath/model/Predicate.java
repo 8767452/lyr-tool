@@ -1,5 +1,5 @@
-package org.lyr.tool.xpath.model;
-import org.lyr.tool.xpath.util.OpEm;
+package com.ailyr.tool.xpath.model;
+import com.ailyr.tool.xpath.util.OpEm;
 
 /**
  * xpath语法节点的谓语部分，即要满足的限定条件

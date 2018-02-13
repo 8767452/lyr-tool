@@ -1,6 +1,6 @@
-package org.lyr.tool.core.lang.mutable;
+package com.ailyr.tool.core.lang.mutable;
 
-import org.lyr.tool.core.util.NumberUtil;
+import com.ailyr.tool.core.util.NumberUtil;
 
 /**
  * 可变 <code>double</code> 类型

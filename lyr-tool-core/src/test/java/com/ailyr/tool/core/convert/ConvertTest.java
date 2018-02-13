@@ -1,12 +1,13 @@
-package org.lyr.tool.core.convert;
+package com.ailyr.tool.core.convert;
 
 import java.util.Date;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.convert.ConverterRegistry;
-import org.lyr.tool.core.date.DateUtil;
+
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.convert.ConverterRegistry;
+import com.ailyr.tool.core.date.DateUtil;
 
 /**
  * 类型转换工具单元测试

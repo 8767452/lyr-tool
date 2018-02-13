@@ -1,4 +1,4 @@
-package org.lyr.tool.core.date;
+package com.ailyr.tool.core.date;
 
 import java.sql.Timestamp;
 import java.text.DateFormat;
@@ -8,12 +8,12 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
 
-import org.lyr.tool.core.date.format.DateParser;
-import org.lyr.tool.core.date.format.DatePrinter;
-import org.lyr.tool.core.date.format.FastDateFormat;
-import org.lyr.tool.core.lang.Assert;
-import org.lyr.tool.core.util.ObjectUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.date.format.DateParser;
+import com.ailyr.tool.core.date.format.DatePrinter;
+import com.ailyr.tool.core.date.format.FastDateFormat;
+import com.ailyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.util.ObjectUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 包装java.util.Date

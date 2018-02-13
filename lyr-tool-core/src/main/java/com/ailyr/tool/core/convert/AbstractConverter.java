@@ -1,9 +1,9 @@
-package org.lyr.tool.core.convert;
+package com.ailyr.tool.core.convert;
 
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.CharUtil;
-import org.lyr.tool.core.util.ClassUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.CharUtil;
+import com.ailyr.tool.core.util.ClassUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 抽象转换器，提供通用的转换逻辑，同时通过convertInternal实现对应类型的专属逻辑<br>

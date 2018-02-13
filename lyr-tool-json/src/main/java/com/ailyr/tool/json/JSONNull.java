@@ -1,4 +1,4 @@
-package org.lyr.tool.json;
+package com.ailyr.tool.json;
 
 /**
  * 用于定义<code>null</code>，与Javascript中null相对应<br>

@@ -1,12 +1,13 @@
-package org.lyr.tool.core.io;
+package com.ailyr.tool.core.io;
 
 import java.nio.ByteBuffer;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.io.BufferUtil;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.StrUtil;
+
+import com.ailyr.tool.core.io.BufferUtil;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * BufferUtil单元测试

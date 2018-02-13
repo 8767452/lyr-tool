@@ -1,6 +1,6 @@
-package org.lyr.tool.core.convert;
+package com.ailyr.tool.core.convert;
 
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 将浮点数类型的number转换成英语的表达方式 <br>

@@ -1,10 +1,11 @@
-package org.lyr.tool.http.test;
+package com.ailyr.tool.http.test;
 
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.core.lang.Console;
-import org.lyr.tool.http.HttpRequest;
-import org.lyr.tool.json.JSONUtil;
+
+import com.ailyr.tool.core.lang.Console;
+import com.ailyr.tool.http.HttpRequest;
+import com.ailyr.tool.json.JSONUtil;
 
 public class RestTest {
 	

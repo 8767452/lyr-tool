@@ -1,8 +1,9 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.lang.Caller;
+
+import com.ailyr.tool.core.lang.Caller;
 
 /**
  * {@link Caller} 单元测试

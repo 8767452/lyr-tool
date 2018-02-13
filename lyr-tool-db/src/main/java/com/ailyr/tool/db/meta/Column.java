@@ -1,10 +1,10 @@
-package org.lyr.tool.db.meta;
+package com.ailyr.tool.db.meta;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.db.DbRuntimeException;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.db.DbRuntimeException;
 
 /**
  * 数据库表的列信息

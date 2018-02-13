@@ -1,11 +1,11 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import java.io.Serializable;
 import java.util.Arrays;
 import java.util.Iterator;
 
-import org.lyr.tool.core.clone.CloneSupport;
-import org.lyr.tool.core.collection.ArrayIterator;
+import com.ailyr.tool.core.clone.CloneSupport;
+import com.ailyr.tool.core.collection.ArrayIterator;
 
 /**
  * 不可变数组类型，用于多值返回<br>

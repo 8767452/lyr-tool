@@ -1,4 +1,4 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -17,11 +17,11 @@ import java.util.Collection;
 import java.util.Enumeration;
 import java.util.LinkedHashSet;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.exceptions.UtilException;
-import org.lyr.tool.core.io.IORuntimeException;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.lang.Validator;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.lang.Validator;
 
 /**
  * 网络相关工具

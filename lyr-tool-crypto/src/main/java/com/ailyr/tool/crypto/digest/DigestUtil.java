@@ -1,11 +1,11 @@
-package org.lyr.tool.crypto.digest;
+package com.ailyr.tool.crypto.digest;
 
 import java.io.File;
 import java.io.InputStream;
 
 import javax.crypto.SecretKey;
 
-import org.lyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.CharsetUtil;
 
 /**
  * 摘要算法工具类

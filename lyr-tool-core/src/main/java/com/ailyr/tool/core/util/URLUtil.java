@@ -1,4 +1,4 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -13,12 +13,12 @@ import java.net.URLDecoder;
 import java.net.URLEncoder;
 import java.nio.charset.Charset;
 
-import org.lyr.tool.core.exceptions.UtilException;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IORuntimeException;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.io.resource.ResourceUtil;
-import org.lyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.io.resource.ResourceUtil;
+import com.ailyr.tool.core.lang.Assert;
 
 /**
  * 统一资源定位符相关工具类

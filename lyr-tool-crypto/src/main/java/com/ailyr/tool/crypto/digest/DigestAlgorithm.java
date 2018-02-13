@@ -1,4 +1,4 @@
-package org.lyr.tool.crypto.digest;
+package com.ailyr.tool.crypto.digest;
 
 /**
  * 摘要算法类型<br>

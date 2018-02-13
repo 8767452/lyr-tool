@@ -1,4 +1,4 @@
-package org.lyr.tool.core.exceptions;
+package com.ailyr.tool.core.exceptions;
 
 import java.io.PrintStream;
 import java.lang.reflect.InvocationTargetException;
@@ -6,10 +6,10 @@ import java.lang.reflect.UndeclaredThrowableException;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.io.FastByteArrayOutputStream;
-import org.lyr.tool.core.util.ReflectUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.io.FastByteArrayOutputStream;
+import com.ailyr.tool.core.util.ReflectUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 异常工具类

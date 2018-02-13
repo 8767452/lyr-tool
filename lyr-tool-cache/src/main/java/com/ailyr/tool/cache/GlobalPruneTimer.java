@@ -1,4 +1,4 @@
-package org.lyr.tool.cache;
+package com.ailyr.tool.cache;
 
 import java.util.List;
 import java.util.concurrent.ScheduledExecutorService;
@@ -8,8 +8,8 @@ import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import org.lyr.tool.core.thread.ThreadUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.thread.ThreadUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 全局缓存清理定时器池，用于在需要过期支持的缓存对象中超时任务池

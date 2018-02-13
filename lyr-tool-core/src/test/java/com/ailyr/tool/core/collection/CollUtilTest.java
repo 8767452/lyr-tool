@@ -1,4 +1,4 @@
-package org.lyr.tool.core.collection;
+package com.ailyr.tool.core.collection;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -9,13 +9,14 @@ import java.util.Set;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.collection.CollUtil;
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.collection.CollUtil.Hash;
-import org.lyr.tool.core.lang.Dict;
-import org.lyr.tool.core.lang.Editor;
-import org.lyr.tool.core.lang.Matcher;
-import org.lyr.tool.core.map.MapUtil;
+
+import com.ailyr.tool.core.collection.CollUtil;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.collection.CollUtil.Hash;
+import com.ailyr.tool.core.lang.Dict;
+import com.ailyr.tool.core.lang.Editor;
+import com.ailyr.tool.core.lang.Matcher;
+import com.ailyr.tool.core.map.MapUtil;
 
 /**
  * 集合工具类单元测试

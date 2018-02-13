@@ -1,6 +1,6 @@
-package org.lyr.tool.core.exceptions;
+package com.ailyr.tool.core.exceptions;
 
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 验证异常

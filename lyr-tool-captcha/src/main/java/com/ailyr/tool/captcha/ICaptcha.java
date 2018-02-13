@@ -1,4 +1,4 @@
-package org.lyr.tool.captcha;
+package com.ailyr.tool.captcha;
 
 import java.io.OutputStream;
 import java.io.Serializable;

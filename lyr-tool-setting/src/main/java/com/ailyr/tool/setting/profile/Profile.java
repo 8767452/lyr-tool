@@ -1,12 +1,12 @@
-package org.lyr.tool.setting.profile;
+package com.ailyr.tool.setting.profile;
 
 import java.io.Serializable;
 import java.nio.charset.Charset;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.setting.Setting;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.setting.Setting;
 
 /**
  * Profile可以让我们定义一系列的配置信息，然后指定其激活条件。<br>

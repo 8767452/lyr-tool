@@ -1,4 +1,4 @@
-package org.lyr.tool.db.test;
+package com.ailyr.tool.db.test;
 
 import java.sql.SQLException;
 
@@ -6,8 +6,9 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.db.Entity;
-import org.lyr.tool.db.SqlRunner;
+
+import com.ailyr.tool.db.Entity;
+import com.ailyr.tool.db.SqlRunner;
 
 public class UpdateTest {
 	

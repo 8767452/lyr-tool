@@ -1,4 +1,4 @@
-package org.lyr.tool.core.date;
+package com.ailyr.tool.core.date;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -8,13 +8,14 @@ import java.util.Date;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.core.date.DateField;
-import org.lyr.tool.core.date.DateTime;
-import org.lyr.tool.core.date.DateUnit;
-import org.lyr.tool.core.date.DateUtil;
-import org.lyr.tool.core.date.TimeInterval;
-import org.lyr.tool.core.date.BetweenFormater.Level;
-import org.lyr.tool.core.lang.Console;
+
+import com.ailyr.tool.core.date.DateField;
+import com.ailyr.tool.core.date.DateTime;
+import com.ailyr.tool.core.date.DateUnit;
+import com.ailyr.tool.core.date.DateUtil;
+import com.ailyr.tool.core.date.TimeInterval;
+import com.ailyr.tool.core.date.BetweenFormater.Level;
+import com.ailyr.tool.core.lang.Console;
 
 /**
  * 时间工具单元测试

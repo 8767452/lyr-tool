@@ -1,11 +1,11 @@
-package org.lyr.tool.captcha;
+package com.ailyr.tool.captcha;
 
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import java.util.concurrent.ThreadLocalRandom;
 
-import org.lyr.tool.core.util.ImageUtil;
-import org.lyr.tool.core.util.RandomUtil;
+import com.ailyr.tool.core.util.ImageUtil;
+import com.ailyr.tool.core.util.RandomUtil;
 
 /**
  * 使用干扰线方式生成的图形验证码

@@ -1,4 +1,4 @@
-package org.lyr.tool.core.io;
+package com.ailyr.tool.core.io;
 
 import java.io.File;
 import java.nio.file.Path;
@@ -8,10 +8,11 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.file.LineSeparator;
-import org.lyr.tool.core.lang.Console;
-import org.lyr.tool.core.util.CharsetUtil;
+
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.file.LineSeparator;
+import com.ailyr.tool.core.lang.Console;
+import com.ailyr.tool.core.util.CharsetUtil;
 
 /**
  * {@link FileUtil} 单元测试类

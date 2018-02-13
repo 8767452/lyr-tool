@@ -1,7 +1,7 @@
-package org.lyr.tool.extra.servlet.multipart;
+package com.ailyr.tool.extra.servlet.multipart;
 
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 上传的文件的头部信息<br>

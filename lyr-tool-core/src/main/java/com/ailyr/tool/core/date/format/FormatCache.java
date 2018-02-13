@@ -1,4 +1,4 @@
-package org.lyr.tool.core.date.format;
+package com.ailyr.tool.core.date.format;
 
 import java.text.DateFormat;
 import java.text.Format;

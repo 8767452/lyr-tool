@@ -1,11 +1,11 @@
-package org.lyr.tool.db.nosql.redis;
+package com.ailyr.tool.db.nosql.redis;
 
 import java.io.Closeable;
 import java.io.IOException;
 
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.setting.Setting;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.setting.Setting;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;

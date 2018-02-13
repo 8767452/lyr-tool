@@ -1,11 +1,11 @@
-package org.lyr.tool.log;
+package com.ailyr.tool.log;
 
-import org.lyr.tool.log.level.DebugLog;
-import org.lyr.tool.log.level.ErrorLog;
-import org.lyr.tool.log.level.InfoLog;
-import org.lyr.tool.log.level.Level;
-import org.lyr.tool.log.level.TraceLog;
-import org.lyr.tool.log.level.WarnLog;
+import com.ailyr.tool.log.level.DebugLog;
+import com.ailyr.tool.log.level.ErrorLog;
+import com.ailyr.tool.log.level.InfoLog;
+import com.ailyr.tool.log.level.Level;
+import com.ailyr.tool.log.level.TraceLog;
+import com.ailyr.tool.log.level.WarnLog;
 
 /**
  * 日志统一接口

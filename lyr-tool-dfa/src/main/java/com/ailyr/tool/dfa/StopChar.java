@@ -1,4 +1,4 @@
-package org.lyr.tool.dfa;
+package com.ailyr.tool.dfa;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;

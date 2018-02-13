@@ -1,11 +1,12 @@
-package org.lyr.tool.core.date;
+package com.ailyr.tool.core.date;
 
 import java.util.Date;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.date.DateBetween;
-import org.lyr.tool.core.date.DateUtil;
+
+import com.ailyr.tool.core.date.DateBetween;
+import com.ailyr.tool.core.date.DateUtil;
 
 public class DateBetweenTest {
 	

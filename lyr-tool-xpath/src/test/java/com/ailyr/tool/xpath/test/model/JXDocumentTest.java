@@ -1,5 +1,8 @@
-package org.lyr.tool.xpath.test.model;
+package com.ailyr.tool.xpath.test.model;
 
+import com.ailyr.tool.xpath.exception.XpathSyntaxErrorException;
+import com.ailyr.tool.xpath.model.JXDocument;
+import com.ailyr.tool.xpath.model.JXNode;
 import com.tngtech.java.junit.dataprovider.DataProvider;
 import com.tngtech.java.junit.dataprovider.DataProviderRunner;
 import org.apache.commons.lang3.StringUtils;
@@ -9,9 +12,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.lyr.tool.xpath.exception.XpathSyntaxErrorException;
-import org.lyr.tool.xpath.model.JXDocument;
-import org.lyr.tool.xpath.model.JXNode;
 import org.powermock.modules.junit4.PowerMockRunner;
 import org.powermock.modules.junit4.PowerMockRunnerDelegate;
 

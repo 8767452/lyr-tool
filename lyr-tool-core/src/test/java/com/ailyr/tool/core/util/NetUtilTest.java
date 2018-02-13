@@ -1,12 +1,13 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.net.InetAddress;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.lang.PatternPool;
-import org.lyr.tool.core.util.NetUtil;
-import org.lyr.tool.core.util.ReUtil;
+
+import com.ailyr.tool.core.lang.PatternPool;
+import com.ailyr.tool.core.util.NetUtil;
+import com.ailyr.tool.core.util.ReUtil;
 
 /**
  * NetUtil单元测试

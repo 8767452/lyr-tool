@@ -1,17 +1,18 @@
-package org.lyr.tool.json;
+package com.ailyr.tool.json;
 
 import java.util.ArrayList;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.collection.CollUtil;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.lang.Console;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.json.JSONArray;
-import org.lyr.tool.json.JSONObject;
-import org.lyr.tool.json.JSONUtil;
-import org.lyr.tool.json.test.bean.Exam;
+
+import com.ailyr.tool.core.collection.CollUtil;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.lang.Console;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.json.JSONArray;
+import com.ailyr.tool.json.JSONObject;
+import com.ailyr.tool.json.JSONUtil;
+import com.ailyr.tool.json.test.bean.Exam;
 
 /**
  * JSONArray单元测试

@@ -1,9 +1,10 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.collection.CollUtil;
-import org.lyr.tool.core.lang.WeightRandom;
+
+import com.ailyr.tool.core.collection.CollUtil;
+import com.ailyr.tool.core.lang.WeightRandom;
 
 public class WeightRandomTest {
 	

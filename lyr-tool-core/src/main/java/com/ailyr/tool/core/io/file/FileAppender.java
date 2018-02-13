@@ -1,4 +1,4 @@
-package org.lyr.tool.core.io.file;
+package com.ailyr.tool.core.io.file;
 
 import java.io.File;
 import java.io.PrintWriter;
@@ -6,7 +6,7 @@ import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.lyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.CharsetUtil;
 
 /**
  * 文件追加器<br>

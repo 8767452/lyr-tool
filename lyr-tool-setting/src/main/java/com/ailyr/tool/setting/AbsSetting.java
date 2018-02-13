@@ -1,16 +1,16 @@
-package org.lyr.tool.setting;
+package com.ailyr.tool.setting;
 
 import java.io.Serializable;
 import java.lang.reflect.Type;
 
-import org.lyr.tool.core.bean.BeanUtil;
-import org.lyr.tool.core.bean.copier.CopyOptions;
-import org.lyr.tool.core.bean.copier.ValueProvider;
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.getter.OptNullBasicTypeFromObjectGetter;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.log.Log;
-import org.lyr.tool.log.StaticLog;
+import com.ailyr.tool.core.bean.BeanUtil;
+import com.ailyr.tool.core.bean.copier.CopyOptions;
+import com.ailyr.tool.core.bean.copier.ValueProvider;
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.getter.OptNullBasicTypeFromObjectGetter;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.log.Log;
+import com.ailyr.tool.log.StaticLog;
 
 /**
  * Setting抽象类

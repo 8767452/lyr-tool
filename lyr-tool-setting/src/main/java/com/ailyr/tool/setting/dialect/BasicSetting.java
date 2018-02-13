@@ -1,4 +1,4 @@
-package org.lyr.tool.setting.dialect;
+package com.ailyr.tool.setting.dialect;
 
 import java.io.File;
 import java.net.URL;
@@ -15,23 +15,23 @@ import java.util.Properties;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.io.resource.ClassPathResource;
-import org.lyr.tool.core.io.resource.FileResource;
-import org.lyr.tool.core.io.resource.Resource;
-import org.lyr.tool.core.io.resource.ResourceUtil;
-import org.lyr.tool.core.io.resource.UrlResource;
-import org.lyr.tool.core.io.watch.SimpleWatcher;
-import org.lyr.tool.core.io.watch.WatchMonitor;
-import org.lyr.tool.core.lang.Assert;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.log.StaticLog;
-import org.lyr.tool.setting.AbsSetting;
-import org.lyr.tool.setting.Setting;
-import org.lyr.tool.setting.SettingLoader;
-import org.lyr.tool.setting.SettingRuntimeException;
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.io.resource.ClassPathResource;
+import com.ailyr.tool.core.io.resource.FileResource;
+import com.ailyr.tool.core.io.resource.Resource;
+import com.ailyr.tool.core.io.resource.ResourceUtil;
+import com.ailyr.tool.core.io.resource.UrlResource;
+import com.ailyr.tool.core.io.watch.SimpleWatcher;
+import com.ailyr.tool.core.io.watch.WatchMonitor;
+import com.ailyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.log.StaticLog;
+import com.ailyr.tool.setting.AbsSetting;
+import com.ailyr.tool.setting.Setting;
+import com.ailyr.tool.setting.SettingLoader;
+import com.ailyr.tool.setting.SettingRuntimeException;
 
 /**
  * 设置工具类。 用于支持设置（配置）文件<br>

@@ -1,12 +1,12 @@
-package org.lyr.tool.core.convert.impl;
+package com.ailyr.tool.core.convert.impl;
 
 import java.lang.reflect.Type;
 import java.util.Collection;
 
-import org.lyr.tool.core.collection.CollUtil;
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.convert.Converter;
-import org.lyr.tool.core.util.TypeUtil;
+import com.ailyr.tool.core.collection.CollUtil;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.convert.Converter;
+import com.ailyr.tool.core.util.TypeUtil;
 
 /**
  * 各种集合类转换器

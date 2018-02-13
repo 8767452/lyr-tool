@@ -1,12 +1,12 @@
-package org.lyr.tool.db.nosql.mongo;
+package com.ailyr.tool.db.nosql.mongo;
 
 import java.util.Collection;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.setting.Setting;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.setting.Setting;
 
 /**
  * MongoDB工厂类，用于创建

@@ -1,4 +1,4 @@
-package org.lyr.tool.db.sql;
+package com.ailyr.tool.db.sql;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,18 +6,18 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Map.Entry;
 
-import org.lyr.tool.core.collection.CollUtil;
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.ObjectUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.db.DbRuntimeException;
-import org.lyr.tool.db.DbUtil;
-import org.lyr.tool.db.Entity;
-import org.lyr.tool.db.dialect.DialectName;
-import org.lyr.tool.log.Log;
-import org.lyr.tool.log.StaticLog;
+import com.ailyr.tool.core.collection.CollUtil;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.ObjectUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.db.DbRuntimeException;
+import com.ailyr.tool.db.DbUtil;
+import com.ailyr.tool.db.Entity;
+import com.ailyr.tool.db.dialect.DialectName;
+import com.ailyr.tool.log.Log;
+import com.ailyr.tool.log.StaticLog;
 
 /**
  * SQL构建器<br>

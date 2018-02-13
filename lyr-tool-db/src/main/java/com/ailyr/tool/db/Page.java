@@ -1,10 +1,10 @@
-package org.lyr.tool.db;
+package com.ailyr.tool.db;
 
 import java.util.Arrays;
 
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.PageUtil;
-import org.lyr.tool.db.sql.Order;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.PageUtil;
+import com.ailyr.tool.db.sql.Order;
 
 /**
  * 分页对象

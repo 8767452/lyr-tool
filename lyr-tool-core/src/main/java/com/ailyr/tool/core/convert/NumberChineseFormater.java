@@ -1,6 +1,6 @@
-package org.lyr.tool.core.convert;
+package com.ailyr.tool.core.convert;
 
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 数字转中文类<br>

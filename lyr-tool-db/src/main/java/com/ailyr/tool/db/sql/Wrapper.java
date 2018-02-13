@@ -1,14 +1,14 @@
-package org.lyr.tool.db.sql;
+package com.ailyr.tool.db.sql;
 
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Map.Entry;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.lang.Editor;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.db.Entity;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.lang.Editor;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.db.Entity;
 
 /**
  * 包装器<br>

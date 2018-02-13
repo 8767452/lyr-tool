@@ -1,7 +1,7 @@
-package org.lyr.tool.crypto;
+package com.ailyr.tool.crypto;
 
-import org.lyr.tool.core.exceptions.ExceptionUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.exceptions.ExceptionUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 加密异常

@@ -1,10 +1,10 @@
-package org.lyr.tool.core.comparator;
+package com.ailyr.tool.core.comparator;
 
 import java.io.Serializable;
 import java.util.Comparator;
 
-import org.lyr.tool.core.bean.BeanUtil;
-import org.lyr.tool.core.util.ObjectUtil;
+import com.ailyr.tool.core.bean.BeanUtil;
+import com.ailyr.tool.core.util.ObjectUtil;
 
 /**
  * Bean属性排序器<br>

@@ -1,4 +1,4 @@
-package org.lyr.tool.db.test.pojo;
+package com.ailyr.tool.db.test.pojo;
 
 /**
  * 测试用POJO，与测试数据库中的user表对应

@@ -1,10 +1,10 @@
-package org.lyr.tool.db.dialect.impl;
+package com.ailyr.tool.db.dialect.impl;
 
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.db.Page;
-import org.lyr.tool.db.dialect.DialectName;
-import org.lyr.tool.db.sql.SqlBuilder;
-import org.lyr.tool.db.sql.Wrapper;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.db.Page;
+import com.ailyr.tool.db.dialect.DialectName;
+import com.ailyr.tool.db.sql.SqlBuilder;
+import com.ailyr.tool.db.sql.Wrapper;
 
 /**
  * SQLServer2012 方言

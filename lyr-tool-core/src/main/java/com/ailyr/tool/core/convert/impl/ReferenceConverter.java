@@ -1,14 +1,14 @@
-package org.lyr.tool.core.convert.impl;
+package com.ailyr.tool.core.convert.impl;
 
 import java.lang.ref.Reference;
 import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
 import java.lang.reflect.Type;
 
-import org.lyr.tool.core.convert.AbstractConverter;
-import org.lyr.tool.core.convert.ConverterRegistry;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.core.util.TypeUtil;
+import com.ailyr.tool.core.convert.AbstractConverter;
+import com.ailyr.tool.core.convert.ConverterRegistry;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.TypeUtil;
 
 /**
  * {@link Reference}转换器

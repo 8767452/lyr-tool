@@ -1,8 +1,9 @@
-package org.lyr.tool.system;
+package com.ailyr.tool.system;
 
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.system.SystemUtil;
+
+import com.ailyr.tool.system.SystemUtil;
 
 public class SystemUtilTest {
 	

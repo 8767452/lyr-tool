@@ -1,4 +1,4 @@
-package org.lyr.tool.db.ds.pooled;
+package com.ailyr.tool.db.ds.pooled;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -6,12 +6,12 @@ import java.sql.SQLException;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.thread.ThreadUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.db.DbRuntimeException;
-import org.lyr.tool.db.ds.simple.AbstractDataSource;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.thread.ThreadUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.db.DbRuntimeException;
+import com.ailyr.tool.db.ds.simple.AbstractDataSource;
 
 /**
  * 池化数据源

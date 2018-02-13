@@ -1,7 +1,7 @@
-package org.lyr.tool.db;
+package com.ailyr.tool.db;
 
-import org.lyr.tool.core.exceptions.ExceptionUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.exceptions.ExceptionUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 数据库异常

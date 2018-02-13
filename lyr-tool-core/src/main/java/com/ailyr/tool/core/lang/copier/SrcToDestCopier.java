@@ -1,6 +1,6 @@
-package org.lyr.tool.core.lang.copier;
+package com.ailyr.tool.core.lang.copier;
 
-import org.lyr.tool.core.lang.Filter;
+import com.ailyr.tool.core.lang.Filter;
 
 /**
  * 复制器抽象类<br>

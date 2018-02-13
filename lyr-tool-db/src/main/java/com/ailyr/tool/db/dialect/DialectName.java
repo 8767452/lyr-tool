@@ -1,4 +1,4 @@
-package org.lyr.tool.db.dialect;
+package com.ailyr.tool.db.dialect;
 
 /**
  * 方言名

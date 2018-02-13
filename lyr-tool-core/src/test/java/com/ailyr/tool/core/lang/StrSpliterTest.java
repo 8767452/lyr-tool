@@ -1,10 +1,11 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.text.StrSpliter;
+
+import com.ailyr.tool.core.text.StrSpliter;
 
 /**
  * {@link StrSpliter} 单元测试

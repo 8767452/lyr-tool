@@ -1,4 +1,4 @@
-package org.lyr.tool.core.text.csv;
+package com.ailyr.tool.core.text.csv;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,11 +9,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IORuntimeException;
-import org.lyr.tool.core.lang.Assert;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.ObjectUtil;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.ObjectUtil;
 
 /**
  * CSV文件读取器，参考：FastCSV

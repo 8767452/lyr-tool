@@ -1,10 +1,10 @@
-package org.lyr.tool.bloomfilter;
+package com.ailyr.tool.bloomfilter;
 
-import org.lyr.tool.bloomfilter.filter.DefaultFilter;
-import org.lyr.tool.bloomfilter.filter.ELFFilter;
-import org.lyr.tool.bloomfilter.filter.JSFilter;
-import org.lyr.tool.bloomfilter.filter.PJWFilter;
-import org.lyr.tool.bloomfilter.filter.SDBMFilter;
+import com.ailyr.tool.bloomfilter.filter.DefaultFilter;
+import com.ailyr.tool.bloomfilter.filter.ELFFilter;
+import com.ailyr.tool.bloomfilter.filter.JSFilter;
+import com.ailyr.tool.bloomfilter.filter.PJWFilter;
+import com.ailyr.tool.bloomfilter.filter.SDBMFilter;
 
 /**
  * BlommFilter 实现 <br>

@@ -1,4 +1,4 @@
-package org.lyr.tool.dfa;
+package com.ailyr.tool.dfa;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
@@ -6,8 +6,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * DFA（Deterministic Finite Automaton 确定有穷自动机）

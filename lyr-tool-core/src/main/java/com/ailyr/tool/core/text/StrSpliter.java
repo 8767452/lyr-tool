@@ -1,13 +1,13 @@
-package org.lyr.tool.core.text;
+package com.ailyr.tool.core.text;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.lyr.tool.core.lang.PatternPool;
-import org.lyr.tool.core.util.NumberUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.lang.PatternPool;
+import com.ailyr.tool.core.util.NumberUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 字符串切分器

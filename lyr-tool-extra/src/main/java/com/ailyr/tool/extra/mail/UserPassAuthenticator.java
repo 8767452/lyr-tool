@@ -1,4 +1,4 @@
-package org.lyr.tool.extra.mail;
+package com.ailyr.tool.extra.mail;
 
 import javax.mail.Authenticator;
 import javax.mail.PasswordAuthentication;

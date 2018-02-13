@@ -1,8 +1,8 @@
-package org.lyr.tool.core.convert.impl;
+package com.ailyr.tool.core.convert.impl;
 
 import java.util.TimeZone;
 
-import org.lyr.tool.core.convert.AbstractConverter;
+import com.ailyr.tool.core.convert.AbstractConverter;
 
 /**
  * TimeZone转换器

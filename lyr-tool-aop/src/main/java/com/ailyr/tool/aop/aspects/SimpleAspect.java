@@ -1,8 +1,8 @@
-package org.lyr.tool.aop.aspects;
+package com.ailyr.tool.aop.aspects;
 
 import java.lang.reflect.Method;
 
-import org.lyr.tool.aop.Aspect;
+import com.ailyr.tool.aop.Aspect;
 
 /**
  * 简单切面类，不做任何操作<br>

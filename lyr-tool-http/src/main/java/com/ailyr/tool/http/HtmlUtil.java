@@ -1,7 +1,7 @@
-package org.lyr.tool.http;
+package com.ailyr.tool.http;
 
-import org.lyr.tool.core.util.ReUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.ReUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * HTML工具类

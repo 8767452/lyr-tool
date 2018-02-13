@@ -1,4 +1,4 @@
-package org.lyr.tool.http.test;
+package com.ailyr.tool.http.test;
 
 import java.util.List;
 import java.util.Map;
@@ -6,10 +6,11 @@ import java.util.Map;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.core.lang.Console;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.ReUtil;
-import org.lyr.tool.http.HttpUtil;
+
+import com.ailyr.tool.core.lang.Console;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.ReUtil;
+import com.ailyr.tool.http.HttpUtil;
 
 public class HttpUtilTest {
 

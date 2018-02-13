@@ -1,4 +1,4 @@
-package org.lyr.tool.db;
+package com.ailyr.tool.db;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,21 +8,21 @@ import java.util.List;
 
 import javax.sql.DataSource;
 
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.lang.Assert;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.db.dialect.Dialect;
-import org.lyr.tool.db.dialect.DialectFactory;
-import org.lyr.tool.db.handler.EntityListHandler;
-import org.lyr.tool.db.handler.NumberHandler;
-import org.lyr.tool.db.handler.PageResultHandler;
-import org.lyr.tool.db.handler.RsHandler;
-import org.lyr.tool.db.sql.Query;
-import org.lyr.tool.db.sql.SqlExecutor;
-import org.lyr.tool.db.sql.Wrapper;
-import org.lyr.tool.db.sql.Condition.LikeType;
-import org.lyr.tool.log.StaticLog;
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.db.dialect.Dialect;
+import com.ailyr.tool.db.dialect.DialectFactory;
+import com.ailyr.tool.db.handler.EntityListHandler;
+import com.ailyr.tool.db.handler.NumberHandler;
+import com.ailyr.tool.db.handler.PageResultHandler;
+import com.ailyr.tool.db.handler.RsHandler;
+import com.ailyr.tool.db.sql.Query;
+import com.ailyr.tool.db.sql.SqlExecutor;
+import com.ailyr.tool.db.sql.Wrapper;
+import com.ailyr.tool.db.sql.Condition.LikeType;
+import com.ailyr.tool.log.StaticLog;
 
 /**
  * SQL执行类<br>

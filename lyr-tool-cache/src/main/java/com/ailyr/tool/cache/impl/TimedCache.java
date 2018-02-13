@@ -1,11 +1,11 @@
-package org.lyr.tool.cache.impl;
+package com.ailyr.tool.cache.impl;
 
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.concurrent.ScheduledFuture;
 
-import org.lyr.tool.cache.GlobalPruneTimer;
+import com.ailyr.tool.cache.GlobalPruneTimer;
 
 /**
  * 定时缓存<br>

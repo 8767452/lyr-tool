@@ -1,8 +1,8 @@
-package org.lyr.tool.core.text.csv;
+package com.ailyr.tool.core.text.csv;
 
 import java.io.Serializable;
 
-import org.lyr.tool.core.util.CharUtil;
+import com.ailyr.tool.core.util.CharUtil;
 
 /**
  * CSV写出配置项

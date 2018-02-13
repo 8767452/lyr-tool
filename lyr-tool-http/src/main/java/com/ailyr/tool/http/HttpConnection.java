@@ -1,4 +1,4 @@
-package org.lyr.tool.http;
+package com.ailyr.tool.http;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -20,15 +20,15 @@ import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLSocketFactory;
 
-import org.lyr.tool.core.lang.Validator;
-import org.lyr.tool.core.map.MapUtil;
-import org.lyr.tool.core.util.ObjectUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.core.util.URLUtil;
-import org.lyr.tool.http.ssl.SSLSocketFactoryBuilder;
-import org.lyr.tool.http.ssl.TrustAnyHostnameVerifier;
-import org.lyr.tool.log.Log;
-import org.lyr.tool.log.LogFactory;
+import com.ailyr.tool.core.lang.Validator;
+import com.ailyr.tool.core.map.MapUtil;
+import com.ailyr.tool.core.util.ObjectUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.URLUtil;
+import com.ailyr.tool.http.ssl.SSLSocketFactoryBuilder;
+import com.ailyr.tool.http.ssl.TrustAnyHostnameVerifier;
+import com.ailyr.tool.log.Log;
+import com.ailyr.tool.log.LogFactory;
 
 /**
  * http连接对象，对HttpURLConnection的包装

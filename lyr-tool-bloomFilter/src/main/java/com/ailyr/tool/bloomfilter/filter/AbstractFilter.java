@@ -1,9 +1,9 @@
-package org.lyr.tool.bloomfilter.filter;
+package com.ailyr.tool.bloomfilter.filter;
 
-import org.lyr.tool.bloomfilter.BloomFilter;
-import org.lyr.tool.bloomfilter.bitMap.BitMap;
-import org.lyr.tool.bloomfilter.bitMap.IntMap;
-import org.lyr.tool.bloomfilter.bitMap.LongMap;
+import com.ailyr.tool.bloomfilter.BloomFilter;
+import com.ailyr.tool.bloomfilter.bitMap.BitMap;
+import com.ailyr.tool.bloomfilter.bitMap.IntMap;
+import com.ailyr.tool.bloomfilter.bitMap.LongMap;
 
 /**
  * 抽象Bloom过滤器

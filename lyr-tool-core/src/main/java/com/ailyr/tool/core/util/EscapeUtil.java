@@ -1,4 +1,4 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 /**
  * 转义和反转义工具类Escape / Unescape<br>

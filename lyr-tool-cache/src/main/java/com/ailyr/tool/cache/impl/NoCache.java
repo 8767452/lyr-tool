@@ -1,8 +1,8 @@
-package org.lyr.tool.cache.impl;
+package com.ailyr.tool.cache.impl;
 
 import java.util.Iterator;
 
-import org.lyr.tool.cache.Cache;
+import com.ailyr.tool.cache.Cache;
 
 /**
  * 无缓存实现，用于快速关闭缓存

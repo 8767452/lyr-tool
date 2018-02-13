@@ -1,8 +1,8 @@
-package org.lyr.tool.db.dialect.impl;
+package com.ailyr.tool.db.dialect.impl;
 
-import org.lyr.tool.db.Page;
-import org.lyr.tool.db.dialect.DialectName;
-import org.lyr.tool.db.sql.SqlBuilder;
+import com.ailyr.tool.db.Page;
+import com.ailyr.tool.db.dialect.DialectName;
+import com.ailyr.tool.db.sql.SqlBuilder;
 
 /**
  * Oracle 方言

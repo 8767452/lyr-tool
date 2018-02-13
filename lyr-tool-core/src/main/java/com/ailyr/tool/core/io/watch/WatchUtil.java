@@ -1,4 +1,4 @@
-package org.lyr.tool.core.io.watch;
+package com.ailyr.tool.core.io.watch;
 
 import java.io.File;
 import java.net.URI;
@@ -7,7 +7,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.WatchEvent;
 
-import org.lyr.tool.core.util.URLUtil;
+import com.ailyr.tool.core.util.URLUtil;
 
 /**
  * 监听工具类<br>

@@ -1,8 +1,9 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.util.PageUtil;
+
+import com.ailyr.tool.core.util.PageUtil;
 
 /**
  * 分页单元测试

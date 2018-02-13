@@ -1,4 +1,4 @@
-package org.lyr.tool.core.text;
+package com.ailyr.tool.core.text;
 
 /**
  * ASCII字符对应的字符串缓存

@@ -1,6 +1,6 @@
-package org.lyr.tool.system;
+package com.ailyr.tool.system;
 
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 代表当前运行的JRE的信息。

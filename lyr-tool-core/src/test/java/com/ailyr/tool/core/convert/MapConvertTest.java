@@ -1,4 +1,4 @@
-package org.lyr.tool.core.convert;
+package com.ailyr.tool.core.convert;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -6,8 +6,9 @@ import java.util.Map;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.map.MapBuilder;
+
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.map.MapBuilder;
 
 /**
  * Map转换单元测试

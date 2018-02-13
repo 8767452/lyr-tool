@@ -1,14 +1,15 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.util.Map;
 import java.util.Map.Entry;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.lang.Editor;
-import org.lyr.tool.core.lang.Filter;
-import org.lyr.tool.core.map.MapUtil;
+
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.lang.Editor;
+import com.ailyr.tool.core.lang.Filter;
+import com.ailyr.tool.core.map.MapUtil;
 
 public class MapUtilTest {
 	

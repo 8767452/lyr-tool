@@ -1,4 +1,4 @@
-package org.lyr.tool.core.io.resource;
+package com.ailyr.tool.core.io.resource;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -6,11 +6,11 @@ import java.io.InputStream;
 import java.net.URL;
 import java.nio.charset.Charset;
 
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IORuntimeException;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.URLUtil;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.URLUtil;
 
 /**
  * URL资源访问类

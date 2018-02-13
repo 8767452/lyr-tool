@@ -1,6 +1,6 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
-import org.lyr.tool.core.lang.mutable.MutableObj;
+import com.ailyr.tool.core.lang.mutable.MutableObj;
 
 /**
  * 为不可变的对象引用提供一个可变的包装，在java中支持引用传递。

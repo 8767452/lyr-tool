@@ -1,4 +1,4 @@
-package org.lyr.tool.core.collection;
+package com.ailyr.tool.core.collection;
 
 import java.lang.reflect.Type;
 import java.util.AbstractCollection;
@@ -28,21 +28,21 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.LinkedBlockingDeque;
 
-import org.lyr.tool.core.bean.BeanUtil;
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.convert.ConverterRegistry;
-import org.lyr.tool.core.exceptions.UtilException;
-import org.lyr.tool.core.lang.Editor;
-import org.lyr.tool.core.lang.Filter;
-import org.lyr.tool.core.lang.Matcher;
-import org.lyr.tool.core.map.MapUtil;
-import org.lyr.tool.core.util.ArrayUtil;
-import org.lyr.tool.core.util.ClassUtil;
-import org.lyr.tool.core.util.ObjectUtil;
-import org.lyr.tool.core.util.PageUtil;
-import org.lyr.tool.core.util.ReflectUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.core.util.TypeUtil;
+import com.ailyr.tool.core.bean.BeanUtil;
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.convert.ConverterRegistry;
+import com.ailyr.tool.core.exceptions.UtilException;
+import com.ailyr.tool.core.lang.Editor;
+import com.ailyr.tool.core.lang.Filter;
+import com.ailyr.tool.core.lang.Matcher;
+import com.ailyr.tool.core.map.MapUtil;
+import com.ailyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.ClassUtil;
+import com.ailyr.tool.core.util.ObjectUtil;
+import com.ailyr.tool.core.util.PageUtil;
+import com.ailyr.tool.core.util.ReflectUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.TypeUtil;
 
 /**
  * 集合相关工具类，包括数组

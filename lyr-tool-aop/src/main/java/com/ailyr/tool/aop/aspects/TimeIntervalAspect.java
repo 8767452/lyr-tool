@@ -1,10 +1,10 @@
-package org.lyr.tool.aop.aspects;
+package com.ailyr.tool.aop.aspects;
 
 import java.lang.reflect.Method;
 
-import org.lyr.tool.core.date.TimeInterval;
-import org.lyr.tool.log.Log;
-import org.lyr.tool.log.LogFactory;
+import com.ailyr.tool.core.date.TimeInterval;
+import com.ailyr.tool.log.Log;
+import com.ailyr.tool.log.LogFactory;
 
 /**
  * 通过日志打印方法的执行时间的切面

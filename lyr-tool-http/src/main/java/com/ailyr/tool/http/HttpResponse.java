@@ -1,4 +1,4 @@
-package org.lyr.tool.http;
+package com.ailyr.tool.http;
 
 import java.io.ByteArrayInputStream;
 import java.io.Closeable;
@@ -14,14 +14,14 @@ import java.util.List;
 import java.util.Map.Entry;
 import java.util.zip.GZIPInputStream;
 
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.io.FastByteArrayOutputStream;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IORuntimeException;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.io.StreamProgress;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.io.FastByteArrayOutputStream;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.io.StreamProgress;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * Http响应类<br>

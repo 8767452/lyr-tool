@@ -1,17 +1,18 @@
-package org.lyr.tool.crypto.test;
+package com.ailyr.tool.crypto.test;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.crypto.Mode;
-import org.lyr.tool.crypto.Padding;
-import org.lyr.tool.crypto.SecureUtil;
-import org.lyr.tool.crypto.symmetric.AES;
-import org.lyr.tool.crypto.symmetric.DES;
-import org.lyr.tool.crypto.symmetric.DESede;
-import org.lyr.tool.crypto.symmetric.SymmetricAlgorithm;
-import org.lyr.tool.crypto.symmetric.SymmetricCrypto;
+
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.crypto.Mode;
+import com.ailyr.tool.crypto.Padding;
+import com.ailyr.tool.crypto.SecureUtil;
+import com.ailyr.tool.crypto.symmetric.AES;
+import com.ailyr.tool.crypto.symmetric.DES;
+import com.ailyr.tool.crypto.symmetric.DESede;
+import com.ailyr.tool.crypto.symmetric.SymmetricAlgorithm;
+import com.ailyr.tool.crypto.symmetric.SymmetricCrypto;
 
 /**
  * 对称加密算法单元测试

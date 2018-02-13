@@ -1,12 +1,12 @@
-package org.lyr.tool.extra.mail;
+package com.ailyr.tool.extra.mail;
 
 import java.io.Serializable;
 import java.nio.charset.Charset;
 import java.util.Properties;
 
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.setting.Setting;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.setting.Setting;
 
 /**
  * 邮件账户对象

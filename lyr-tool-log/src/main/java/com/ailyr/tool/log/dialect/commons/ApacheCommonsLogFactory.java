@@ -1,7 +1,7 @@
-package org.lyr.tool.log.dialect.commons;
+package com.ailyr.tool.log.dialect.commons;
 
-import org.lyr.tool.log.Log;
-import org.lyr.tool.log.LogFactory;
+import com.ailyr.tool.log.Log;
+import com.ailyr.tool.log.LogFactory;
 
 /**
  *  Apache Commons Logging

@@ -1,6 +1,6 @@
-package org.lyr.tool.bloomfilter.filter;
+package com.ailyr.tool.bloomfilter.filter;
 
-import org.lyr.tool.core.util.HashUtil;
+import com.ailyr.tool.core.util.HashUtil;
 
 public class PJWFilter extends AbstractFilter {
 

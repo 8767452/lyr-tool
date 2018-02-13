@@ -1,4 +1,4 @@
-package org.lyr.tool.db.test;
+package com.ailyr.tool.db.test;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -6,15 +6,16 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.lyr.tool.core.collection.CollectionUtil;
-import org.lyr.tool.core.lang.Console;
-import org.lyr.tool.core.thread.ThreadUtil;
-import org.lyr.tool.db.DbUtil;
-import org.lyr.tool.db.Entity;
-import org.lyr.tool.db.SqlRunner;
-import org.lyr.tool.db.handler.EntityListHandler;
-import org.lyr.tool.log.LogFactory;
-import org.lyr.tool.log.dialect.console.ConsoleLogFactory;
+
+import com.ailyr.tool.core.collection.CollectionUtil;
+import com.ailyr.tool.core.lang.Console;
+import com.ailyr.tool.core.thread.ThreadUtil;
+import com.ailyr.tool.db.DbUtil;
+import com.ailyr.tool.db.Entity;
+import com.ailyr.tool.db.SqlRunner;
+import com.ailyr.tool.db.handler.EntityListHandler;
+import com.ailyr.tool.log.LogFactory;
+import com.ailyr.tool.log.dialect.console.ConsoleLogFactory;
 
 /**
  * SqlRunner线程安全测试

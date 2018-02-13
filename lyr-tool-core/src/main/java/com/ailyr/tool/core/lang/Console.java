@@ -1,10 +1,10 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import static java.lang.System.out;
 
 import java.util.Scanner;
 
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 import static java.lang.System.err;
 

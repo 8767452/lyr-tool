@@ -1,4 +1,4 @@
-package org.lyr.tool.extra.servlet.multipart;
+package com.ailyr.tool.extra.servlet.multipart;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.util.Set;
 
 import javax.servlet.ServletRequest;
 
-import org.lyr.tool.core.util.ArrayUtil;
+import com.ailyr.tool.core.util.ArrayUtil;
 
 /**
  * HttpRequest解析器<br>

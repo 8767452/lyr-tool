@@ -1,4 +1,4 @@
-package org.lyr.tool.core.convert;
+package com.ailyr.tool.core.convert;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -8,8 +8,9 @@ import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.collection.CollUtil;
-import org.lyr.tool.core.convert.Convert;
+
+import com.ailyr.tool.core.collection.CollUtil;
+import com.ailyr.tool.core.convert.Convert;
 
 /**
  * 转换为集合测试

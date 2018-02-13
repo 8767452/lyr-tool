@@ -1,4 +1,4 @@
-package org.lyr.tool.core.lang.mutable;
+package com.ailyr.tool.core.lang.mutable;
 
 /**
  * 提供可变值类型接口

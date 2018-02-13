@@ -1,10 +1,10 @@
-package org.lyr.tool.cache.test;
+package com.ailyr.tool.cache.test;
 
 import java.util.Iterator;
 
-import org.lyr.tool.cache.Cache;
-import org.lyr.tool.cache.impl.FIFOCache;
-import org.lyr.tool.core.thread.ThreadUtil;
+import com.ailyr.tool.cache.Cache;
+import com.ailyr.tool.cache.impl.FIFOCache;
+import com.ailyr.tool.core.thread.ThreadUtil;
 
 /**
  * 缓存单元测试

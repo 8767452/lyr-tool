@@ -1,11 +1,11 @@
-package org.lyr.tool.core.util;
+package com.ailyr.tool.core.util;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.lyr.tool.core.map.MapUtil;
+import com.ailyr.tool.core.map.MapUtil;
 
 /**
  * 枚举工具类

@@ -1,11 +1,12 @@
-package org.lyr.tool.log.dialect.commons;
+package com.ailyr.tool.log.dialect.commons;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.commons.logging.impl.Log4JLogger;
 import org.apache.log4j.Level;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.log.AbstractLocationAwareLog;
+
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.log.AbstractLocationAwareLog;
 
 /**
  * Apache Commons Logging for Log4j
@@ -121,17 +122,17 @@ public class ApacheCommonsLog4JLog extends AbstractLocationAwareLog {
 
 	// ------------------------------------------------------------------------- Log
 	@Override
-	public void log(org.lyr.tool.log.level.Level level, String format, Object... arguments) {
+	public void log(com.ailyr.tool.log.level.Level level, String format, Object... arguments) {
 		this.log(level, null, format, arguments);
 	}
 	
 	@Override
-	public void log(org.lyr.tool.log.level.Level level, Throwable t, String format, Object... arguments) {
+	public void log(com.ailyr.tool.log.level.Level level, Throwable t, String format, Object... arguments) {
 		this.log(FQCN, level, t, format, arguments);
 	}
 	
 	@Override
-	public void log(String fqcn, org.lyr.tool.log.level.Level level, Throwable t, String format, Object... arguments) {
+	public void log(String fqcn, com.ailyr.tool.log.level.Level level, Throwable t, String format, Object... arguments) {
 		Level log4jLevel;
 		switch (level) {
 			case TRACE:

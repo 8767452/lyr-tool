@@ -1,11 +1,12 @@
-package org.lyr.tool.core.lang;
+package com.ailyr.tool.core.lang;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.date.DateField;
-import org.lyr.tool.core.date.DateTime;
-import org.lyr.tool.core.date.DateUtil;
-import org.lyr.tool.core.lang.Range;
+
+import com.ailyr.tool.core.date.DateField;
+import com.ailyr.tool.core.date.DateTime;
+import com.ailyr.tool.core.date.DateUtil;
+import com.ailyr.tool.core.lang.Range;
 
 /**
  * {@link Range} 单元测试

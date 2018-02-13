@@ -1,9 +1,10 @@
-package org.lyr.tool.extra.mail;
+package com.ailyr.tool.extra.mail;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.extra.mail.GlobalMailAccount;
-import org.lyr.tool.extra.mail.MailAccount;
+
+import com.ailyr.tool.extra.mail.GlobalMailAccount;
+import com.ailyr.tool.extra.mail.MailAccount;
 
 /**
  * 默认邮件帐户设置测试

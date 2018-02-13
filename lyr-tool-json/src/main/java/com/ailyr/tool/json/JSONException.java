@@ -1,6 +1,6 @@
-package org.lyr.tool.json;
+package com.ailyr.tool.json;
 
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * JSON异常

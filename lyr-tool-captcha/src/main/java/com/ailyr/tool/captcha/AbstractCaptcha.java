@@ -1,4 +1,4 @@
-package org.lyr.tool.captcha;
+package com.ailyr.tool.captcha;
 
 import java.awt.Font;
 import java.awt.image.BufferedImage;
@@ -7,12 +7,12 @@ import java.io.File;
 import java.io.IOException;
 import java.io.OutputStream;
 
-import org.lyr.tool.core.codec.Base64;
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IORuntimeException;
-import org.lyr.tool.core.util.ImageUtil;
-import org.lyr.tool.core.util.RandomUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.codec.Base64;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.util.ImageUtil;
+import com.ailyr.tool.core.util.RandomUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 抽象验证码<br>

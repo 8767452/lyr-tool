@@ -1,20 +1,20 @@
-package org.lyr.tool.db.ds;
+package com.ailyr.tool.db.ds;
 
 import javax.sql.DataSource;
 
-import org.lyr.tool.core.convert.Convert;
-import org.lyr.tool.core.io.resource.NoResourceException;
-import org.lyr.tool.core.util.StrUtil;
-import org.lyr.tool.db.DbUtil;
-import org.lyr.tool.db.ds.c3p0.C3p0DSFactory;
-import org.lyr.tool.db.ds.dbcp.DbcpDSFactory;
-import org.lyr.tool.db.ds.druid.DruidDSFactory;
-import org.lyr.tool.db.ds.hikari.HikariDSFactory;
-import org.lyr.tool.db.ds.pooled.PooledDSFactory;
-import org.lyr.tool.db.ds.tomcat.TomcatDSFactory;
-import org.lyr.tool.log.Log;
-import org.lyr.tool.log.LogFactory;
-import org.lyr.tool.setting.Setting;
+import com.ailyr.tool.core.convert.Convert;
+import com.ailyr.tool.core.io.resource.NoResourceException;
+import com.ailyr.tool.core.util.StrUtil;
+import com.ailyr.tool.db.DbUtil;
+import com.ailyr.tool.db.ds.c3p0.C3p0DSFactory;
+import com.ailyr.tool.db.ds.dbcp.DbcpDSFactory;
+import com.ailyr.tool.db.ds.druid.DruidDSFactory;
+import com.ailyr.tool.db.ds.hikari.HikariDSFactory;
+import com.ailyr.tool.db.ds.pooled.PooledDSFactory;
+import com.ailyr.tool.db.ds.tomcat.TomcatDSFactory;
+import com.ailyr.tool.log.Log;
+import com.ailyr.tool.log.LogFactory;
+import com.ailyr.tool.setting.Setting;
 
 /**
  * 抽象数据源工厂类<br>

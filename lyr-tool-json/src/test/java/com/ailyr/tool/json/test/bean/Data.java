@@ -1,4 +1,4 @@
-package org.lyr.tool.json.test.bean;
+package com.ailyr.tool.json.test.bean;
 
 public class Data {
 

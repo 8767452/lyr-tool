@@ -1,8 +1,9 @@
-package org.lyr.tool.core.comparator;
+package com.ailyr.tool.core.comparator;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.comparator.VersionComparator;
+
+import com.ailyr.tool.core.comparator.VersionComparator;
 
 /**
  * 版本比较单元测试

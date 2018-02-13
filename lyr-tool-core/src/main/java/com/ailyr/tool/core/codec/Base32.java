@@ -1,9 +1,9 @@
-package org.lyr.tool.core.codec;
+package com.ailyr.tool.core.codec;
 
 import java.nio.charset.Charset;
 
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * Base32 - encodes and decodes RFC3548 Base32 (see http://www.faqs.org/rfcs/rfc3548.html )<br>

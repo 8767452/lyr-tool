@@ -1,10 +1,11 @@
-package org.lyr.tool.core.date;
+package com.ailyr.tool.core.date;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.core.date.BetweenFormater;
-import org.lyr.tool.core.date.DateUtil;
-import org.lyr.tool.core.date.BetweenFormater.Level;
+
+import com.ailyr.tool.core.date.BetweenFormater;
+import com.ailyr.tool.core.date.DateUtil;
+import com.ailyr.tool.core.date.BetweenFormater.Level;
 
 public class BetweenFormaterTest {
 	

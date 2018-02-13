@@ -1,11 +1,11 @@
-package org.lyr.tool.core.convert.impl;
+package com.ailyr.tool.core.convert.impl;
 
 import java.util.Calendar;
 import java.util.Date;
 
-import org.lyr.tool.core.convert.AbstractConverter;
-import org.lyr.tool.core.date.DateUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.convert.AbstractConverter;
+import com.ailyr.tool.core.date.DateUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 日期转换器

@@ -1,4 +1,4 @@
-package org.lyr.tool.core.io.file;
+package com.ailyr.tool.core.io.file;
 
 import java.io.BufferedOutputStream;
 import java.io.BufferedWriter;
@@ -13,12 +13,12 @@ import java.util.Collection;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.lyr.tool.core.io.FileUtil;
-import org.lyr.tool.core.io.IORuntimeException;
-import org.lyr.tool.core.io.IoUtil;
-import org.lyr.tool.core.lang.Assert;
-import org.lyr.tool.core.util.CharsetUtil;
-import org.lyr.tool.core.util.StrUtil;
+import com.ailyr.tool.core.io.FileUtil;
+import com.ailyr.tool.core.io.IORuntimeException;
+import com.ailyr.tool.core.io.IoUtil;
+import com.ailyr.tool.core.lang.Assert;
+import com.ailyr.tool.core.util.CharsetUtil;
+import com.ailyr.tool.core.util.StrUtil;
 
 /**
  * 文件写入器

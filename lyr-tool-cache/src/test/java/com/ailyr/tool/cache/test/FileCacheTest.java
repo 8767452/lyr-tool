@@ -1,8 +1,9 @@
-package org.lyr.tool.cache.test;
+package com.ailyr.tool.cache.test;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lyr.tool.cache.file.LFUFileCache;
+
+import com.ailyr.tool.cache.file.LFUFileCache;
 
 /**
  * 文件缓存单元测试
