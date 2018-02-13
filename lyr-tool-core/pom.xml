@@ -6,7 +6,7 @@
 	<packaging>jar</packaging>
 
 	<parent>
-		<groupId>org.lyr</groupId>
+		<groupId>com.ailyr</groupId>
 		<artifactId>lyr-tool-parent</artifactId>
 		<version>4.0.5</version>
 	</parent>

@@ -6,7 +6,7 @@
 	<packaging>jar</packaging>
 
 	<parent>
-		<groupId>org.lyr</groupId>
+		<groupId>com.ailyr</groupId>
 		<artifactId>lyr-tool-parent</artifactId>
 		<version>4.0.5</version>
 	</parent>
@@ -23,12 +23,12 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.lyr</groupId>
+			<groupId>com.ailyr</groupId>
 			<artifactId>lyr-tool-core</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.lyr</groupId>
+			<groupId>com.ailyr</groupId>
 			<artifactId>lyr-tool-log</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>
