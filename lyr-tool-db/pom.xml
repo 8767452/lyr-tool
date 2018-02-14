@@ -8,7 +8,7 @@
 	<parent>
 		<groupId>com.ailyr</groupId>
 		<artifactId>lyr-tool-parent</artifactId>
-		<version>4.0.5</version>
+		<version>${revision}</version>
 	</parent>
 
 	<artifactId>lyr-tool-db</artifactId>
@@ -16,6 +16,7 @@
 	<description>Tool 数据库JDBC的ORM封装</description>
 
 	<properties>
+		<main.basedir>${basedir}/../..</main.basedir>
 		<!-- versions -->
 		<c3p0.version>0.9.5.2</c3p0.version>
 		<dbcp2.version>2.2.0</dbcp2.version>

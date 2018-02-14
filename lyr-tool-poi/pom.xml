@@ -8,7 +8,7 @@
 	<parent>
 		<groupId>com.ailyr</groupId>
 		<artifactId>lyr-tool-parent</artifactId>
-		<version>4.0.5</version>
+		<version>${revision}</version>
 	</parent>
 
 	<artifactId>lyr-tool-poi</artifactId>
@@ -16,6 +16,7 @@
 	<description>Tool POI工具类（对MS Office操作）</description>
 
 	<properties>
+		<main.basedir>${basedir}/../..</main.basedir>
 		<!-- versions -->
 		<poi.version>3.17</poi.version>
 		<xerces.version>2.11.0</xerces.version>

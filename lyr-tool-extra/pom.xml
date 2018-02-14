@@ -8,7 +8,7 @@
 	<parent>
 		<groupId>com.ailyr</groupId>
 		<artifactId>lyr-tool-parent</artifactId>
-		<version>4.0.5</version>
+		<version>${revision}</version>
 	</parent>
 
 	<artifactId>lyr-tool-extra</artifactId>
@@ -16,6 +16,7 @@
 	<description>Tool 扩展工具类（提供其它类库的封装）</description>
 
 	<properties>
+		<main.basedir>${basedir}/../..</main.basedir>
 		<!-- versions -->
 		<velocity.version>1.7</velocity.version>
 		<beetl.version>2.7.26</beetl.version>

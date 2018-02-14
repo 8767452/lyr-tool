@@ -5,15 +5,16 @@
 
 	<packaging>pom</packaging>
 
-	<parent>
-		<groupId>org.sonatype.oss</groupId>
-		<artifactId>oss-parent</artifactId>
-		<version>7</version>
-	</parent>
+	<!-- <parent> -->
+	<!-- <groupId>org.sonatype.oss</groupId> -->
+	<!-- <artifactId>oss-parent</artifactId> -->
+	<!-- <version>7</version> -->
+	<!-- </parent> -->
 
 	<groupId>com.ailyr</groupId>
 	<artifactId>lyr-tool-parent</artifactId>
-	<version>4.0.5</version>
+	<!-- <version>4.0.5.1</version> -->
+	<version>${revision}</version>
 	<name>lyr-tool</name>
 	<description>提供丰富的Java工具方法</description>
 	<url>https://github.com/8767452/lyr-tool</url>
@@ -43,7 +44,8 @@
 	<properties>
 		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
-
+		<revision>4.0.6</revision>
+		<main.basedir>${basedir}</main.basedir>
 		<!-- versions -->
 		<junit.version>4.12</junit.version>
 		<servlet-api.version>3.1.0</servlet-api.version>
@@ -88,21 +90,30 @@
 		</developer>
 	</developers>
 
-
 	<scm>
-		<tag>master</tag>
-		<url>https://github.com/8767452/lyr-tool</url>
-		<connection>https://github.com/8767452/lyr-tool.git</connection>
-		<developerConnection>https://github.com/8767452/lyr-tool</developerConnection>
+		<tag>4.0.5.1</tag>
+		<url>https://github.com/8767452/lyr-tool.git</url>
+		<connection>scm:git:https://github.com/8767452/lyr-tool.git</connection>
+		<developerConnection>scm:git:https://github.com/8767452/lyr-tool.git</developerConnection>
 	</scm>
 
-<!--     <scm> -->
-<!--         <tag>master</tag> -->
-<!--         <url>git@github.com:cloudnil/marathon-client.git</url> -->
-<!--         <connection>scm:git:git@github.com:cloudnil/marathon-client.git</connection> -->
-<!--         <developerConnection>scm:git:git@github.com:cloudnil/marathon-client.git</developerConnection> -->
-<!--     </scm> -->
-    
+	<distributionManagement>
+		<snapshotRepository>
+			<id>oss</id>
+			<url>http://60.223.235.72:888/repository/maven-releases/</url>
+		</snapshotRepository>
+		<repository>
+			<id>oss</id>
+			<url>http://60.223.235.72:888/repository/maven-snapshots/</url>
+		</repository>
+	</distributionManagement>
+	<!-- <scm> -->
+	<!-- <tag>master</tag> -->
+	<!-- <url>git@github.com:cloudnil/marathon-client.git</url> -->
+	<!-- <connection>scm:git:git@github.com:cloudnil/marathon-client.git</connection> -->
+	<!-- <developerConnection>scm:git:git@github.com:cloudnil/marathon-client.git</developerConnection> -->
+	<!-- </scm> -->
+
 	<build>
 		<plugins>
 			<plugin>
@@ -122,6 +133,25 @@
 					<aggregate>true</aggregate>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-scm-plugin</artifactId>
+				<version>1.9.5</version>
+				<configuration>
+					<connectionType>developerConnection</connectionType>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5.3</version>
+				<configuration>
+					<username>8767452@qq.com</username>
+					<password>123456</password>
+					<tagBase>https://github.com/8767452/lyr-tool/tree</tagBase>
+					<releaseProfiles>release</releaseProfiles>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
@@ -131,11 +161,13 @@
 			<distributionManagement>
 				<snapshotRepository>
 					<id>oss</id>
-					<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+					<!-- <url>https://oss.sonatype.org/content/repositories/snapshots/</url> -->
+					<url>http://60.223.235.72:888/repository/maven-releases/</url>
 				</snapshotRepository>
 				<repository>
 					<id>oss</id>
-					<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+					<!-- <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url> -->
+					<url>http://60.223.235.72:888/repository/maven-snapshots/</url>
 				</repository>
 			</distributionManagement>
 			<build>

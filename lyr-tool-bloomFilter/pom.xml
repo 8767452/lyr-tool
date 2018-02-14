@@ -7,8 +7,12 @@
 	<parent>
 		<groupId>com.ailyr</groupId>
 		<artifactId>lyr-tool-parent</artifactId>
-		<version>4.0.5</version>
+		<version>${revision}</version>
 	</parent>
+
+	<properties>
+		<main.basedir>${basedir}/../..</main.basedir>
+	</properties>
 
 	<artifactId>lyr-tool-bloomFilter</artifactId>
 	<name>${project.artifactId}</name>
