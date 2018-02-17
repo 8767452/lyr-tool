@@ -5,11 +5,11 @@
 
 	<packaging>pom</packaging>
 
-	<!-- <parent> -->
-	<!-- <groupId>org.sonatype.oss</groupId> -->
-	<!-- <artifactId>oss-parent</artifactId> -->
-	<!-- <version>7</version> -->
-	<!-- </parent> -->
+<!-- 	<parent> -->
+<!-- 		<groupId>org.sonatype.oss</groupId> -->
+<!-- 		<artifactId>oss-parent</artifactId> -->
+<!-- 		<version>7</version> -->
+<!-- 	</parent> -->
 
 	<groupId>com.ailyr</groupId>
 	<artifactId>lyr-tool-parent</artifactId>
@@ -91,7 +91,7 @@
 	</developers>
 
 	<scm>
-		<tag>4.0.5.1</tag>
+		<tag>4.0.6</tag>
 		<url>https://github.com/8767452/lyr-tool.git</url>
 		<connection>scm:git:https://github.com/8767452/lyr-tool.git</connection>
 		<developerConnection>scm:git:https://github.com/8767452/lyr-tool.git</developerConnection>
@@ -104,9 +104,10 @@
 		</snapshotRepository>
 		<repository>
 			<id>oss</id>
-			<url>http://60.223.235.72:888/repository/maven-snapshots/</url>
+			<url>http://60.223.235.72:888/repository/maven-releases/</url>
 		</repository>
 	</distributionManagement>
+
 	<!-- <scm> -->
 	<!-- <tag>master</tag> -->
 	<!-- <url>git@github.com:cloudnil/marathon-client.git</url> -->
@@ -161,13 +162,13 @@
 			<distributionManagement>
 				<snapshotRepository>
 					<id>oss</id>
-					<!-- <url>https://oss.sonatype.org/content/repositories/snapshots/</url> -->
-					<url>http://60.223.235.72:888/repository/maven-releases/</url>
+					<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+<!-- 					<url>http://60.223.235.72:888/repository/maven-releases/</url> -->
 				</snapshotRepository>
 				<repository>
 					<id>oss</id>
-					<!-- <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url> -->
-					<url>http://60.223.235.72:888/repository/maven-snapshots/</url>
+					<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+<!-- 					<url>http://60.223.235.72:888/repository/maven-snapshots/</url> -->
 				</repository>
 			</distributionManagement>
 			<build>
